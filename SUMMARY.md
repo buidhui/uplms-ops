@@ -17,10 +17,8 @@
     * [Tạo hoạt động học](academic-management/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-cau-phan-hoc-section-subsection-unit-activity.md)
     * [Tạo hoạt động kiểm tra](academic-management/quan-ly-khoa-hoc-courses/tao-noi-dung-khoa-hoc-course-content/tao-bai-test-quiz-cho-khoa-hoc.md)
   * [Thêm tài liệu khóa học](academic-management/quan-ly-khoa-hoc-courses/tai-len-tai-lieu-cho-khoa-hoc-resource.md)
-  * [Tạo chứng chỉ cho khóa học](academic-management/quan-ly-khoa-hoc-courses/gan-chung-chi-cho-khoa-hoc-certificate.md)
-* [Ngân hàng câu hỏi](academic-management/question-bank/README.md)
-  * [Item Set](academic-management/question-bank/item-set.md)
-  * [Question](academic-management/question-bank/question.md)
+  * [Thêm chứng chỉ khóa học](academic-management/quan-ly-khoa-hoc-courses/gan-chung-chi-cho-khoa-hoc-certificate.md)
+* [Ngân hàng câu hỏi](academic-management/question-bank.md)
 * [Case Study](academic-management/case-study.md)
 * [Storyline](academic-management/storyline.md)
 * [Program & Subject](academic-management/program-and-subject/README.md)
@@ -49,11 +47,6 @@
   * [Quản lý & phân công](cham-diem-grading/cham-diem-thu-cong/quan-ly-and-phan-cong.md)
   * [Chấm lại (Regrading)](cham-diem-grading/cham-diem-thu-cong/cham-lai-regrading.md)
   * [Lịch sử chấm bài](cham-diem-grading/cham-diem-thu-cong/lich-su-cham-bai.md)
-* [Chấm điểm bằng AI](cham-diem-grading/cham-diem-bang-ai/README.md)
-  * [Cài đặt chấm điểm bằng AI](cham-diem-grading/cham-diem-bang-ai/cai-dat-cham-diem-bang-ai.md)
-  * [AI tự động chấm & Mentor review](cham-diem-grading/cham-diem-bang-ai/ai-tu-dong-cham-and-mentor-review.md)
-  * [Chấm lại bằng AI & theo dõi lỗi](cham-diem-grading/cham-diem-bang-ai/cham-lai-bang-ai-and-theo-doi-loi.md)
-  * [Học viên xem kết quả chấm](cham-diem-grading/cham-diem-bang-ai/hoc-vien-xem-ket-qua-cham.md)
 
 ## Dashboard
 

@@ -1,35 +1,19 @@
 # Case Study
 
-## Record of changes
-
-_A - Add | M - Modify | D - Delete_
-
-<table data-first-column-sticky><thead><tr><th>Effective Date</th><th>Update Person</th><th>A,M,D</th><th>Change Description</th><th>Version</th><th data-hidden>Effective Date</th></tr></thead><tbody><tr><td>May 18, 2026</td><td>Lê Xuân Mai</td><td>M</td><td>Chuẩn hóa nội dung lên GitBook</td><td>4.7.0</td><td>May 18, 2026</td></tr></tbody></table>
-
 ## I. Thông tin chung
-
-{% hint style="info" %}
-**Dành cho:** Admin, SX
-
-**Đường dẫn:** [https://ops.upbase.asia/question-bank/case-study](https://ops.upbase.asia/question-bank/case-study)
-{% endhint %}
 
 {% hint style="info" %}
 #### Phạm vi & Module liên quan
 
-* **Module chính:** Question Bank
-* **Chức năng chính:** Case Study
+* **Module chính:** Case Study
 * **Module liên quan:**
   * Item Set
   * Question List
-  * Test / Quiz
-  * Course & Materials
 {% endhint %}
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Người dùng đã đăng nhập thành công vào hệ thống **UpLMS Operations**.
 * Tài khoản đã được cấp quyền truy cập module **Question Bank** và quyền xem danh sách **Case Study**.
 * Đối với thao tác tạo mới/chỉnh sửa: tài khoản cần có quyền tạo mới/chỉnh sửa **Case Study** tương ứng.
 {% endhint %}

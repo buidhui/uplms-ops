@@ -19,7 +19,7 @@
 #### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống UpLMS Ops.
-* Tài khoản người dùng có quyền tạo mới khóa học.
+* Tài khoản có quyền truy cập nhóm chức năng **Course**.
 {% endhint %}
 
 ## II. Hướng dẫn chi tiết

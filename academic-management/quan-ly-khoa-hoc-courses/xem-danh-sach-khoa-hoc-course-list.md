@@ -1,4 +1,4 @@
-# Danh sách khóa học (Course List)
+# Danh sách khóa học
 
 ## I. Giới thiệu chung
 
@@ -12,7 +12,7 @@
 #### Điều kiện tiên quyết
 
 * Người dùng đã đăng nhập thành công vào hệ thống vận hành UpLMS Ops.
-* Tài khoản người dùng có quyền truy cập nhóm chức năng **Course**.
+* Tài khoản có quyền truy cập nhóm chức năng **Course**.
 {% endhint %}
 
 ## II. Hướng dẫn chi tiết

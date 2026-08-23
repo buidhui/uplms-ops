@@ -12,90 +12,41 @@
 
 <details>
 
-<summary>Xem danh sách tài liệu của khóa học</summary>
+<summary>Thêm tài liệu khóa học</summary>
 
 {% stepper %}
 {% step %}
-**Sau khi hoàn thành bước Course Content, Admin chuyển sang bước Resource.**
+**Truy cập bước Resource**
 
-<figure><img src="../../.gitbook/assets/image (474)" alt=""><figcaption></figcaption></figure>
-
-Hệ thống hiển thị màn hình danh sách tài liệu của khóa học.
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Admin xem danh sách tài liệu với các thông tin:**
+**Thêm tài liệu**
 
-| Thông tin        | Mô tả                           |
-| ---------------- | ------------------------------- |
-| **File name**    | Tên tài liệu.                   |
-| **Size**         | Dung lượng tài liệu.            |
-| **Created date** | Thời gian tạo/tải lên tài liệu. |
-{% endstep %}
-{% endstepper %}
+Tại màn hình Resourse → cọn Upload File
 
-</details>
+Có 2 cách để thêm tài liệu khóa học:
 
-<details>
+<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
-<summary>Tìm kiếm tài liệu</summary>
-
-{% stepper %}
-{% step %}
-**Admin nhập từ khóa vào ô Search.**
-
-<figure><img src="../../.gitbook/assets/image (475)" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-**Admin chọn Search.**
-
-<figure><img src="../../.gitbook/assets/image (476)" alt=""><figcaption></figcaption></figure>
-
-Hệ thống hiển thị danh sách tài liệu có tên phù hợp với từ khóa đã nhập.
-{% endstep %}
-{% endstepper %}
-
-</details>
-
-<details>
-
-<summary>Upload tài liệu từ thiết bị</summary>
-
-{% stepper %}
-{% step %}
-**Tại màn hình Resource, Admin chọn Upload File.**
-
-<figure><img src="../../.gitbook/assets/image (477)" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-**Admin chọn tab Upload File.**
-
-<figure><img src="../../.gitbook/assets/image (478)" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-**Admin có thể chọn file bằng một trong hai cách:**
-
-* Kéo thả file vào vùng upload.
-* Chọn **Browse** để chọn file từ thiết bị cá nhân.
-{% endstep %}
-
-{% step %}
-**Admin kiểm tra file trước khi upload:**
+* Tải lên từ thiết bị
 
 | Điều kiện                               | Quy định                                                                                                  |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | **Định dạng file**                      | .jpg, .jpeg, .png, .gif, .webp, .mp4, .pdf, .docx, .doc, .xls, .xlsx, .csv, .txt, .ppt, .pptx, .zip, .mp3 |
 | **Dung lượng tối đa mỗi file**          | 500MB                                                                                                     |
 | **Số lượng file tối đa mỗi lần upload** | 10 file                                                                                                   |
+
+* Chọn từ kho tài liệu của hệ thống
+
+<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Admin chọn Upload để tải tài liệu lên hệ thống.**
+**Hoàn tất thêm tài liệu khóa học**
 
-Sau khi upload thành công, tài liệu được thêm vào danh sách Resource của khóa học và đồng thời được lưu vào kho học liệu của hệ thống.
+<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -103,53 +54,11 @@ Sau khi upload thành công, tài liệu được thêm vào danh sách Resource
 
 <details>
 
-<summary>Chọn tài liệu từ kho Resources</summary>
+<summary>Tải tài liệu</summary>
 
-{% stepper %}
-{% step %}
-**Tại màn hình Resource, Admin chọn Upload File.**
-{% endstep %}
+Tại danh sách Resource → chọn Action → Download tại tài liệu muốn tải xuống
 
-{% step %}
-**Trong popup upload, Admin chuyển sang tab Resources.**
-
-<figure><img src="../../.gitbook/assets/image (479)" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-**Admin có thể tìm kiếm/lọc danh sách tài liệu có sẵn trong kho học liệu.**
-{% endstep %}
-
-{% step %}
-**Admin tick chọn một hoặc nhiều tài liệu cần thêm vào khóa học.**
-{% endstep %}
-
-{% step %}
-**Admin chọn Save để thêm các tài liệu đã chọn vào danh sách Resource của khóa học.**
-{% endstep %}
-{% endstepper %}
-
-</details>
-
-<details>
-
-<summary>Tải xuống tài liệu</summary>
-
-{% stepper %}
-{% step %}
-**Tại danh sách Resource, Admin xác định tài liệu cần tải xuống.**
-{% endstep %}
-
-{% step %}
-**Admin chọn biểu tượng Action/Menu ba chấm tại dòng tài liệu tương ứng.**
-{% endstep %}
-
-{% step %}
-**Admin chọn Download.**
-
-Hệ thống tải tài liệu về thiết bị của người dùng.
-{% endstep %}
-{% endstepper %}
+<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -157,23 +66,17 @@ Hệ thống tải tài liệu về thiết bị của người dùng.
 
 <summary>Xóa tài liệu khỏi khóa học</summary>
 
-{% stepper %}
-{% step %}
-**Tại danh sách Resource, Admin xác định tài liệu cần xóa.**
-{% endstep %}
+**Cách 1:** Tại danh sách Resource → chọn Action → Delete tài liệu muốn xóa
 
-{% step %}
-**Admin chọn biểu tượng Action/Menu ba chấm tại dòng tài liệu tương ứng.**
-{% endstep %}
+<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
-{% step %}
-**Admin chọn Delete.**
+**Cách 2:** Tại danh sách Resource → chọn hàng loạt tài liệu muốn xóa → Delete&#x20;
 
-Hệ thống xóa tài liệu khỏi danh sách Resource của khóa học nếu thao tác được phép.
+<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
-> Lưu ý: Thao tác xóa tại danh sách Resource được hiểu là xóa tài liệu khỏi khóa học. Tùy theo cấu hình hệ thống, tài liệu gốc trong kho học liệu có thể vẫn được lưu trong **Resources**.
-{% endstep %}
-{% endstepper %}
+{% hint style="info" %}
+Tài liệu chỉ xóa khỏi khóa học, không xóa khỏi tài nguyên hệ thống
+{% endhint %}
 
 </details>
 
@@ -183,29 +86,23 @@ Hệ thống xóa tài liệu khỏi danh sách Resource của khóa học nếu
 ### Lưu ý quan trọng
 
 1. Bước **Resource** là bước thứ 3 trong quy trình tạo khóa học.
-2. Danh sách Resource có thể bao gồm tài liệu upload từ bước **Course Content** và tài liệu upload trực tiếp tại bước **Resource**.
-3. Admin có thể thêm tài liệu bằng 2 cách:
-   * Upload trực tiếp từ thiết bị.
-   * Chọn tài liệu có sẵn từ kho **Resources**.
-4. Mỗi lần upload tối đa **10 file**.
-5. Dung lượng tối đa mỗi file là **500MB**.
+2. Danh sách Resource có thể bao gồm tài liệu upload từ bước [#tao-activity](tao-noi-dung-khoa-hoc-course-content/tao-cau-phan-hoc-section-subsection-unit-activity.md#tao-activity "mention")và tài liệu upload trực tiếp tại bước **Resource**.
 {% endhint %}
 
 {% hint style="info" %}
 ### Mẹo sử dụng
 
-1. Nên đặt tên file rõ ràng theo cấu trúc môn học/chương/bài để dễ tìm kiếm.
-2. Với tài liệu đã có sẵn trong hệ thống, nên dùng tab **Resources** để tái sử dụng thay vì upload lại.
+1. Nên đặt tên file rõ ràng theo cấu trúc môn học/ section/ activity để dễ tìm kiếm.
+2. Với tài liệu đã có sẵn trong hệ thống, chọn lại từ tài nguyên hệ thống để tái sử dụng thay vì upload lại, tránh trùng lặp.
 {% endhint %}
 
 ## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
-| Lỗi / Tình huống                        | Nguyên nhân                                                         | Cách xử lý                                                 |
-| --------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
-| Không thấy nút Upload File              | Tài khoản chưa có quyền upload/chỉnh sửa khóa học                   | Liên hệ Admin hệ thống để kiểm tra phân quyền              |
-| Không upload được file                  | File không đúng định dạng hoặc vượt quá dung lượng cho phép         | Kiểm tra định dạng file và dung lượng tối đa 500MB         |
-| Không upload được nhiều file            | Số lượng file vượt quá giới hạn mỗi lần upload                      | Chỉ upload tối đa 10 file/lần                              |
-| File upload xong không hiển thị         | Upload chưa thành công hoặc danh sách đang bị lọc theo từ khóa      | Kiểm tra thông báo upload, xóa từ khóa tìm kiếm và tìm lại |
-| Không tìm thấy tài liệu trong Resources | Tài liệu chưa được upload vào kho học liệu hoặc bộ lọc chưa phù hợp | Upload tài liệu mới hoặc điều chỉnh điều kiện tìm kiếm     |
-| Không xóa được tài liệu                 | Tài khoản không có quyền hoặc tài liệu bị ràng buộc dữ liệu         | Kiểm tra quyền tài khoản hoặc liên hệ Admin                |
-| Tải xuống không thành công              | File không còn tồn tại hoặc kết nối bị gián đoạn                    | Tải lại hoặc kiểm tra file trên hệ thống                   |
+| Lỗi / Tình huống                        | Nguyên nhân                                                          | Cách xử lý                                                 |
+| --------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------- |
+| Không thấy nút Upload File              | Tài khoản chưa có quyền upload/ chỉnh sửa khóa học                   | Liên hệ Admin hệ thống để kiểm tra phân quyền              |
+| Không tải lên được file                 | File không đúng định dạng hoặc vượt quá dung lượng cho phép          | Kiểm tra định dạng file và dung lượng theo hướng dẫn       |
+| Không upload được nhiều file            | Số lượng file vượt quá giới hạn mỗi lần upload                       | Chỉ upload tối đa 10 file/ lần                             |
+| File upload xong không hiển thị         | Upload chưa thành công hoặc danh sách đang bị lọc theo từ khóa       | Kiểm tra thông báo upload, xóa từ khóa tìm kiếm và tìm lại |
+| Không tìm thấy tài liệu trong Resources | Tài liệu không có trong tài nguyên hệ thống hoặc bộ lọc chưa phù hợp | Upload tài liệu mới hoặc điều chỉnh điều kiện tìm kiếm     |
+| Không xóa được tài liệu                 | Tài khoản không có quyền hoặc tài liệu bị ràng buộc dữ liệu          | Kiểm tra quyền tài khoản hoặc liên hệ Admin                |
