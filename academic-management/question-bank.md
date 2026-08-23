@@ -174,15 +174,15 @@ Việc chỉnh sửa phụ thuộc vào trạng thái câu hỏi:
 * Câu hỏi **chưa có học viên làm**: được chỉnh sửa toàn bộ thông tin.
 * Câu hỏi **đã có học viên làm**: từng loại câu hỏi có những trường được phép chỉnh sửa khác nhau (Y: được chỉnh sửa, N: không).
 
-|                      | **Đúng/Sai** | **Một lựa chọn** | **Nhiều lựa chọn** | **Ghép đáp án** | **Chọn từ** | **Điền Từ** | **Drag Drop** | **Tự luận** |
-| -------------------- | ------------ | ---------------- | ------------------ | --------------- | ----------- | ----------- | ------------- | ----------- |
-| **Self Reflection**  | N            | N                | N                  | N               | N           | N           | N             | N           |
-| **Question Layout**  | Y            | Y                | Y                  | Y               | Y           | Y           | Y             | Y           |
-| **Câu hỏi tự do**    | N            | N                | N                  | N               | N           | N           | N             | N           |
-| **Belong To**        | Y            | Y                | Y                  | Y               | Y           | Y           | Y             | Y           |
-| **Nội Dung Câu Hỏi** | Y            | Y                | Y                  | Y               | N           | N           | N             | Y           |
-| **Danh Sách Đáp Án** | N            | N                | N                  | N               | N           | N           | N             | N           |
-| **Explanation**      | Y            | Y                | Y                  | Y               | Y           | Y           | Y             | Y           |
+|                      | **Đúng/ Sai** | **Một lựa chọn** | **Nhiều lựa chọn** | **Ghép đáp án** | **Chọn từ** | **Điền Từ** | **Drag Drop** | **Tự luận** |
+| -------------------- | ------------- | ---------------- | ------------------ | --------------- | ----------- | ----------- | ------------- | ----------- |
+| **Self Reflection**  | N             | N                | N                  | N               | N           | N           | N             | N           |
+| **Question Layout**  | Y             | Y                | Y                  | Y               | Y           | Y           | Y             | Y           |
+| **Câu hỏi tự do**    | N             | N                | N                  | N               | N           | N           | N             | N           |
+| **Belong To**        | Y             | Y                | Y                  | Y               | Y           | Y           | Y             | Y           |
+| **Nội Dung Câu Hỏi** | Y             | Y                | Y                  | Y               | N           | N           | N             | Y           |
+| **Danh Sách Đáp Án** | N             | N                | N                  | N               | N           | N           | N             | N           |
+| **Explanation**      | Y             | Y                | Y                  | Y               | Y           | Y           | Y             | Y           |
 
 </details>
 

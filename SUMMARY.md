@@ -21,10 +21,8 @@
 * [Ngân hàng câu hỏi](academic-management/question-bank.md)
 * [Case Study](academic-management/case-study.md)
 * [Storyline](academic-management/storyline.md)
-* [Program & Subject](academic-management/program-and-subject/README.md)
-  * [Program Category](academic-management/program-and-subject/program-category.md)
-  * [Subject Category](academic-management/program-and-subject/subject-category.md)
-* [Certificate Management](academic-management/certificate-management.md)
+* [Danh mục khóa học](academic-management/program-category.md)
+* [Chứng chỉ khóa học](academic-management/certificate-management.md)
 
 ## Class Management
 

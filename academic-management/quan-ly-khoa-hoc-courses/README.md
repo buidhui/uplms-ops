@@ -1,4 +1,4 @@
-# Quản lý khóa học (Courses)
+# Quản lý khóa học
 
 #### Luồng quản lý khóa học (Course)
 
@@ -104,6 +104,7 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 | BR-CONTENT-019 | Admin có thể Lock/Unlock các nội dung đã tạo.                                                                                          |
 | BR-CONTENT-020 | Admin có thể Show Lock/Hide Lock để kiểm soát việc hiển thị trạng thái khóa trên giao diện học viên.                                   |
 | BR-CONTENT-021 | Admin có thể Change CTA to Preview/Change CTA to Begin cho các nội dung đã tạo.                                                        |
+|                | Khóa học chỉ được Publish khi đã được tạo nội dung và gán chứng chỉ.                                                                   |
 
 </details>
 

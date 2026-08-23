@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Storyline
 
 ## Record of changes
@@ -94,12 +98,12 @@ Tại màn hình danh sách Storyline, ấn nút **Create**.
 {% step %}
 **Storyline Info — nhập thông tin cơ bản**
 
-| Name               | Mandatory | Description                                                            |
-| ------------------ | --------- | ---------------------------------------------------------------------- |
-| Story Line Name    | Yes       | Tên Storyline                                                          |
+| Name               | Mandatory | Description                                                              |
+| ------------------ | --------- | ------------------------------------------------------------------------ |
+| Story Line Name    | Yes       | Tên Storyline                                                            |
 | Duration - Hour    | No        | Thời gian dự kiến hoàn thành Storyline. Hiển thị trên màn UpLMS học viên |
 | Duration - Minutes | No        | Thời gian dự kiến hoàn thành Storyline. Hiển thị trên màn UpLMS học viên |
-| Description        | Yes       | Mô tả Storyline                                                        |
+| Description        | Yes       | Mô tả Storyline                                                          |
 {% endstep %}
 
 {% step %}
@@ -137,10 +141,10 @@ Chọn **Add Document** để tạo Document cho Storyline Item. Document gồm 
 
 {% tabs %}
 {% tab title="Text" %}
-| Name        | Description                                                                                                                     |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Name        | Description                                                                                                                       |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Text Name   | Tên của Đoạn văn bản. _Lưu ý: Tên Document chỉ hiển thị trên UpLMS Ops, không hiển thị trên giao diện học Storyline của học viên_ |
-| Description | Nội dung Content của Text                                                                                                       |
+| Description | Nội dung Content của Text                                                                                                         |
 
 <figure><img src="../.gitbook/assets/image (150)" alt=""><figcaption></figcaption></figure>
 
@@ -148,10 +152,10 @@ Sau khi nhập đủ thông tin, ấn **Save Document** để lưu.
 {% endtab %}
 
 {% tab title="Question" %}
-| Name        | Description                                                                                                                     |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Name        | Description                                                                                                                       |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Text Name   | Tên của Đoạn văn bản. _Lưu ý: Tên Document chỉ hiển thị trên UpLMS Ops, không hiển thị trên giao diện học Storyline của học viên_ |
-| Description | Nội dung Content của Text                                                                                                       |
+| Description | Nội dung Content của Text                                                                                                         |
 
 <figure><img src="../.gitbook/assets/image (152)" alt=""><figcaption></figcaption></figure>
 
@@ -159,10 +163,10 @@ Sau khi nhập đủ thông tin, ấn **Save Document** để lưu.
 {% endtab %}
 
 {% tab title="Video" %}
-| Name       | Description                                                                                                    |
-| ---------- | -------------------------------------------------------------------------------------------------------------- |
+| Name       | Description                                                                                                      |
+| ---------- | ---------------------------------------------------------------------------------------------------------------- |
 | Video Name | Tên của Video. _Lưu ý: Tên Document chỉ hiển thị trên UpLMS Ops, không hiển thị trên giao diện học của học viên_ |
-| Upload     | Button Upload Video: chọn Upload từ thiết bị hoặc chọn Video có sẵn trên hệ thống                              |
+| Upload     | Button Upload Video: chọn Upload từ thiết bị hoặc chọn Video có sẵn trên hệ thống                                |
 
 <figure><img src="../.gitbook/assets/image (154)" alt=""><figcaption></figcaption></figure>
 
@@ -176,12 +180,12 @@ Sau khi chọn **Interaction**, trường **Interaction Type** mặc định là
 
 <figure><img src="../.gitbook/assets/image (156)" alt=""><figcaption></figcaption></figure>
 
-| Name             | Mandatory                    | Description                                                                                                    |
-| ---------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Name             | Mandatory                    | Description                                                                                                      |
+| ---------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Document Name    | Yes                          | Tên Document. _Lưu ý: Tên Document chỉ hiển thị trên UpLMS Ops, không hiển thị trên giao diện học của học viên._ |
-| Interaction Type | Yes                          | Loại Interaction. Giai đoạn này mặc định là **Labeled Graphic**.                                               |
-| Background Image | Yes                          | Ảnh nền để đặt Marker. Hỗ trợ: JPG, JPEG, PNG, GIF, WEBP.                                                      |
-| Marker List      | Yes (tối thiểu 1, tối đa 10) | Danh sách Marker đã thêm vào ảnh. Mỗi Marker gồm: Marker Title, Marker Content, Marker Style.                  |
+| Interaction Type | Yes                          | Loại Interaction. Giai đoạn này mặc định là **Labeled Graphic**.                                                 |
+| Background Image | Yes                          | Ảnh nền để đặt Marker. Hỗ trợ: JPG, JPEG, PNG, GIF, WEBP.                                                        |
+| Marker List      | Yes (tối thiểu 1, tối đa 10) | Danh sách Marker đã thêm vào ảnh. Mỗi Marker gồm: Marker Title, Marker Content, Marker Style.                    |
 
 **Cách tạo Marker:** Upload ảnh nền thành công → click vào vị trí bất kỳ trên ảnh, hệ thống hiển thị icon dấu "+" và mở form nhập thông tin Marker ở panel bên trái.
 
