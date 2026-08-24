@@ -49,5 +49,5 @@
 ## Engagement & Support
 
 * [Email và Thông báo hệ thống](engagement-and-support/danh-sach-thong-bao-and-email-notice-list-and-email-list.md)
-* [Nhóm đối tượng gửi email (Recipients List)](engagement-and-support/nhom-doi-tuong-gui-email-recipients-list.md)
-* [Lịch sử gửi email (Mail Logs) & Danh sách Email bị chặn (Blocked Email)](engagement-and-support/lich-su-gui-email-mail-logs-and-danh-sach-email-bi-chan-blocked-email.md)
+* [Nhóm người dùng nhận Email](engagement-and-support/nhom-doi-tuong-gui-email-recipients-list.md)
+* [Lịch sử gửi Email của hệ thống](engagement-and-support/lich-su-gui-email-mail-logs-and-danh-sach-email-bi-chan-blocked-email.md)
