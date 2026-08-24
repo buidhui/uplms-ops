@@ -153,32 +153,20 @@ Tại mục **Share Resource**, chọn đối tượng chia sẻ và quyền:
 {% hint style="warning" %}
 ### Lưu ý quan trọng
 
-1. Người dùng cần có quyền tương ứng để xem, tạo, chỉnh sửa, xóa, tải lên hoặc tải xuống tài liệu.
-2. Danh sách tài liệu mặc định sắp xếp theo thời gian tạo giảm dần.
-3. Kích cỡ tối đa của **Media** (video, file âm thanh) là **20GB**; mỗi lần upload chỉ chọn **1 media**.
-4. Kích cỡ tối đa của các **tài liệu khác** là **500MB**; được chọn tối đa **10 tài liệu/lần**.
-5. Tài liệu không phải mp3/mp4: mặc định quyền **Downloader**.
-6. Video/file âm thanh mp3: chỉ có quyền **Viewer**, không thể chuyển sang **Downloader**.
-7. Có thể gắn tài liệu với một hoặc nhiều buổi học qua trường **Attach to the Lesson**.
-8. Khi di chuyển (Move to Folder), chỉ được chọn một thư mục đích.
+1. Danh sách tài liệu mặc định sắp xếp theo thời gian tạo giảm dần.
+2. Khi thay đổi vị trí (Move to Folder), chỉ được chọn một thư mục đích.
 {% endhint %}
 
 {% hint style="info" %}
 ### Mẹo sử dụng
 
 1. Nên tạo thư mục phân loại học liệu trước khi upload để dễ quản lý theo buổi học/chủ đề.
-2. Khi chọn tài liệu có sẵn từ hệ thống, nên dùng bộ lọc Course → Part → Chapter → Unit → Activity để tìm đúng tài nguyên.
-3. Kiểm tra kỹ đối tượng chia sẻ (Student/Teacher) và quyền (Viewer/Downloader) trước khi lưu để tránh chia sẻ nhầm.
-4. Với video/mp3, lưu ý quyền mặc định là Viewer nên học viên/giảng viên không tải về được.
 {% endhint %}
 
 ## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
-| Lỗi / Tình huống                               | Nguyên nhân                                          | Cách xử lý                                              |
-| ---------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- |
-| Không upload được Media                        | File media vượt quá 20GB hoặc chọn nhiều hơn 1 media | Đảm bảo media ≤ 20GB và chỉ chọn 1 media mỗi lần        |
-| Không upload được tài liệu                     | File vượt quá 500MB hoặc chọn quá 10 tài liệu/lần    | Đảm bảo file ≤ 500MB và chọn tối đa 10 tài liệu mỗi lần |
-| Không chuyển được Video/mp3 sang Downloader    | Video/mp3 mặc định quyền Viewer                      | Đây là quy tắc hệ thống; Video/mp3 chỉ có quyền Viewer  |
-| Không tìm thấy tài liệu                        | Sai điều kiện tìm kiếm/lọc                           | Kiểm tra lại bộ lọc, bấm Reset để về danh sách mặc định |
-| Học viên/giảng viên không thấy tài liệu        | Chưa tích chọn đối tượng Student/Teacher khi chia sẻ | Mở Edit, tích đúng đối tượng chia sẻ rồi Save           |
-| Không thực hiện được thao tác quản lý tài liệu | Tài khoản chưa có quyền tương ứng với thao tác       | Liên hệ quản trị để được cấp quyền                      |
+| Lỗi / Tình huống                             | Nguyên nhân                                          | Cách xử lý                                              |
+| -------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- |
+| Không upload được Media                      | File media vượt quá 20GB hoặc chọn nhiều hơn 1 media | Đảm bảo media ≤ 20GB và chỉ chọn 1 media mỗi lần        |
+| Không upload được tài liệu                   | File vượt quá 500MB hoặc chọn quá 10 tài liệu/lần    | Đảm bảo file ≤ 500MB và chọn tối đa 10 tài liệu mỗi lần |
+| Không chuyển được Video/ Audio sang Download | Video/mp3 mặc định quyền View                        |                                                         |
