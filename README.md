@@ -1,13 +1,6 @@
 ---
-cover: .gitbook/assets/UpLMS Ops_Cover.png
-coverY: 0
-coverHeight: 368
 layout:
   width: default
-  cover:
-    visible: true
-    size: hero
-    mask: none
   title:
     visible: true
   description:
@@ -27,6 +20,8 @@ layout:
 ---
 
 # Welcome to UpLMS Ops
+
+<figure><img src=".gitbook/assets/UpLMS Ops_Cover.png" alt=""><figcaption></figcaption></figure>
 
 **UpLMS Ops** là hệ thống vận hành đào tạo nội bộ của UpBase. Học viên học trên **UpLMS,** còn toàn bộ phần cấu hình và vận hành phía sau từ xây dựng khóa học, mở lớp, quản lý tài khoản, chấm điểm, gửi thông báo diễn ra tại **UpLMS Ops**.
 
