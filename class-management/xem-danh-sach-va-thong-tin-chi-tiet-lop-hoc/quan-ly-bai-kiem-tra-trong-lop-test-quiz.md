@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Quản lý bài kiểm tra trong lớp (Test/Quiz)
 
 ## Record of changes
