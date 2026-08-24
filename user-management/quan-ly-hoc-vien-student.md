@@ -1,4 +1,4 @@
-# Quản lý học viên (Students)
+# Quản lý học viên
 
 ## I. Thông tin chung
 
@@ -33,7 +33,7 @@
 
 Truy cập **User Management** → chọn **Students**.
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 Sử dụng các bộ lọc:
 
@@ -56,11 +56,11 @@ Màn hình Student Profile hiển thị các tab:
 
 * **Class and Course**: Danh sách khóa học học viên đang tham gia
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 * _**Security**_: Lịch sử đăng nhập UpLMS.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -95,10 +95,10 @@ Thông tin học viên được đồng bộ từ thông tin nhân sự của t�
 
 Học viên có 2 trạng thái:
 
-| Trạng thái | Mô tả                                                   |
-| ---------- | ------------------------------------------------------- |
+| Trạng thái | Mô tả                                                     |
+| ---------- | --------------------------------------------------------- |
 | Active     | Tài khoản đang được kích hoạt, có thể đăng nhập vào UpLMS |
-| Block      | Tài khoản bị khóa, không thể đăng nhập vào LMS Student  |
+| Block      | Tài khoản bị khóa, không thể đăng nhập vào LMS Student    |
 
 Có 4 cách thay đổi trạng thái:
 
@@ -108,7 +108,7 @@ Có 4 cách thay đổi trạng thái:
 
 Tại Student List → **Action** → **Block** (áp dụng cho tài khoản đang Active) → Xác nhận thay đổi trạng thái.
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -116,7 +116,7 @@ Tại Student List → **Action** → **Block** (áp dụng cho tài khoản đa
 
 Tại Student List, nhấn chuyển **Status** tương ứng với học viên cần đổi trạng thái tại cột thông tin Status → chọn **Block** (áp dụng cho tài khoản đang Active) / chọn **Active** (áp dụng cho tài khoản đang Block) → Xác nhận thay đổi trạng thái.
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -124,7 +124,7 @@ Tại Student List, nhấn chuyển **Status** tương ứng với học viên c
 
 Student Profile → Setting → chọn giá trị mới (Active/ Block) để chuyển đổi trạng thái tài khoản học viên đó.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -142,7 +142,7 @@ Khi học viên bị **Block**, hệ thống sẽ tự động đăng xuất t�
 
 ## III. Các lỗi thường gặp & Hướng dẫn xử lý
 
-| Lỗi / Tình huống                                           | Nguyên nhân                          | Cách xử lý                                                                                              |
-| ---------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------- |
-| Không tìm thấy học viên trong danh sách                    | Bộ lọc quá hẹp hoặc nhập sai từ khóa | Nhấn **Reset** để xóa toàn bộ bộ lọc, thử lại với từ khóa khác.                                         |
+| Lỗi / Tình huống                                           | Nguyên nhân                          | Cách xử lý                                                                                                |
+| ---------------------------------------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| Không tìm thấy học viên trong danh sách                    | Bộ lọc quá hẹp hoặc nhập sai từ khóa | Nhấn **Reset** để xóa toàn bộ bộ lọc, thử lại với từ khóa khác.                                           |
 | Học viên bị Block có thể tự kích hoạt lại tài khoản không? |                                      | Không. Chỉ người dùng có quyền trên hệ thống UpLMS Ops mới có thể thay đổi trạng thái từ Block về Active. |

@@ -18,7 +18,7 @@
 {% step %}
 **Truy cập bước Resource**
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -28,7 +28,7 @@ Tại màn hình Resourse → cọn Upload File
 
 Có 2 cách để thêm tài liệu khóa học:
 
-<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 * Tải lên từ thiết bị
 
@@ -40,13 +40,13 @@ Có 2 cách để thêm tài liệu khóa học:
 
 * Chọn từ kho tài liệu của hệ thống
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Hoàn tất thêm tài liệu khóa học**
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -58,7 +58,7 @@ Có 2 cách để thêm tài liệu khóa học:
 
 Tại danh sách Resource → chọn Action → Download tại tài liệu muốn tải xuống
 
-<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -68,11 +68,11 @@ Tại danh sách Resource → chọn Action → Download tại tài liệu muố
 
 **Cách 1:** Tại danh sách Resource → chọn Action → Delete tài liệu muốn xóa
 
-<figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
-**Cách 2:** Tại danh sách Resource → chọn hàng loạt tài liệu muốn xóa → Delete&#x20;
+**Cách 2:** Tại danh sách Resource → chọn hàng loạt tài liệu muốn xóa → Delete
 
-<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Tài liệu chỉ xóa khỏi khóa học, không xóa khỏi tài nguyên hệ thống

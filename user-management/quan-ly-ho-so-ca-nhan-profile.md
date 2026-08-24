@@ -1,4 +1,4 @@
-# Hồ sơ cá nhân (My Profile)
+# Hồ sơ cá nhân
 
 ## I. Thông tin chung
 
@@ -112,9 +112,9 @@ Tìm tài khoản cần Thay đổi mật khẩu **→**&#x41;ction **→** Rese
 {% step %}
 **Xác nhận Reset**
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

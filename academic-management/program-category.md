@@ -23,7 +23,7 @@
 
 Chọn Course Materials → Course Category
 
-<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -35,13 +35,13 @@ Chọn Course Materials → Course Category
 {% step %}
 **Chọn Add Category tại Danh sách Course Category**
 
-<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Điền thông tin danh mục
 
-<figure><img src="../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
 * **Name** (bắt buộc): tên danh mục, không được phép trùng với danh mục đã tồn tại.
 * **Mô tả:** mô tả danh mục
@@ -60,7 +60,7 @@ Chọn Course Materials → Course Category
 
 {% hint style="warning" %}
 * Có thể sửa mọi thông tin của danh mục.
-* &#x20;Không thể xóa nếu có khóa học đang gắn với danh mục.
+* Không thể xóa nếu có khóa học đang gắn với danh mục.
 {% endhint %}
 
 </details>

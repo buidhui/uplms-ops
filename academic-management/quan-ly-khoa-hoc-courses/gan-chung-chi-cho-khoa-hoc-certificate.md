@@ -33,11 +33,11 @@
 {% step %}
 **Truy cập bước Certificate**
 
-<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-**Chọn Choose Template → Chọn chứng chỉ → Confirm**&#x20;
+**Chọn Choose Template → Chọn chứng chỉ → Confirm**
 
 {% hint style="info" %}
 Hệ thống chỉ hiển thị danh sách chứng chỉ có cùng Caegory với Category của khóa học.
@@ -51,7 +51,7 @@ Hệ thống chỉ hiển thị danh sách chứng chỉ có cùng Caegory với
 
 <summary>Thay đổi mẫu chứng chỉ</summary>
 
-<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

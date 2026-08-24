@@ -25,7 +25,7 @@
 {% step %}
 **Chọn Course & Materials** → Certificates
 
-<figure><img src="../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -33,7 +33,7 @@
 
 Chọn tên Chứng chỉ để xem hình ảnh chi tiết.
 
-<figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -47,7 +47,7 @@ Chọn tên Chứng chỉ để xem hình ảnh chi tiết.
 {% step %}
 **Chọn Create Template tại Danh sách chứng chỉ**
 
-<figure><img src="../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -56,7 +56,7 @@ Chọn tên Chứng chỉ để xem hình ảnh chi tiết.
 * **Template Name:** tên mẫu chứng chỉ.
 * **Course Category:** chọn 1 giá trị danh mục khóa học có trên hệ thống.
 
-<figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -73,9 +73,7 @@ Chọn **Upload File** để chọn ảnh làm Chứng chỉ
 
 * Chọn ảnh có sẵn trên tài nguyên hệ thống
 
-<figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -83,7 +81,7 @@ Chọn **Upload File** để chọn ảnh làm Chứng chỉ
 
 Chọn **Add Student Name** để thêm khu vực hiển thị tên học viên.
 
-<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 * Gõ tạm 1 tên để dễ hình dung vị trí và phong cách sẽ hiển thị cho học viên.
@@ -107,7 +105,7 @@ Chọn **Add Student Name** để thêm khu vực hiển thị tên học viên.
   * Published: mẫu chứng chỉ đã hoàn thiện, nhưng chưa gán vào khóa học nào
   * Blocked: mẫu chứng chỉ đã được gán vào ít nhất 1 khóa học
 
-<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
 
 * Chứng chỉ có trạng thái Published muốn chỉnh sửa cần chuyển về Draft
 * Chứng chỉ có trạng thái Draft có thể chỉnh sửa mọi thông tin và mẫu

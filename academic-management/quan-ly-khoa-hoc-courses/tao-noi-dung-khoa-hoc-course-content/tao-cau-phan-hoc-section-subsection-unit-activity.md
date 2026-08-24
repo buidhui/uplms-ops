@@ -26,13 +26,13 @@
 {% step %}
 **Tạo Section mới**
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điền thông tin Section**
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 Các trường thông tin:
 
@@ -46,7 +46,7 @@ Các trường thông tin:
 
 Nhân sự vận hành có thể Chỉnh sửa hoặc Xóa Section đã tạo.
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Xóa section sẽ xóa toàn bộ nội dung có trong section đó.
@@ -64,7 +64,7 @@ Xóa section sẽ xóa toàn bộ nội dung có trong section đó.
 {% step %}
 **Để tạo mục tiêu học tập cho Seccion, chọn Action → Add Learning Outcome**
 
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -84,7 +84,7 @@ Các trường thông tin:
 
 Nhân sự vận hành có thể chỉnh sửa hoặc xóa Learning Outcome đã tạo
 
-<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -98,13 +98,13 @@ Nhân sự vận hành có thể chỉnh sửa hoặc xóa Learning Outcome đã
 {% step %}
 **Để tạo Activity, chọn Action → New Activity**
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điền thông tin Activity**
 
-<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 Các trường thông tin:
 
@@ -118,7 +118,7 @@ Các trường thông tin:
 * Upload File: đính kèm tài liệu gắn với hoạt động học đang tạo.
 
 {% hint style="info" %}
-- Phần uppload file, nhân sự tạo khóa học có thể chọn tài liệu từ kho tài liệu UpLMS hoặc upload trực tiếp từ thiết bị.&#x20;
+- Phần uppload file, nhân sự tạo khóa học có thể chọn tài liệu từ kho tài liệu UpLMS hoặc upload trực tiếp từ thiết bị.
 - Kích cỡ file tối đa là 500MB và có thể thêm một hoặc nhiều tài liệu.
 {% endhint %}
 {% endstep %}
@@ -128,7 +128,7 @@ Các trường thông tin:
 
 Nhân sự vận hành có thể chỉnh sửa hoặc xóa Activity đã tạo
 
-<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -144,13 +144,13 @@ Nội dung của hoạt động học được thể hiện trong các Tab, có 
 {% step %}
 **Tại Activity cần tạo nội dung, chọn Action → Add Tab**
 
-<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điền tên Tab và lưu**
 
-<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -158,7 +158,7 @@ Nội dung của hoạt động học được thể hiện trong các Tab, có 
 
 Tại Tab đã tạo, chọn Add Document.
 
-<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 Các loại document:
 
@@ -168,7 +168,7 @@ Các loại document:
 
 {% tabs %}
 {% tab title="Text" %}
-<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 Nhân sự soạn nội dung dạng Text/ Image → Chọn Save để lưu.
 {% endtab %}
@@ -176,24 +176,24 @@ Nhân sự soạn nội dung dạng Text/ Image → Chọn Save để lưu.
 {% tab title="Video" %}
 {% stepper %}
 {% step %}
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Chọn Video từ kho tài nguyên của hệ thống hoặc Tải lên từ thiết bị
 
-<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Cấu hình Timeline/ Thêm câu hỏi trong Video**
 
-Sau khi hoàn tất tải Video lên, nhân sự soạn khóa học có thể cấu hình thêm:&#x20;
+Sau khi hoàn tất tải Video lên, nhân sự soạn khóa học có thể cấu hình thêm:
 
 * Timeline cho Video: mô tả trước các phần nội dung trong video sẽ bắt đầu từ thời gian nào.
 * Câu hỏi trong Video: câu hỏi xuất hiện trong video theo từng mốc thời gian.
 
-<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 Chọn Save để lưu.
 {% endstep %}
@@ -203,7 +203,7 @@ Chọn Save để lưu.
 {% tab title="Quiz" %}
 {% stepper %}
 {% step %}
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -231,13 +231,13 @@ Xem hướng dẫn tạo Case Study tại [#tao-moi-case-study](../../case-study
 {% step %}
 **Tại Section cần thêm Case Study, Admin chọn Action → Add Case Study.**
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điền thông tin Case Study**
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -245,7 +245,7 @@ Xem hướng dẫn tạo Case Study tại [#tao-moi-case-study](../../case-study
 
 Chọn Choose Case Study → chọn Case Study đã được tạo trước đó.
 
-<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 Chọn Save để lưu.
 {% endstep %}
@@ -263,13 +263,13 @@ Xem hướng dẫn tạo Storyline tại [#tao-moi-storyline](../../storyline.md
 {% step %}
 **Tại Section cần thêm Storyline, chọn Action → Add Story Line.**
 
-<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điền thông tin Storyline.**
 
-<figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -277,7 +277,7 @@ Xem hướng dẫn tạo Storyline tại [#tao-moi-storyline](../../storyline.md
 
 Bấm Choose Storyline → chọn Storyline đã được tạo trước đó.
 
-<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 Chọn Save để lưu.
 {% endstep %}
@@ -293,9 +293,9 @@ Chọn Save để lưu.
 
 * Sao chép Section
 
-<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 * Sao chép Section sẽ sao chép toàn bộ nội dung có trong Section đó bao gồm cả Section Test.
@@ -304,9 +304,9 @@ Chọn Save để lưu.
 
 * Sao chép Activity
 
-<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Có thế sao chép cùng lúc nhiều Activity trong một Section tion từ một khóa học khác
@@ -318,9 +318,9 @@ Tượng tự như sao chép Section và Activity, sao chép Midterm Test/ Final
 
 ***
 
-2. Thay đổi vị trí các cấu phần sau khi đã tạo&#x20;
+2. Thay đổi vị trí các cấu phần sau khi đã tạo
 
-<figure><img src="../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 * Có thể đổi thứ tự các Section và Test
@@ -328,8 +328,6 @@ Tượng tự như sao chép Section và Activity, sao chép Midterm Test/ Final
 {% endhint %}
 
 </details>
-
-
 
 ## III. Lưu ý & Quy tắc nghiệp vụ
 

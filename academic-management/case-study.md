@@ -25,7 +25,7 @@
 
 Truy cập Course & Materials → Case Study
 
-<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -37,19 +37,19 @@ Truy cập Course & Materials → Case Study
 {% step %}
 **Chọn Create tại Danh sách Case Study**
 
-<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điền thông tin Case Study**
 
-<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn Save để lưu**
 
-<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -58,8 +58,6 @@ Truy cập Course & Materials → Case Study
 Chọn **Add Question** để thêm các câu hỏi vào Case Study.
 
 _\[Bổ sung ảnh]_
-
-
 {% endstep %}
 {% endstepper %}
 
@@ -83,7 +81,7 @@ Case Study là hoạt động học không tính điểm nên có thể chỉnh 
 {% step %}
 **Chọn Reorder tại Danh sách câu hỏi trong màn chi tiết Case Study để sắp xếp lại thứ tự**
 
-<figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -97,7 +95,7 @@ Thực hiện điền thứ tự mới cho các Question trong danh sách:
 
 Chọn **Save** để lưu, lúc này các câu hỏi sẽ hiển thị theo thứ tự vừa thay đổi.
 
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

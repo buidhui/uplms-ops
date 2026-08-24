@@ -26,7 +26,7 @@
 {% step %}
 **Truy cập ngân hàng câu hỏi**
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -40,7 +40,7 @@
 {% step %}
 **Chọn Add Question**
 
-<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 8 loại câu hỏi:
 
@@ -71,7 +71,7 @@ Các trường thông tin chung:
 {% tab title="Đúng/Sai" %}
 **Dạng Đúng/ Sai**
 
-<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Cần ít nhất 1 đáp án đúng, 1 đáp án sai. Không thể cùng sai hoặc cùng đúng.
@@ -81,7 +81,7 @@ Cần ít nhất 1 đáp án đúng, 1 đáp án sai. Không thể cùng sai ho�
 {% tab title="Một lựa chọn" %}
 **Dạng Một lựa chọn**
 
-<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Cần ít nhất 1 đáp án đúng, 1 đáp án sai. Không thể cùng sai hoặc cùng đúng.
@@ -91,9 +91,7 @@ Cần ít nhất 1 đáp án đúng, 1 đáp án sai. Không thể cùng sai ho�
 {% tab title="Nhiều lựa chọn" %}
 **Dạng Nhiều lựa chọn**
 
-<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Cần ít nhất 1 đáp án đúng hoặc có thể chọn tất cả đáp án đều đúng. Không yêu cầu số lượng đáp án sai tối thiểu.
@@ -103,7 +101,7 @@ Cần ít nhất 1 đáp án đúng hoặc có thể chọn tất cả đáp án
 {% tab title="Ghép đáp án" %}
 **Dạng Ghép đáp án**
 
-<figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Tạo ít nhất 2 bộ đáp án, bao gồm đáp án chính ở cột trái và đáp án tương ứng ở cột phải. Các bộ đáp án bị trống ở 1 trong 2 cột hoặc cả 2 đều sẽ bị hệ thống bỏ qua.
@@ -113,7 +111,7 @@ Tạo ít nhất 2 bộ đáp án, bao gồm đáp án chính ở cột trái v�
 {% tab title="Chọn từ" %}
 **Dạng Chọn từ**
 
-<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Mỗi \[dấu ngoặc vuông] được hiểu là một chỗ trống. Mỗi chỗ trống là một nhóm các đáp án, có thể có nhiều đáp án đúng trong một chỗ trống. Người làm bài chỉ cần chọn 1 đáp án trong các đáp án đúng sẽ được tính là trả lời đúng câu hỏi.
@@ -123,7 +121,7 @@ Mỗi \[dấu ngoặc vuông] được hiểu là một chỗ trống. Mỗi ch�
 {% tab title="Điền từ" %}
 **Dạng Điền từ**
 
-<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Mỗi \[dấu ngoặc vuông] được hiểu là một chỗ trống. Mỗi chỗ trống là một nhóm các đáp án, có thể có nhiều đáp án đúng trong một chỗ trống. Người làm bài chỉ cần điền đáp án trùng với 1 trong các đáp án đúng sẽ được tính là trả lời đúng câu hỏi.
@@ -133,7 +131,7 @@ Mỗi \[dấu ngoặc vuông] được hiểu là một chỗ trống. Mỗi ch�
 {% tab title="Kéo thả" %}
 **Dạng Kéo thả**
 
-<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Mỗi \[dấu ngoặc vuông] được hiểu là một chỗ trống. Tương ứng với số lượng chỗ trống được thêm, hệ thống sẽ tự động thêm số lượng Input để nhập đáp án đúng cho chỗ trống đó. Số lượng Input luôn luôn bằng hoặc hơn số lượng chỗ trống. Có thể thêm nhiều Input mà không cần thêm chỗ trống nhằm mục đích gây nhiễu cho học viên.
@@ -146,11 +144,11 @@ Ngoài các trường thông tin cần điền ở tất cả các dạng câu h
 * Response Option (bắt buộc): hình thức trả lời câu hỏi, Word hoặc Excel.
 * Requirements (bắt buộc): các ý nhỏ hơn của câu tự luận.
 
-<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
 Nếu câu tự luận có Requirements thì điền nội dung câu hỏi trường ‘Requirement’, bỏ trống trường ‘Nội dung câu hỏi’
 
-<figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}

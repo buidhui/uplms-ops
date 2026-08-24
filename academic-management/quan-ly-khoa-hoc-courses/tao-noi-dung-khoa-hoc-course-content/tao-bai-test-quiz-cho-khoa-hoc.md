@@ -22,22 +22,22 @@ Các loại bài Test:
 
 * Section Test
 
-<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 * Midterm Test
 * Final Test
 
-<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 {% stepper %}
 {% step %}
 **Điền thông tin bài Test**
 
-<figure><img src="../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="180">Tên trường</th><th>Mô tả</th></tr></thead><tbody><tr><td>Name</td><td>Tên bài test</td></tr><tr><td>Type of Test</td><td><p>Loại bài kiểm tra:</p><ul><li>Multiple Choice: dạng trắc nghiệm (Mặc định)</li><li>Constructed: dạng tự luận</li><li>Mixed (Multiple Choice + Constructed): dạng bao gồm cả trắc nghiệm và tự luận</li></ul></td></tr><tr><td>Test Mode</td><td><ul><li>Tutor: làm bài không giới hạn thời gian (Mặc định)</li><li>Timed: giới hạn thời gian làm bài</li></ul></td></tr><tr><td>Manual Grading</td><td><p>Chỉ hiển thị với Type of Test = Constructed hoặc Mixed</p><ul><li>Yes: bài kiểm tra sẽ được chấm điểm thủ công bởi đội vận hành.</li><li>No: bài kiểm tra sẽ được chấm tự động phần trắng nghiệm với loại Mixed và không chấm nếu toàn bộ là tự luận (Constructed)</li></ul></td></tr><tr><td>Graded Assignment</td><td>Đánh dấu bài kiểm tra được sử dụng để tính điểm cho toàn bộ khóa học hay không.</td></tr><tr><td>Grading Preference</td><td><p>Chọn cách hiển thị đáp án và Solution</p><ul><li>After each question: hiển thị sau khi trả lời mỗi câu hỏi</li><li>After all questions: hiển thị sau khi hoàn thành bài Test (Mặc định)</li></ul></td></tr><tr><td>Pass Point</td><td><p>Điểm tiếu thiểu cần đạt để Pass bài Test</p><ul><li>Auto 50%: điểm pass point là 50% (Mặc định)</li><li>Manual: cho phép Admin nhập số điểm pass point </li></ul></td></tr><tr><td>Attempt</td><td><p>Cho phép chọn số lần làm bài</p><ul><li>Unlimited: không giới hạn số lần làm bài (Mặc định)</li><li>Limited: giới hạn số lần làm bài</li></ul></td></tr><tr><td>Total Score</td><td><ul><li>Tổng điểm của bài Test/Quiz, có thể điền khác thang điểm 100.</li><li>Chỉ nhập giá trị lớn hơn 0.</li><li>Phần thập phân tối đa 2 chữ số.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th width="180">Tên trường</th><th>Mô tả</th></tr></thead><tbody><tr><td>Name</td><td>Tên bài test</td></tr><tr><td>Type of Test</td><td><p>Loại bài kiểm tra:</p><ul><li>Multiple Choice: dạng trắc nghiệm (Mặc định)</li><li>Constructed: dạng tự luận</li><li>Mixed (Multiple Choice + Constructed): dạng bao gồm cả trắc nghiệm và tự luận</li></ul></td></tr><tr><td>Test Mode</td><td><ul><li>Tutor: làm bài không giới hạn thời gian (Mặc định)</li><li>Timed: giới hạn thời gian làm bài</li></ul></td></tr><tr><td>Manual Grading</td><td><p>Chỉ hiển thị với Type of Test = Constructed hoặc Mixed</p><ul><li>Yes: bài kiểm tra sẽ được chấm điểm thủ công bởi đội vận hành.</li><li>No: bài kiểm tra sẽ được chấm tự động phần trắng nghiệm với loại Mixed và không chấm nếu toàn bộ là tự luận (Constructed)</li></ul></td></tr><tr><td>Graded Assignment</td><td>Đánh dấu bài kiểm tra được sử dụng để tính điểm cho toàn bộ khóa học hay không.</td></tr><tr><td>Grading Preference</td><td><p>Chọn cách hiển thị đáp án và Solution</p><ul><li>After each question: hiển thị sau khi trả lời mỗi câu hỏi</li><li>After all questions: hiển thị sau khi hoàn thành bài Test (Mặc định)</li></ul></td></tr><tr><td>Pass Point</td><td><p>Điểm tiếu thiểu cần đạt để Pass bài Test</p><ul><li>Auto 50%: điểm pass point là 50% (Mặc định)</li><li>Manual: cho phép Admin nhập số điểm pass point</li></ul></td></tr><tr><td>Attempt</td><td><p>Cho phép chọn số lần làm bài</p><ul><li>Unlimited: không giới hạn số lần làm bài (Mặc định)</li><li>Limited: giới hạn số lần làm bài</li></ul></td></tr><tr><td>Total Score</td><td><ul><li>Tổng điểm của bài Test/Quiz, có thể điền khác thang điểm 100.</li><li>Chỉ nhập giá trị lớn hơn 0.</li><li>Phần thập phân tối đa 2 chữ số.</li></ul></td></tr></tbody></table>
 
 {% hint style="info" %}
 Khi người dùng chọn Manual Grading = ‘Yes’ thì giá trị của Graded Assignment = ‘Yes’ và Attempt = "1".
@@ -49,7 +49,7 @@ Khi người dùng chọn Manual Grading = ‘Yes’ thì giá trị của Grade
 
 * Add Question: thêm câu hỏi vào bài Test
 
-<figure><img src="../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Danh sách câu hỏi hiển thị phụ thuộc vào Type of Test.**
@@ -75,9 +75,6 @@ Thứ tự câu hỏi tại bước **Setup Score** và **Reorder** phụ thuộ
 | Người dùng chọn một câu, sau đó bỏ chọn và chọn lại | Câu hỏi đó được đưa xuống cuối danh sách                                |
 
 * Setup Score: cài đặt điểm cho từng câu hỏi trong bài Test
-
-
-
 * Reorder: sắp xếp thứ tự hiển thị của câu hỏi trong bài Test
 {% endstep %}
 
@@ -86,7 +83,7 @@ Thứ tự câu hỏi tại bước **Setup Score** và **Reorder** phụ thuộ
 
 Điểm mặc định chia đều cho tất cả câu hỏi (100/ tổng số câu), nhân sự vận hành có thể cài đặt lại điểm cho từng câu hỏi trong bài Test
 
-<figure><img src="../../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -97,9 +94,9 @@ Thứ tự câu hỏi tại bước **Setup Score** và **Reorder** phụ thuộ
 * Kéo thả từng câu theo thứ tự mong muốn
 * Chọn câu hỏi cần thay đổi vị trí → Action → Chọn vị trí muốn chuyển đến (Top/ Bottom/ Vị trí cụ thể)
 
-<figure><img src="../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
-* Chọn nhiều câu hỏi cùng lúc → Button -> Chọn vị trí muốn chuyển đến (Top/ Bottom)  (Điều kiện là phải chọn các câu hỏi có thứ tự liền kề nhau)
+* Chọn nhiều câu hỏi cùng lúc → Button -> Chọn vị trí muốn chuyển đến (Top/ Bottom) (Điều kiện là phải chọn các câu hỏi có thứ tự liền kề nhau)
 {% endstep %}
 
 {% step %}
@@ -155,7 +152,7 @@ Quiz là hoạt động ôn tập nằm trong các hoạt động học (Learnin
 
 Các bước tạo và chỉnh sủa Quiz tương tự như Test, chỉ khác một số trường thông tin
 
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 * Quiz chỉ có dạng trắc nghiệm
 * Quiz có trong hoạt động học và trong Video của hoạt động học (tham khảo [#video](tao-cau-phan-hoc-section-subsection-unit-activity.md#video "mention"))
@@ -169,7 +166,7 @@ Các bước tạo và chỉnh sủa Quiz tương tự như Test, chỉ khác m�
 
 1. **Type of Test** quyết định danh sách câu hỏi được hiển thị tại bước Add Question.
 2. Với **Constructed/Mixed**, trường **Manual Grading** được hiển thị.
-3. Với **Test** nếu **Manual Grading = Yes** thì **Graded Assignment = Yes** và **Attempt = 1**&#x20;
+3. Với **Test** nếu **Manual Grading = Yes** thì **Graded Assignment = Yes** và **Attempt = 1**
 4. Chỉ có thể di chuyển nhiều câu hỏi cùng lúc khi các câu hỏi được chọn nằm liền kề nhau.
 5. Nếu bài Test đã có học viên làm, Admin chỉ được chỉnh sửa tên bài Test và thứ tự câu hỏi.
 {% endhint %}
