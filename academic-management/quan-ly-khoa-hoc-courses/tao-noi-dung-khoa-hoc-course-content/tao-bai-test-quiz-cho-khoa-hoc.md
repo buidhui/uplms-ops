@@ -58,12 +58,7 @@ Khi người dùng chọn Manual Grading = ‘Yes’ thì giá trị của Grade
 * Type of Test = Constructed Question: Hệ thống hiển thị toàn bộ câu hỏi tự luận trên hệ thống.
 * Type of Test = Mixed: Hệ thống hiển thị cả câu hỏi trắc nghiệm và câu hỏi tự luận.
 
-**Cách sắp xếp:**
-
-* Câu hỏi được nhóm theo **Item Set**.
-* Item Set được tạo gần đây nhất hiển thị ở đầu danh sách.
-* Các câu hỏi trong cùng một Item Set được sắp xếp theo thời gian tạo từ gần đến xa.
-* Câu hỏi trắc nghiệm và tự luận có thể hiển thị xen kẽ theo đúng thứ tự tạo trong Item Set.
+**Cách sắp xếp:** câu hỏi trắc nghiệm và tự luận có thể hiển thị xen kẽ theo đúng thứ tự tạo.
 {% endhint %}
 
 Thứ tự câu hỏi tại bước **Setup Score** và **Reorder** phụ thuộc vào thứ tự người dùng chọn câu hỏi tại bước **Add Question**.
@@ -174,8 +169,7 @@ Các bước tạo và chỉnh sủa Quiz tương tự như Test, chỉ khác m�
 {% hint style="info" %}
 ### Mẹo sử dụng
 
-1. Nên dùng bộ lọc **Item Set** để tìm nhanh nhóm câu hỏi theo cùng ngữ cảnh/ chủ đề.
-2. Nên kiểm tra lại thứ tự câu hỏi tại bước **Reorder** trước khi bấm **Finish**.
+1. Nên kiểm tra lại thứ tự câu hỏi tại bước **Reorder** trước khi bấm **Finish**.
 {% endhint %}
 
 ## IV. Các lỗi thường gặp & Hướng dẫn xử lý

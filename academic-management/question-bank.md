@@ -205,7 +205,7 @@ Không thể xóa những câu hỏi đã được thêm vào Test/ Quiz/ Case S
 {% hint style="info" %}
 ### Mẹo sử dụng
 
-1. Nên chọn **Belong to** theo đúng thứ tự Course → Section → Subsection → Unit → Activity.
+1. Nên chọn **Belong to** theo đúng thứ tự Course → Section → Activity.
 2. Với câu hỏi **Chọn từ/Điền từ/Kéo thả**, nên kiểm tra số lượng dấu **\[ ]** trước khi nhập đáp án.
 3. Với câu hỏi **Kéo thả**, nên chuẩn bị số đáp án ≥ số ô trống (phần dư làm đáp án gây nhiễu).
 4. Nên dùng **Save & New** khi cần tạo nhiều câu hỏi liên tiếp.

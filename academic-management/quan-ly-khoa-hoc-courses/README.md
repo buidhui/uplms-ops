@@ -67,7 +67,6 @@ Khóa học chỉ được **Publish** khi đã tạo nội dung và gắn chứ
 | BR-COURSE-INFO-005 | Trường **Course Category** bắt buộc chọn từ danh sách danh mục có sẵn trên hệ thống.                                                                         |
 | BR-COURSE-INFO-007 | Một khóa học chỉ được chọn một **Type** tại thời điểm tạo.                                                                                          |
 | BR-COURSE-INFO-008 | Hệ thống hỗ trợ 2 Type: **Normal Course** và **Foundation Course**.                                                  |
-| BR-COURSE-INFO-009 | Nếu Type = **Foundation Course**, Admin bắt buộc chọn ít nhất một level cho khóa học.                                                               |
 | BR-COURSE-INFO-010 | Nếu Type = **Normal Course**, Admin có thể gắn kèm một **Foundation Course**; khi đó học viên phải hoàn thành khóa Foundation trước khi học khóa chính. |
 | BR-COURSE-INFO-011 | Với **Normal Course**, Admin có thể chọn hoặc không chọn Foundation Course.                                                         |
 | BR-COURSE-INFO-012 | Trường **Pass Point** là điểm yêu cầu học viên phải đạt để có thể nhận chứng chỉ của khóa học.                                                      |
@@ -83,7 +82,7 @@ Khóa học chỉ được **Publish** khi đã tạo nội dung và gắn chứ
 
 | Mã rule            | Business Rule                                                                                                                                          |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| BR-COURSE-TYPE-001 | **Foundation Course** là khóa học nền tảng, được gắn tương ứng với level của học viên.                                                                 |
+| BR-COURSE-TYPE-001 | **Foundation Course** là khóa học nền tảng, học viên cần hoàn thành trước khi học khóa chính.                                                                 |
 | BR-COURSE-TYPE-004 | **Normal Course** là khóa học thường, có thể yêu cầu học viên hoàn thành một số Foundation Course trước khi học.                                       |
 | BR-COURSE-TYPE-007 | Khi Block một **Foundation Course** đã được gắn với Normal Course, hệ thống cảnh báo rằng khóa Foundation sẽ bị unlink khỏi các khóa Normal liên quan. |
 | BR-COURSE-TYPE-008 | Khi Block khóa **Normal Course**, hệ thống cảnh báo rằng khóa học sẽ bị remove khỏi các lớp chưa bắt đầu.                                  |
@@ -98,13 +97,13 @@ Khóa học chỉ được **Publish** khi đã tạo nội dung và gắn chứ
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | BR-CONTENT-001 | Admin cần tạo nội dung theo thứ tự: **Section → Activity**.                                  |
 | BR-CONTENT-002 | Admin cần tạo **Section** trước khi tạo **Activity**.                                                                                |
-| BR-CONTENT-005 | **Learning Outcome** được tạo ở cấp **Subsection**.                                                                                    |
-| BR-CONTENT-006 | Một Subsection có thể có một hoặc nhiều Learning Outcome.                                                                              |
-| BR-CONTENT-007 | Một Activity có thể được gắn với một hoặc nhiều Learning Outcome đã tạo.                                                               |
+| BR-CONTENT-005 | **Learning Outcome** được tạo ở cấp **Section**.                                                                                    |
+| BR-CONTENT-006 | Một Section có thể có một hoặc nhiều Learning Outcome.                                                                              |
+| BR-CONTENT-007 | Một Activity có thể được gắn với một hoặc nhiều Learning Outcome đã tạo trong Section chứa Activity đó.                                                               |
 | BR-CONTENT-008 | Các mã **Section Code** và **Activity Code** được hệ thống tạo tự động theo rule của khóa học.                   |
 | BR-CONTENT-009 | Mỗi Activity bắt buộc nhập **Tên activity, Activity Code, Duration, Type of Activity, Grade Activity**.                                |
 | BR-CONTENT-010 | **Type of Activity** dùng để hiển thị icon trên giao diện học viên UpLMS.                                                              |
-| BR-CONTENT-011 | Type of Activity gồm: **Text, Video, Quiz, Pass Exam Analysis**.                                                                       |
+| BR-CONTENT-011 | Type of Activity gồm: **Text, Video, Quiz**.                                                                       |
 | BR-CONTENT-012 | **Grade Activity** xác định Activity có tính điểm hay không. Hệ thống mặc định chọn **Yes**.                                           |
 | BR-CONTENT-013 | Activity có thể đính kèm một hoặc nhiều Resource.                                                                                      |
 | BR-CONTENT-014 | File Resource đính kèm trong Activity có dung lượng tối đa **500MB/file**.                                                             |
@@ -131,7 +130,7 @@ Khóa học chỉ được **Publish** khi đã tạo nội dung và gắn chứ
 | BR-SECTION-005 | **Foundation Content** của Section cho phép chọn nhiều giá trị.                                                                               |
 | BR-SECTION-006 | **Key content of** chỉ hiển thị khi chỉnh sửa Section.                                                                                        |
 | BR-SECTION-007 | Nếu Section A được đánh dấu là Foundation Content của Section B, thì tại màn Edit của Section A, trường Key content of sẽ hiển thị Section B. |
-| BR-SECTION-008 | Admin có thể tạo Activity, tạo bài kiểm tra, Edit, Preview hoặc Delete Section từ menu Action.                          |
+| BR-SECTION-008 | Admin có thể tạo Activity, tạo Learning Outcome, tạo bài kiểm tra, Edit, Preview hoặc Delete Section từ menu Action.                          |
 
 </details>
 
@@ -196,10 +195,6 @@ Khóa học chỉ được **Publish** khi đã tạo nội dung và gắn chứ
 | --------------- | -------------------------------------------------------------------------------------------------------------------- |
 | BR-QUESTION-001 | Câu hỏi thêm vào Test/Quiz được lấy từ Question Bank.                                                                |
 | BR-QUESTION-002 | Danh sách câu hỏi hiển thị phụ thuộc vào Type of Test.                                                               |
-| BR-QUESTION-003 | Câu hỏi được nhóm theo Item Set.                                                                                     |
-| BR-QUESTION-004 | Item Set được tạo gần đây nhất hiển thị ở đầu danh sách.                                                             |
-| BR-QUESTION-005 | Các câu hỏi trong cùng một Item Set được sắp xếp theo thời gian tạo từ gần đến xa.                                   |
-| BR-QUESTION-006 | Câu hỏi trắc nghiệm và tự luận có thể hiển thị xen kẽ theo đúng thứ tự tạo trong Item Set.                           |
 | BR-QUESTION-007 | Nếu Admin chọn đơn lẻ từng câu hỏi, câu nào được chọn trước sẽ đứng trước.                                           |
 | BR-QUESTION-008 | Nếu Admin chọn toàn bộ câu hỏi trong trang, thứ tự câu hỏi giữ nguyên như thứ tự đang hiển thị tại màn Add Question. |
 | BR-QUESTION-009 | Nếu Admin chọn một câu hỏi, sau đó bỏ chọn và chọn lại, câu hỏi đó được đưa xuống cuối danh sách.                    |
@@ -307,7 +302,7 @@ Khóa học chỉ được **Publish** khi đã tạo nội dung và gắn chứ
 | BR-COPY-004 | Khi copy Section, các cấu phần có thể copy gồm **Section, Midterm Test, Final Test**.                                                |
 | BR-COPY-007 | Khi copy Activity, cấu phần có thể copy là **Activity**.                                                                                                              |
 | BR-COPY-008 | Khi copy một cấu phần, toàn bộ cấu phần con của cấu phần được chọn sẽ được sao chép sang khóa học hiện tại.                                                           |
-| BR-COPY-009 | Nếu Activity đã liên kết với Learning Outcome, liên kết này được giữ nguyên trong khóa học mới nếu Admin copy đồng thời cả Learning Outcome và Unit chứa Activity đó. |
+| BR-COPY-009 | Nếu Activity đã liên kết với Learning Outcome, liên kết này được giữ nguyên trong khóa học mới nếu Admin copy đồng thời cả Learning Outcome và Section chứa Activity đó. |
 | BR-COPY-010 | Với khóa học đã có học viên hoàn thành 100%, Admin chỉ được phép copy bài kiểm tra vào khóa học nếu bài kiểm tra không được tính điểm.                                |
 | BR-COPY-011 | Với khóa học đã có học viên hoàn thành 100%, Admin chỉ được copy Quiz thuộc Activity nếu Quiz không được tính điểm.                                                   |
 
@@ -321,7 +316,7 @@ Khóa học chỉ được **Publish** khi đã tạo nội dung và gắn chứ
 | ----------- | ------------------------------------------------------------------------------------------------ |
 | BR-LINK-002 | Các cấu phần có thể link gồm **Section, Activity**.                            |
 | BR-LINK-003 | Link Section được thực hiện từ button **Link Section** trên màn Course Content.                  |
-| BR-LINK-006 | Link Activity được thực hiện từ Action của Unit.                                                 |
+| BR-LINK-006 | Link Activity được thực hiện từ Action của Section.                                                 |
 | BR-LINK-007 | Admin cần tìm kiếm và chọn khóa học nguồn chứa cấu phần cần link.                                |
 | BR-LINK-008 | Admin có thể chọn một hoặc nhiều học phần để link.                                               |
 | BR-LINK-009 | Sau khi link thành công, học phần được link hiển thị trong Course Content với ký hiệu tương ứng. |

@@ -45,7 +45,6 @@ Các bộ phận làm việc trên cùng một nguồn dữ liệu: khóa học 
 | **L\&D**                      | Danh sách khóa học, Tạo khóa học                                                        |
 | **SX**                        | Storyline                                                                               |
 | **Mentor / Mentor chính**     | Toàn bộ mục Chấm điểm                                                                   |
-| **CX**                        | Bài kiểm tra trong lớp                                                                  |
 | **Giảng viên, Quản lý chương trình** | SIS Operational Dashboard                                                        |
 
 Mỗi trang đều có trường **Dành cho** ở đầu — nếu vai trò của bạn không nằm trong đó, khả năng cao bạn không có quyền thao tác trên màn hình được mô tả.

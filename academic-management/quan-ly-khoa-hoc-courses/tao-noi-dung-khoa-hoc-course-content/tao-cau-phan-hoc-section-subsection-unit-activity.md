@@ -62,7 +62,7 @@ Xóa section sẽ xóa toàn bộ nội dung có trong section đó.
 
 {% stepper %}
 {% step %}
-**Để tạo mục tiêu học tập cho Seccion, chọn Action → Add Learning Outcome**
+**Để tạo mục tiêu học tập cho Section, chọn Action → Add Learning Outcome**
 
 <figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}

@@ -16,7 +16,7 @@ _A - Add | M - Modify | D - Delete_
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** Admin, UpLMS Operator, CX
+**Dành cho:** Admin, UpLMS Operator
 
 **Đường dẫn:** LMS → Class List → Chọn lớp học → Test/Quiz
 {% endhint %}
@@ -299,9 +299,9 @@ Hệ thống tải file kết quả về thiết bị. File được đặt tên
 
 | Quy tắc                                 | Mô tả                                                                                                            |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **Start date của Access Time**          | Phải lớn hơn hoặc bằng Opening Date của Class.                                                                   |
+| **Start date của Access Time**          | Phải lớn hơn hoặc bằng Start Date của Class.                                                                   |
 | **End date của Access Time**            | Phải nhỏ hơn hoặc bằng End Date của Class.                                                                       |
-| **Khi Opening Date của Class thay đổi** | Nếu Opening Date mới lớn hơn Opening Date của Access Time, Access Time sẽ được cập nhật theo Start Date của lớp. |
+| **Khi Start Date của Class thay đổi**   | Nếu Start Date mới lớn hơn Start date của Access Time, Access Time sẽ được cập nhật theo Start Date của lớp.     |
 | **Khi End Date của Class thay đổi**     | Nếu End Date mới nhỏ hơn End Date của Access Time, Access Time sẽ được cập nhật theo End Date của lớp.           |
 
 ### Quy tắc Export Result
@@ -319,7 +319,7 @@ Hệ thống tải file kết quả về thiết bị. File được đặt tên
 | -------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- |
 | Không thấy danh sách bài kiểm tra            | Khóa học chưa được gắn vào lớp                                | Gắn khóa học vào lớp; bài Test/Quiz lấy từ Course Content         |
 | Không tìm thấy bài kiểm tra                  | Sai điều kiện tìm kiếm/lọc                                    | Kiểm tra lại bộ lọc, bấm Reset để về danh sách mặc định           |
-| Không lưu được Access Time                   | Start/End date ngoài khoảng Opening Date – End Date của Class | Đặt Access Time trong khoảng cho phép của lớp                     |
-| Access Time tự thay đổi sau khi sửa lịch lớp | Opening Date/End Date của Class thay đổi                      | Đây là quy tắc đồng bộ; kiểm tra lại Access Time sau khi đổi lịch |
+| Không lưu được Access Time                   | Start/End date ngoài khoảng Start Date – End Date của Class | Đặt Access Time trong khoảng cho phép của lớp                     |
+| Access Time tự thay đổi sau khi sửa lịch lớp | Start Date/End Date của Class thay đổi                        | Đây là quy tắc đồng bộ; kiểm tra lại Access Time sau khi đổi lịch |
 | File Export Result thiếu điểm                | Học viên chưa nộp bài hoặc bài chấm thủ công chưa chấm xong   | Chờ học viên nộp/chấm xong rồi export lại                         |
 | Không truy cập được tab Test/Quiz            | Tài khoản chưa có quyền xem bài kiểm tra của lớp              | Liên hệ quản trị để được cấp quyền                                |

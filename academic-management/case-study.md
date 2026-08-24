@@ -7,7 +7,6 @@
 
 * **Module chính:** Case Study
 * **Module liên quan:**
-  * Item Set
   * Question List
 {% endhint %}
 

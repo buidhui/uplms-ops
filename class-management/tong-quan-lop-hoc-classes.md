@@ -78,7 +78,6 @@ Thao tác thêm hoặc xóa học viên và trợ giảng ở lớp **Lesson** s
 | BR-CREATE-004 | Mã lớp học cần có ký tự **“.”**.                                                                                                     |
 | BR-CREATE-005 | Người dùng chỉ có thể tạo thủ công lớp có Type là **Lesson**.                                                          |
 | BR-CREATE-006 | Lớp **Foundation** không tạo thủ công; hệ thống tự động tạo khi lớp Lesson gắn với Normal Course có cấu hình Foundation Course.                         |
-| BR-CREATE-011 | Nếu nhập **Number of Extended Days**, người dùng bắt buộc nhập **Reason of Extension**.                                                                 |
 | BR-CREATE-012 | Sau khi tạo lớp thành công, lớp được hiển thị tại màn hình **Class List**.                                                                              |
 
 </details>
@@ -97,60 +96,13 @@ Thao tác thêm hoặc xóa học viên và trợ giảng ở lớp **Lesson** s
 
 <details>
 
-<summary>Quy tắc Class Owner và CX Admin</summary>
-
-| Mã rule      | Business Rule                                                                                                                                               |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| BR-OWNER-001 | Hai trường **Class Owner** và **CX Admin** bắt buộc khi lớp có **Type = Lesson** và Course thuộc một trong các Program: **ACCA, CFA, CMA, Cert/Dip, CGMA**. |
-| BR-OWNER-002 | Class Owner và CX Admin được chọn theo định dạng **Tên nhân viên + Email nhân viên**.                                                                       |
-| BR-OWNER-003 | Người dùng có thể tìm kiếm Class Owner/CX Admin bằng tên hoặc email.                                                                                        |
-| BR-OWNER-004 | Người dùng luôn có thể chỉnh sửa **Class Owner** và **CX Admin**, ngoại trừ lớp **Foundation** và **Hybrid** vì các lớp này đồng bộ từ lớp chính.           |
-| BR-OWNER-005 | Hệ thống gửi mail/tạo ticket cho CX Supervisor để kiểm tra Class Owner/CX Admin theo thời điểm dựa trên Start Date của lớp.                                 |
-| BR-OWNER-006 | Nếu **Start Date - Create Date >= 7 ngày**, hệ thống gửi thông báo lúc 9:00 sáng, trước 7 ngày so với Start Date.                                           |
-| BR-OWNER-007 | Nếu **Start Date - Create Date < 7 ngày**, hệ thống gửi thông báo lúc 9:00 sáng ngày hôm sau.                                                               |
-
-</details>
-
-<details>
-
-<summary>Quy tắc Duration và Extended Days</summary>
+<summary>Quy tắc Duration</summary>
 
 | Mã rule         | Business Rule                                                                                                                      |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | BR-DURATION-002 | Duration có 2 kiểu: **Fixed** và **Flexible**.                                                                                     |
 | BR-DURATION-003 | Với Duration = **Fixed**, thời hạn lớp được xác định theo Start Date - End Date.                                                   |
 | BR-DURATION-004 | Với Duration = **Flexible**, thời hạn học của học viên phụ thuộc vào ngày học viên kích hoạt khóa học.                             |
-| BR-DURATION-005 | Nếu nhập **Number of Extended Days**, bắt buộc nhập **Reason of Extension**.                                                       |
-| BR-DURATION-006 | Nếu chỉnh sửa **Number of Extended Days = 0** hoặc để trống, hệ thống xóa dữ liệu Number of Extended Days và Reason For Extension. |
-| BR-DURATION-007 | Khi Number of Extended Days bị xóa, duration học viên quay về cách tính mặc định.                                                  |
-| BR-DURATION-009 | End Date mặc định của học viên bằng **Class End Date + Number of Extended Days** nếu lớp có gia hạn.                               |
-
-</details>
-
-<details>
-
-<summary>Quy tắc tạo và quản lý lớp Hybrid</summary>
-
-| Mã rule       | Business Rule                                                                                                                                                                                                 |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| BR-HYBRID-001 | Checkbox **Create Hybrid Class** chỉ hiển thị khi lớp có Construction Mode là **Offline** hoặc **Blended** và Type là **Lesson**.                                                                             |
-| BR-HYBRID-002 | Khi tick **Create Hybrid Class**, người dùng bắt buộc nhập **Hybrid Class Code**.                                                                                                                             |
-| BR-HYBRID-003 | Sau khi lưu lớp gốc thành công, hệ thống tự động tạo thêm lớp Hybrid.                                                                                                                                         |
-| BR-HYBRID-004 | Tên lớp Hybrid = **Tên lớp gốc + “Hybrid”**.                                                                                                                                                                  |
-| BR-HYBRID-005 | Construction Mode của lớp Hybrid mặc định là **Hybrid**.                                                                                                                                                      |
-| BR-HYBRID-006 | Origin Class của lớp Hybrid là mã lớp gốc.                                                                                                                                                                    |
-| BR-HYBRID-007 | Lớp Hybrid đồng bộ từ lớp gốc các thông tin: Status, Facility, Type, Duration, Start Date, End Date, Standard Schedule, Course, Class Owner, CX Admin, Exam, Mentor, Teacher, lịch học và tiến độ giảng viên. |
-| BR-HYBRID-008 | Các trường Classroom, Link Meeting, Description và Max Students của lớp Hybrid để trống khi tạo tự động.                                                                                                      |
-| BR-HYBRID-009 | Lớp Hybrid lưu danh sách học viên riêng, không tự động dùng chung danh sách học viên của lớp gốc.                                                                                                             |
-| BR-HYBRID-010 | Lịch học Offline của lớp gốc được đồng bộ sang lớp Hybrid với Learning Mode = **Live Online**, ngoại trừ thông tin phòng học.                                                                                 |
-| BR-HYBRID-011 | Lịch học Online LMS/Live Online của lớp gốc được đồng bộ toàn bộ sang lớp Hybrid.                                                                                                                             |
-| BR-HYBRID-012 | Nếu bỏ tick **Create Hybrid Class** khi lớp Hybrid đã được tạo, lớp Hybrid sẽ bị khóa.                                                                                                                        |
-| BR-HYBRID-013 | Khi bỏ tick Create Hybrid Class, người dùng bắt buộc nhập **Block Reason**.                                                                                                                                   |
-| BR-HYBRID-014 | Khi lớp Hybrid bị khóa do bỏ tick, hệ thống làm rỗng Classroom và Link Meeting của lớp Hybrid.                                                                                                                |
-| BR-HYBRID-015 | Nếu chỉnh sửa Type sang **Trial** hoặc **Revision**, lớp Hybrid đã tạo trước đó sẽ tự động bị xóa.                                                                                                            |
-| BR-HYBRID-016 | Nếu chỉnh sửa Construction Mode sang **Online** hoặc **Live Online**, lớp Hybrid đã tạo trước đó sẽ tự động bị xóa.                                                                                           |
-| BR-HYBRID-017 | Nếu lớp có Status = **Block**, checkbox Create Hybrid Class bị disable.                                                                                                                                       |
-| BR-HYBRID-018 | Khi lớp Lesson chuyển sang **Block**, lớp Hybrid gắn với lớp đó nếu có cũng chuyển sang **Block**.                                                                                                            |
 
 </details>
 
@@ -162,9 +114,7 @@ Thao tác thêm hoặc xóa học viên và trợ giảng ở lớp **Lesson** s
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | BR-EDIT-001 | Người dùng chỉ được chỉnh sửa lớp nếu có quyền **Edit Class**.                                                                                                                                                                                    |
 | BR-EDIT-002 | Lớp có trạng thái **Ended** không được chỉnh sửa.                                                                                                                                                                                                 |
-| BR-EDIT-003 | Việc chỉnh sửa lớp phụ thuộc vào **Type**, **Construction Mode** và tiến độ học của học viên trong lớp.                                                                                                                                           |
-| BR-EDIT-004 | Lớp **Hybrid** chỉ được chỉnh sửa các trường: Class name, Class code, Classroom, Link meeting, Description.                                                                                                                                       |
-| BR-EDIT-005 | Các thông tin còn lại của lớp Hybrid không được chỉnh sửa trực tiếp vì đồng bộ từ lớp gốc.                                                                                                                                                        |
+| BR-EDIT-003 | Việc chỉnh sửa lớp phụ thuộc vào **Type** và tiến độ học của học viên trong lớp.                                                                                                                                           |
 | BR-EDIT-006 | Với lớp **Foundation** đã có học viên học, chỉ được chỉnh sửa Name, Code và Số học viên tối đa.                                                                                                              |
 | BR-EDIT-007 | Với lớp **Foundation** chưa có học viên học, được chỉnh sửa tất cả thông tin, ngoại trừ Type và Course.                                                                                                                    |
 | BR-EDIT-008 | Với lớp **Lesson** chưa có học viên học, người dùng được chỉnh sửa tất cả thông tin.                                                                                                                                                   |
@@ -200,12 +150,10 @@ Thao tác thêm hoặc xóa học viên và trợ giảng ở lớp **Lesson** s
 
 | Mã rule        | Business Rule                                                                                                                       |
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| BR-STUDENT-001 | Học viên thường được tự động thêm vào lớp sau khi Deal trên HubSpot chuyển sang trạng thái **Won**.                                 |
 | BR-STUDENT-002 | Người dùng có thể thêm học viên thủ công bằng chức năng **Add Student** nếu có quyền.                                               |
 | BR-STUDENT-003 | Người dùng có thể import học viên bằng file nếu có quyền.                                                                           |
 | BR-STUDENT-004 | File import học viên chỉ chấp nhận định dạng **.csv** hoặc **.xlsx**.                                                               |
 | BR-STUDENT-005 | Mỗi lần import học viên chỉ được chọn **01 file**.                                                                                  |
-| BR-STUDENT-006 | Với lớp Foundation, chỉ được thêm học viên có level trùng với level của lớp Foundation.                                             |
 | BR-STUDENT-007 | Khi thêm học viên vào lớp **Lesson**, học viên đó cũng được thêm vào lớp **Foundation** gắn với lớp ban đầu.        |
 | BR-STUDENT-008 | Khi xóa học viên khỏi lớp **Lesson**, học viên đó cũng được xóa khỏi lớp **Foundation** gắn với lớp ban đầu.        |
 | BR-STUDENT-009 | Khi thêm hoặc xóa học viên khỏi lớp **Foundation**, thao tác này không ảnh hưởng đến học viên của lớp **Lesson**. |
@@ -317,8 +265,7 @@ Thao tác thêm hoặc xóa học viên và trợ giảng ở lớp **Lesson** s
 | ------------- | ----------------------------------------------------------------------------------------------------- |
 | BR-STATUS-001 | Lớp có trạng thái **Ended** không được chỉnh sửa.                                                     |
 | BR-STATUS-002 | Một số thao tác với lớp phụ thuộc vào trạng thái lớp và việc học viên đã học hay chưa.                |
-| BR-STATUS-003 | Khi lớp Lesson bị chuyển sang Block, lớp Hybrid liên quan cũng bị chuyển sang Block nếu có.           |
-| BR-STATUS-004 | Lớp Foundation và Hybrid có nhiều thông tin đồng bộ từ lớp chính nên bị giới hạn chỉnh sửa trực tiếp. |
+| BR-STATUS-004 | Lớp Foundation có nhiều thông tin đồng bộ từ lớp Lesson nên bị giới hạn chỉnh sửa trực tiếp. |
 
 </details>
 
@@ -328,7 +275,6 @@ Thao tác thêm hoặc xóa học viên và trợ giảng ở lớp **Lesson** s
 
 | Mã rule     | Business Rule                                                                                            |
 | ----------- | -------------------------------------------------------------------------------------------------------- |
-| BR-SYNC-001 | Lớp Hybrid đồng bộ phần lớn thông tin từ lớp gốc.                                                        |
 | BR-SYNC-002 | Lớp Foundation được tạo và đồng bộ theo logic từ lớp Lesson gắn Normal Course có Foundation Course.      |
 | BR-SYNC-003 | Khi thêm/xóa học viên ở lớp Lesson, hệ thống đồng bộ học viên sang lớp Foundation liên quan. |
 | BR-SYNC-004 | Khi thêm/xóa học viên ở lớp Foundation, hệ thống không đồng bộ ngược về lớp Lesson.        |
