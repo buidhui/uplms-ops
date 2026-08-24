@@ -1,35 +1,18 @@
-# Danh sách thông báo & Email (Notice List & Email List)
-
-## Record of changes
-
-_A - Add | M - Modify | D - Delete_
-
-| Effective Date | Update Person | A,M,D | Change Description                | Version |
-| -------------- | ------------- | ----- | --------------------------------- | ------- |
-| 30 May 2026    | Lê Thị Huế    | M     | Tái cấu trúc tài liệu lên gitbook | 1.5.0   |
+# Email và Thông báo hệ thống
 
 ## I. Thông tin chung
-
-{% hint style="info" %}
-**Dành cho:** Admin, UpLMS Operator
-
-**Đường dẫn:** Engagement & Support → Notice & Email → Notification List & Email List
-{% endhint %}
 
 {% hint style="info" %}
 #### Phạm vi & Module liên quan
 
 * **Module chính:** Notification & Email
-* **Module liên quan:** Recipients List (Nhóm người nhận), LMS Student (nơi học viên nhận Notification và Pinned Notification)
-* **Hệ thống tích hợp:** Hệ thống Email (gửi email tới học viên)
+* **Module liên quan:** Recipients List
 {% endhint %}
 
 {% hint style="warning" %}
 #### Điều kiện tiên quyết
 
-* Đã đăng nhập thành công vào hệ thống UpLMS Ops.
-* Đã được cấp quyền tương ứng với chức năng Notification (xem / tạo / chỉnh sửa).
-* Đối với gửi Notification/Email: cần có Nhóm người nhận đã được tạo trước đó tại **Recipients List**.
+* Tài khoản có quyền truy cập nhóm chức năng **Notice & Email**.
 {% endhint %}
 
 ## II. Hướng dẫn chi tiết

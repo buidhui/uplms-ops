@@ -23,9 +23,9 @@
 
 {% stepper %}
 {% step %}
-**Chọn Course & Materials** → Certificates
+**Chọn Course & Materials → Certificates**
 
-<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -100,20 +100,14 @@ Chọn **Add Student Name** để thêm khu vực hiển thị tên học viên.
 
 <summary>Chỉnh sửa chứng chỉ</summary>
 
-* **Chỉnh sửa Trạng thái chứng chỉ**
-  * Draft: bản nháp chưa hoàn thiện.
-  * Published: mẫu chứng chỉ đã hoàn thiện, nhưng chưa gán vào khóa học nào
-  * Blocked: mẫu chứng chỉ đã được gán vào ít nhất 1 khóa học
+*   **Chỉnh sửa Trạng thái chứng chỉ**
 
-<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+    * Draft: bản nháp chưa hoàn thiện.
+    * Published: mẫu chứng chỉ đã hoàn thiện.
 
-* Chứng chỉ có trạng thái Published muốn chỉnh sửa cần chuyển về Draft
-* Chứng chỉ có trạng thái Draft có thể chỉnh sửa mọi thông tin và mẫu
-* Chứng chỉ có trạng thái Blocked chỉ có thể sửa tên mẫu chứng chỉ
-
-{% hint style="info" %}
-Nếu chứng chỉ đã gán Khóa học thì sẽ không được thay đổi thông tin về Course Category hoặc chuyển trạng thái về Draft
-{% endhint %}
+    <figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+* Chứng chỉ có trạng thái Published không sửa được Category.
+* Chứng chỉ có trạng thái Draft có thể chỉnh sửa mọi thông tin và mẫu.
 
 </details>
 
