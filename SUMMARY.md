@@ -27,16 +27,14 @@
 ## Class Management
 
 * [Tổng quan lớp học (Classes)](class-management/tong-quan-lop-hoc-classes.md)
-* [Xem danh sách và thông tin chi tiết lớp học](class-management/xem-danh-sach-va-thong-tin-chi-tiet-lop-hoc.md)
-* [Tạo lớp học](class-management/tao-lop-hoc.md)
-* [Import lớp học (Import Class)](class-management/import-lop-hoc-import-class.md)
-* [Chỉnh sửa thông tin lớp học](class-management/chinh-sua-thong-tin-lop-hoc.md)
+* [Danh sách lớp học](class-management/xem-danh-sach-va-thong-tin-chi-tiet-lop-hoc/README.md)
+  * [Quản lý bài kiểm tra trong lớp (Test/Quiz)](class-management/xem-danh-sach-va-thong-tin-chi-tiet-lop-hoc/quan-ly-bai-kiem-tra-trong-lop-test-quiz.md)
+* [Tạo lớp học](class-management/tao-lop-hoc/README.md)
+  * [Import lớp học (Import Class)](class-management/tao-lop-hoc/import-lop-hoc-import-class.md)
+  * [Chỉnh sửa thông tin lớp học](class-management/tao-lop-hoc/chinh-sua-thong-tin-lop-hoc.md)
 * [Quản lý học viên trong lớp (Student)](class-management/quan-ly-hoc-vien-trong-lop-student.md)
 * [Quản lý trợ giảng trong lớp (Mentor)](class-management/quan-ly-tro-giang-trong-lop-mentor.md)
-* [Thêm giảng viên cho lớp (Teacher)](class-management/them-giang-vien-cho-lop-teacher.md)
-* [Quản lý bài kiểm tra trong lớp (Test/Quiz)](class-management/quan-ly-bai-kiem-tra-trong-lop-test-quiz.md)
 * [Quản lý tài liệu trong lớp](class-management/quan-ly-tai-lieu-trong-lop.md)
-* [Business Rules — Class](class-management/business-rules-class.md)
 
 ## Chấm điểm (Grading)
 

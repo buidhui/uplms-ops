@@ -44,9 +44,9 @@ _A - Add | M - Modify | D - Delete_
 
 Admin chọn **Create Class** tại màn hình **Class List**. Hệ thống mở màn hình **Create Class**.
 
-<figure><img src="../.gitbook/assets/image (193)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (193)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (195)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (195)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -60,7 +60,7 @@ Admin nhập **Name** và **Code** tại màn hình **Create Class**. Mỗi lớ
 
 Admin chọn **Construction Mode** và **Facility**. Nếu Construction Mode là **Offline** hoặc **Blended**, Admin cần chọn Facility.
 
-<figure><img src="../.gitbook/assets/image (197)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (197)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -80,7 +80,7 @@ Người dùng chỉ có thể tạo các lớp có Type là **Lesson**, **Trial
 {% step %}
 **Tick Create Hybrid Class (nếu cần)**
 
-<figure><img src="../.gitbook/assets/image (199)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (199)" alt=""><figcaption></figcaption></figure>
 
 Admin tick **Create Hybrid Class** và nhập **Hybrid Class Code** nếu cần tạo lớp Hybrid. Checkbox này chỉ hiển thị khi Construction Mode là **Offline/Blended** và Type là **Lesson**.
 {% endstep %}
@@ -88,7 +88,7 @@ Admin tick **Create Hybrid Class** và nhập **Hybrid Class Code** nếu cần 
 {% step %}
 **Tick Cho phép học viên chọn kỳ thi (nếu cần)**
 
-<figure><img src="../.gitbook/assets/image (201)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (201)" alt=""><figcaption></figcaption></figure>
 
 Admin tick **Cho phép học viên chọn kỳ thi** nếu cần tạo lớp revision bán độc lập mà HV được phép chọn kỳ thi khi vào lớp. Checkbox này chỉ hiển thị khi Type của lớp là **Revision** và **lớp được tạo thủ công** (không phải lớp được tạo tự động gán với kỳ thi cụ thể).
 {% endstep %}
@@ -107,7 +107,7 @@ Admin tick **Cho phép học viên chọn kỳ thi** nếu cần tạo lớp rev
 
 Một lịch học gồm **Day of week** và **Start time - End time**.
 
-<figure><img src="../.gitbook/assets/image (203)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (203)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -115,7 +115,7 @@ Một lịch học gồm **Day of week** và **Start time - End time**.
 
 Nếu **Number of Extended Days** có giá trị, **Reason of Extension** là trường bắt buộc.
 
-<figure><img src="../.gitbook/assets/image (204)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (204)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -131,7 +131,7 @@ Nếu **Number of Extended Days** có giá trị, **Reason of Extension** là tr
 
 Admin chọn trường **Course** tại màn hình **Create Class**. Hệ thống mở màn hình **Add Course**.
 
-<figure><img src="../.gitbook/assets/image (205)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (205)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -139,7 +139,7 @@ Admin chọn trường **Course** tại màn hình **Create Class**. Hệ thốn
 
 Admin tìm kiếm khóa học tại màn hình **Add Course** nếu cần.
 
-<figure><img src="../.gitbook/assets/image (206)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (206)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -147,7 +147,7 @@ Admin tìm kiếm khóa học tại màn hình **Add Course** nếu cần.
 
 Admin chọn một khóa học trong danh sách và chọn **Add**. Hệ thống quay lại màn hình **Create Class** và hiển thị khóa học đã chọn.
 
-<figure><img src="../.gitbook/assets/image (207)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (207)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -161,7 +161,7 @@ Admin chọn một khóa học trong danh sách và chọn **Add**. Hệ thống
 {% step %}
 **Kiểm tra điều kiện bắt buộc**
 
-<figure><img src="../.gitbook/assets/image (208)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (208)" alt=""><figcaption></figcaption></figure>
 
 Admin kiểm tra điều kiện bắt buộc của **Class Owner** và **CX Admin** sau khi chọn **Type** và **Course**. Hai trường này bắt buộc khi **Type = Lesson** và Course thuộc một trong các program **ACCA, CFA, CMA, Cert/Dip, CGMA**.
 {% endstep %}
@@ -191,7 +191,7 @@ Admin nhập tên hoặc email nhân viên tại trường **CX Admin**, sau đ�
 
 Admin chọn trường **Exam** tại màn hình **Create Class**. Hệ thống mở màn hình **Add Exam**.
 
-<figure><img src="../.gitbook/assets/image (209)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (209)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -199,7 +199,7 @@ Admin chọn trường **Exam** tại màn hình **Create Class**. Hệ thống 
 
 Admin tìm kiếm kỳ thi tại màn hình **Add Exam** nếu cần.
 
-<figure><img src="../.gitbook/assets/image (210)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (210)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

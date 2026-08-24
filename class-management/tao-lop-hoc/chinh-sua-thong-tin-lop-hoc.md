@@ -44,7 +44,7 @@ _A - Add | M - Modify | D - Delete_
 
 Người dùng chọn **Action → Edit** tại lớp cần chỉnh sửa trên màn hình **Class List**. Hệ thống mở màn hình chỉnh sửa thông tin lớp học.
 
-<figure><img src="../.gitbook/assets/image (215)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (215)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -52,7 +52,7 @@ Người dùng chọn **Action → Edit** tại lớp cần chỉnh sửa trên 
 
 Người dùng chỉnh sửa các thông tin được phép tại màn hình **Edit Class Info**. Các trường được phép chỉnh sửa phụ thuộc vào loại lớp, hình thức học và trạng thái học tập của học viên trong lớp.
 
-<figure><img src="../.gitbook/assets/image (217)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (217)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -60,7 +60,7 @@ Người dùng chỉnh sửa các thông tin được phép tại màn hình **E
 
 Người dùng chọn **Save** tại màn hình **Edit Class Info**. Hệ thống lưu thông tin mới và cập nhật dữ liệu lớp học.
 
-<figure><img src="../.gitbook/assets/image (219)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (219)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -82,7 +82,7 @@ Người dùng nhấp vào **tên lớp học** tại màn hình **Class List**.
 
 Người dùng chọn **Edit Class Info** tại tab **Overview**. Hệ thống mở màn hình chỉnh sửa thông tin lớp học.
 
-<figure><img src="../.gitbook/assets/image (220)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (220)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -104,7 +104,7 @@ Người dùng cập nhật thông tin cần thay đổi tại màn hình **Edit
 
 Người dùng nhấp vào **tên lớp học** tại màn hình **Class List**.
 
-<figure><img src="../.gitbook/assets/image (221)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (221)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -138,7 +138,7 @@ Người dùng chọn trường **Classroom** tại màn hình **Edit Class Info
 
 Người dùng tìm kiếm phòng học bằng **Search** hoặc bộ lọc **Type** nếu cần. Hệ thống hiển thị danh sách phòng học phù hợp với điều kiện của lớp.
 
-<figure><img src="../.gitbook/assets/image (222)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (222)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

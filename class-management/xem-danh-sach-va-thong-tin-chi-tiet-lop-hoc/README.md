@@ -1,12 +1,4 @@
-# Xem danh sách và thông tin chi tiết lớp học
-
-## Record of changes
-
-_A - Add | M - Modify | D - Delete_
-
-| Effective Date | Update Person | A,M,D | Change Description             | Version |
-| -------------- | ------------- | ----- | ------------------------------ | ------- |
-| May 25, 2026   | Lê Xuân Mai   | M     | Chuẩn hóa nội dung lên GitBook | 4.7.0   |
+# Danh sách lớp học
 
 ## I. Thông tin chung
 
@@ -45,7 +37,7 @@ _A - Add | M - Modify | D - Delete_
 
 Người dùng chọn **Class List** tại menu **Class**. Hệ thống hiển thị màn hình **Class List**.
 
-<figure><img src="../.gitbook/assets/image (188)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (188)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -71,7 +63,7 @@ Các cột thông tin trong bảng danh sách:
 
 Người dùng nhập hoặc chọn điều kiện tìm kiếm tại vùng bộ lọc của màn hình **Class List**.
 
-<figure><img src="../.gitbook/assets/image (189)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (189)" alt=""><figcaption></figcaption></figure>
 
 Có thể lọc theo các trường: tên/mã lớp (Search by name and code), Code, Program, Subject, Status, Facility, Construction Mode (Blended, Hybrid, Online, Recorded Online...), Type, Class Owner, CX Admin, Sort by hoặc khoảng thời gian (From date - To date).
 {% endstep %}
@@ -101,13 +93,13 @@ Người dùng chọn **Reset** để xóa toàn bộ điều kiện tìm kiếm
 
 Người dùng nhấp vào **tên lớp học** tại màn hình **Class List**. Hệ thống mở màn hình **Class Detail** của lớp được chọn.
 
-<figure><img src="../.gitbook/assets/image (190)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (190)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Tab Overview — thông tin tổng quan**
 
-<figure><img src="../.gitbook/assets/image (191)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (191)" alt=""><figcaption></figcaption></figure>
 
 Người dùng chọn tab **Overview** để xem thông tin tổng quan của lớp học.
 
@@ -119,7 +111,7 @@ Người dùng chọn tab **Overview** để xem thông tin tổng quan của l�
 
 Người dùng chọn tab **Calendar** để xem lịch học theo dạng Calendar. (Chỉ hiển thị với lớp có Construction Mode = Offline, Blended, Live\_Online, Hybrid)
 
-<figure><img src="../.gitbook/assets/image (192)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (192)" alt=""><figcaption></figcaption></figure>
 
 | Thành phần              | Mô tả                                            |
 | ----------------------- | ------------------------------------------------ |
@@ -149,7 +141,7 @@ Người dùng chọn tab **Calendar** để xem lịch học theo dạng Calend
 
 Người dùng chọn tab **Progress** để xem tiến độ học tập của lớp. Hệ thống hiển thị thông tin tiến độ giảng dạy theo dữ liệu giảng viên đã khai báo.
 
-<figure><img src="../.gitbook/assets/image (194)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (194)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -157,7 +149,7 @@ Người dùng chọn tab **Progress** để xem tiến độ học tập của 
 
 Người dùng chọn tab **Students** để xem danh sách học viên đang thuộc lớp học.
 
-<figure><img src="../.gitbook/assets/image (196)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (196)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -165,7 +157,7 @@ Người dùng chọn tab **Students** để xem danh sách học viên đang th
 
 Người dùng chọn tab **Mentors** để xem danh sách trợ giảng đang được gắn với lớp học.
 
-<figure><img src="../.gitbook/assets/image (198)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (198)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -173,7 +165,7 @@ Người dùng chọn tab **Mentors** để xem danh sách trợ giảng đang �
 
 Người dùng chọn tab **Teachers** để xem danh sách giảng viên đang được gắn với lớp học.
 
-<figure><img src="../.gitbook/assets/image (200)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (200)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -181,7 +173,7 @@ Người dùng chọn tab **Teachers** để xem danh sách giảng viên đang 
 
 Người dùng chọn tab **Test/Quiz** để xem danh sách bài kiểm tra trong khóa học gắn với lớp (nếu khóa học có cấu hình Test/Quiz).
 
-<figure><img src="../.gitbook/assets/image (202)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (202)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

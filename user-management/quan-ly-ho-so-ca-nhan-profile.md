@@ -25,7 +25,7 @@
 {% step %}
 **Truy cập hệ thống UpLMS Ops**
 
-Mở trình duyệt và truy cập đường dẫn hệ thống UpLMS Ops: [https://ops.staging.upbase.asia/](https://ops.staging.upbase.asia/)
+Mở trình duyệt và truy cập đường dẫn hệ thống UpLMS Ops: [https://uplms-ops.upbase.asia/](https://uplms-ops.upbase.asia/)
 {% endstep %}
 
 {% step %}

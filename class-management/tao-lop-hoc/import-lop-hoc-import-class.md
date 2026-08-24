@@ -42,7 +42,7 @@ _A - Add | M - Modify | D - Delete_
 
 Admin chọn **Import Class** tại màn hình **Class List**. Hệ thống hiển thị popup tải file import.
 
-<figure><img src="../.gitbook/assets/image (211)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (211)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -50,7 +50,7 @@ Admin chọn **Import Class** tại màn hình **Class List**. Hệ thống hi�
 
 Admin chọn **Browse** tại popup **Import Class** để chọn file từ thiết bị. Hệ thống chỉ chấp nhận file định dạng **.csv** hoặc **.xlsx**.
 
-<figure><img src="../.gitbook/assets/image (212)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (212)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -58,7 +58,7 @@ Admin chọn **Browse** tại popup **Import Class** để chọn file từ thi�
 
 Admin chọn đúng file import cần tải lên. Mỗi lần import, hệ thống chỉ cho phép chọn **01 file**.
 
-<figure><img src="../.gitbook/assets/image (213)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (213)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -66,7 +66,7 @@ Admin chọn đúng file import cần tải lên. Mỗi lần import, hệ thố
 
 Admin chọn **Import** tại popup **Import Class**. Hệ thống tải file lên và bắt đầu xử lý dữ liệu lớp học trong file.
 
-<figure><img src="../.gitbook/assets/image (214)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (214)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -80,7 +80,7 @@ Hệ thống hiển thị hộp thoại kết quả import sau khi xử lý file
 
 Admin chọn **View Log** tại hộp thoại kết quả import để xem chi tiết trạng thái từng bản ghi. Hệ thống mở màn hình chi tiết log import.
 
-<figure><img src="../.gitbook/assets/image (216)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (216)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -88,7 +88,7 @@ Admin chọn **View Log** tại hộp thoại kết quả import để xem chi t
 
 Admin kiểm tra các dòng lỗi tại màn hình **Import Detail**. Các trường dữ liệu không hợp lệ được bôi đỏ và lý do lỗi được hiển thị tại cột **Errors**.
 
-<figure><img src="../.gitbook/assets/image (218)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (218)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
