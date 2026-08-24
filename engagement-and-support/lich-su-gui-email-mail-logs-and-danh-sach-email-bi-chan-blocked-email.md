@@ -1,4 +1,8 @@
-# Lịch sử gửi email (Mail Logs) & Danh sách Email bị chặn (Blocked Email)
+---
+hidden: true
+---
+
+# Lịch sử gửi Email của hệ thống
 
 ## Record of changes
 

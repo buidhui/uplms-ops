@@ -1,4 +1,8 @@
-# Nhóm đối tượng gửi email (Recipients List)
+---
+hidden: true
+---
+
+# Nhóm người dùng nhận Email
 
 ## Record of changes
 

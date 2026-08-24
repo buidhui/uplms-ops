@@ -51,4 +51,4 @@
 * [Email và Thông báo hệ thống](engagement-and-support/danh-sach-thong-bao-and-email-notice-list-and-email-list.md)
 * [Nhóm người dùng nhận Email](engagement-and-support/nhom-doi-tuong-gui-email-recipients-list.md)
 * [Lịch sử gửi Email của hệ thống](engagement-and-support/lich-su-gui-email-mail-logs-and-danh-sach-email-bi-chan-blocked-email.md)
-* [Nhóm nhân sự hỗ trợ trả lời bình luận](engagement-and-support/nhom-nhan-su-ho-tro-tra-loi-binh-luan.md)
+* [Nhân sự hỗ trợ trả lời bình luận](engagement-and-support/nhan-su-ho-tro-tra-loi-binh-luan.md)

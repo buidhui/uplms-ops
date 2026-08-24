@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Email và Thông báo hệ thống
 
 ## I. Thông tin chung
@@ -19,15 +23,11 @@
 
 <details>
 
-<summary>Xem danh sách thông báo &#x26; Email</summary>
+<summary>Danh sách thông báo &#x26; Email</summary>
 
 {% stepper %}
 {% step %}
-**Truy cập Notification List & Email List**
-
-Tại thanh Menu, truy cập **Engagement & Support** → chọn **Notice & Email** → **Notification List & Email List**.
-
-<figure><img src="../.gitbook/assets/image (365)" alt=""><figcaption></figcaption></figure>
+**Truy cập Notification & Email List tại Engagement & Support**
 
 Các trường thông tin hiển thị bao gồm:
 
