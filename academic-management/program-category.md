@@ -39,7 +39,7 @@ Chọn Course Materials → Course Category
 {% endstep %}
 
 {% step %}
-Điền thông tin danh mục
+**Điền thông tin danh mục**
 
 <figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
@@ -71,7 +71,7 @@ Chọn Course Materials → Course Category
 ### Mẹo sử dụng
 
 1. Nên đặt tên ngắn gọn, rõ nghĩa và thống nhất theo quy chuẩn đặt tên của hệ thống.
-2. Khi chỉnh sửa tên, cần kiểm tra kỹ để tránh ảnh hưởng đến việc nhận diện nhóm môn học ở các tính năng liên quan.
+2. Khi chỉnh sửa tên, cần kiểm tra kỹ để tránh ảnh hưởng đến việc nhận diện nhóm khóa học ở các tính năng liên quan.
 {% endhint %}
 
 ## IV. Các lỗi thường gặp & Hướng dẫn xử lý

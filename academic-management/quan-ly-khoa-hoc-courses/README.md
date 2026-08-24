@@ -1,14 +1,40 @@
 # Quản lý khóa học
 
-#### Luồng quản lý khóa học (Course)
+Khóa học là đơn vị nội dung gốc của hệ thống: nó chứa bài học, bài kiểm tra, tài liệu và chứng chỉ. Lớp học ở [Class Management](../../class-management/tong-quan-lop-hoc-classes.md) không tự chứa nội dung — lớp gắn vào một khóa học đã publish và học viên trong lớp học theo nội dung của khóa đó. Vì vậy khóa học phải hoàn chỉnh trước khi mở lớp.
 
-Một khóa học trong UpLMS Ops được tạo theo luồng tuần tự 4 bước: bắt đầu từ việc điền thông tin cơ bản **(Course Infor)**, xây dựng cấu trúc bài học **(Course Content)**, đính kèm tài liệu học tập **(Resource)**, và cuối cùng gắn template chứng chỉ **(Certificate)**.
+#### Luồng tạo khóa học
 
-Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sửa** nội dung hoặc **chuyển đổi trạng thái** khóa học giữa Draft, Public, Lock và Block tùy theo giai đoạn triển khai. Chỉ khóa học ở trạng thái **Public** mới có thể được sử dụng để tạo lớp học ở module Class.
+Một khóa học được dựng qua 4 bước tuần tự:
+
+1. **Tạo khóa học** — điền thông tin cơ bản: tên, mã, danh mục, loại khóa (Normal hoặc Foundation), điểm đạt và tỷ trọng điểm thành phần.
+2. **Tạo nội dung khóa học** — dựng các hoạt động học và hoạt động kiểm tra bên trong khóa.
+3. **Thêm tài liệu khóa học** — đính kèm học liệu dùng chung cho khóa.
+4. **Thêm chứng chỉ khóa học** — gắn mẫu chứng chỉ cấp cho học viên khi hoàn thành.
 
 <figure><img src="../../.gitbook/assets/image (941).png" alt=""><figcaption></figcaption></figure>
 
+#### Trạng thái khóa học
 
+| Trạng thái    | Ý nghĩa                                                                        |
+| ------------- | ------------------------------------------------------------------------------ |
+| **Draft**     | Khóa học đang tạo dở, chưa publish.                                            |
+| **Publish**   | Khóa học đã hoàn chỉnh và sẵn sàng để thêm vào lớp học.                        |
+| **Lock**      | Khóa học đã có ít nhất một học viên bắt đầu học.                               |
+| **Block**     | Khóa học bị chặn, không thể thêm vào lớp học.                                  |
+
+{% hint style="warning" %}
+Khóa học chỉ được **Publish** khi đã tạo nội dung và gắn chứng chỉ. Khóa ở trạng thái **Draft** hoặc **Block** không thêm được vào lớp.
+{% endhint %}
+
+#### Nội dung trong mục này
+
+* [**Danh sách khóa học**](xem-danh-sach-khoa-hoc-course-list.md): xem, tìm kiếm và lọc khóa học theo tên, trạng thái, danh mục.
+* [**Tạo khóa học**](tao-khoa-hoc-course-infor.md): bước đầu tiên — thông tin cơ bản, loại khóa, điểm đạt và điểm thành phần.
+* [**Tạo nội dung khóa học**](tao-noi-dung-khoa-hoc-course-content/README.md): dựng hoạt động học và hoạt động kiểm tra trong khóa.
+* [**Thêm tài liệu khóa học**](tai-len-tai-lieu-cho-khoa-hoc-resource.md): đính kèm học liệu cho khóa.
+* [**Thêm chứng chỉ khóa học**](gan-chung-chi-cho-khoa-hoc-certificate.md): gắn mẫu chứng chỉ hoàn thành.
+
+***
 
 ### Business Rule
 
@@ -23,8 +49,8 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 | BR-COURSE-003 | Một khóa học sau khi tạo mặc định ở trạng thái **Draft**.                                                                                         |
 | BR-COURSE-004 | Một khóa học hoàn chỉnh cần đi qua 4 bước cấu hình: **Course Info → Course Content → Resource → Certificate**.                                    |
 | BR-COURSE-005 | Thanh process cho phép Admin điều hướng giữa các bước tạo khóa học, tuy nhiên mỗi bước vẫn cần đáp ứng điều kiện dữ liệu tương ứng trước khi lưu. |
-| BR-COURSE-006 | Cấu trúc **4 level** áp dụng cho khóa học có đầy đủ các cấp nội dung: **Section → Subsection → Unit → Activity**.                                 |
-| BR-COURSE-007 | Danh sách khóa học hỗ trợ tìm kiếm/lọc theo tên khóa học, Program, Status, Type, khoảng ngày và Sort by.                                          |
+| BR-COURSE-006 | Cấu trúc nội dung khóa học gồm 2 cấp: **Section → Activity**.                                 |
+| BR-COURSE-007 | Danh sách khóa học hỗ trợ tìm kiếm/lọc theo tên khóa học, Course Category, Status, Type, khoảng ngày và Sort by.                                          |
 
 </details>
 
@@ -34,17 +60,16 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 
 | Mã rule            | Business Rule                                                                                                                                       |
 | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| BR-COURSE-INFO-001 | Khi tạo mới khóa học, các trường bắt buộc gồm: **Name, Code, Program, Subject, Type, Pass Point, điểm các thành phần**.                             |
+| BR-COURSE-INFO-001 | Khi tạo mới khóa học, các trường bắt buộc gồm: **Course Name, Course Category, Type, Pass Point, điểm các thành phần**.                             |
 | BR-COURSE-INFO-002 | Trường **Name** dùng để hiển thị tên khóa học trên hệ thống.                                                                                        |
 | BR-COURSE-INFO-003 | Trường **Code** là mã định danh của khóa học và không được trùng với Code của khóa học đã tồn tại.                                                  |
 | BR-COURSE-INFO-004 | Trường **Tag** không bắt buộc. Admin có thể tạo tag mới bằng cách nhập nội dung tag.                                                                |
-| BR-COURSE-INFO-005 | Trường **Program** bắt buộc chọn từ danh sách Program có sẵn trên hệ thống.                                                                         |
-| BR-COURSE-INFO-006 | Trường **Subject** bắt buộc chọn/nhập theo môn học thuộc Program tương ứng.                                                                         |
+| BR-COURSE-INFO-005 | Trường **Course Category** bắt buộc chọn từ danh sách danh mục có sẵn trên hệ thống.                                                                         |
 | BR-COURSE-INFO-007 | Một khóa học chỉ được chọn một **Type** tại thời điểm tạo.                                                                                          |
-| BR-COURSE-INFO-008 | Hệ thống hỗ trợ các Type gồm: **Foundation Course, Trial Course, Practice Course, Normal Course**.                                                  |
+| BR-COURSE-INFO-008 | Hệ thống hỗ trợ 2 Type: **Normal Course** và **Foundation Course**.                                                  |
 | BR-COURSE-INFO-009 | Nếu Type = **Foundation Course**, Admin bắt buộc chọn ít nhất một level cho khóa học.                                                               |
-| BR-COURSE-INFO-010 | Nếu Type = **Normal Course**, hệ thống hiển thị danh sách combobox các Foundation Course theo từng level để Admin có thể chọn khóa nền tảng đi kèm. |
-| BR-COURSE-INFO-011 | Với **Normal Course**, Admin có thể không chọn bất kỳ Foundation Course nào cho cả 4 level.                                                         |
+| BR-COURSE-INFO-010 | Nếu Type = **Normal Course**, Admin có thể gắn kèm một **Foundation Course**; khi đó học viên phải hoàn thành khóa Foundation trước khi học khóa chính. |
+| BR-COURSE-INFO-011 | Với **Normal Course**, Admin có thể chọn hoặc không chọn Foundation Course.                                                         |
 | BR-COURSE-INFO-012 | Trường **Pass Point** là điểm yêu cầu học viên phải đạt để có thể nhận chứng chỉ của khóa học.                                                      |
 | BR-COURSE-INFO-013 | Tổng điểm các thành phần của khóa học phải bằng **100**.                                                                                            |
 | BR-COURSE-INFO-014 | Các thành phần điểm gồm: **Tiến độ học, Graded Quiz, Chapter Test, Topic Test, Mid Test, Final Test**.                                              |
@@ -59,21 +84,9 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 | Mã rule            | Business Rule                                                                                                                                          |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | BR-COURSE-TYPE-001 | **Foundation Course** là khóa học nền tảng, được gắn tương ứng với level của học viên.                                                                 |
-| BR-COURSE-TYPE-002 | **Trial Course** là khóa học thử.                                                                                                                      |
-| BR-COURSE-TYPE-003 | **Practice Course** là khóa luyện tập.                                                                                                                 |
 | BR-COURSE-TYPE-004 | **Normal Course** là khóa học thường, có thể yêu cầu học viên hoàn thành một số Foundation Course trước khi học.                                       |
-| BR-COURSE-TYPE-005 | Tính năng **Link học phần** chỉ áp dụng với khóa học có Type = **Practice Course**.                                                                    |
-| BR-COURSE-TYPE-006 | **Mocktest** chỉ áp dụng với khóa học có Type = **Practice Course**.                                                                                   |
 | BR-COURSE-TYPE-007 | Khi Block một **Foundation Course** đã được gắn với Normal Course, hệ thống cảnh báo rằng khóa Foundation sẽ bị unlink khỏi các khóa Normal liên quan. |
-| BR-COURSE-TYPE-008 | Khi Block khóa **Normal / Trial / Practice**, hệ thống cảnh báo rằng khóa học sẽ bị remove khỏi các lớp chưa bắt đầu.                                  |
-
-</details>
-
-<details>
-
-<summary>Quy tắc về trạng thái khóa học</summary>
-
-
+| BR-COURSE-TYPE-008 | Khi Block khóa **Normal Course**, hệ thống cảnh báo rằng khóa học sẽ bị remove khỏi các lớp chưa bắt đầu.                                  |
 
 </details>
 
@@ -83,14 +96,12 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 
 | Mã rule        | Business Rule                                                                                                                          |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| BR-CONTENT-001 | Với khóa học 4 level, Admin cần tạo nội dung theo thứ tự: **Section → Subsection → Unit → Activity**.                                  |
-| BR-CONTENT-002 | Admin cần tạo **Section** trước khi tạo **Subsection**.                                                                                |
-| BR-CONTENT-003 | Admin cần tạo **Subsection** trước khi tạo **Unit**.                                                                                   |
-| BR-CONTENT-004 | Admin cần tạo **Unit** trước khi tạo **Activity**.                                                                                     |
+| BR-CONTENT-001 | Admin cần tạo nội dung theo thứ tự: **Section → Activity**.                                  |
+| BR-CONTENT-002 | Admin cần tạo **Section** trước khi tạo **Activity**.                                                                                |
 | BR-CONTENT-005 | **Learning Outcome** được tạo ở cấp **Subsection**.                                                                                    |
 | BR-CONTENT-006 | Một Subsection có thể có một hoặc nhiều Learning Outcome.                                                                              |
 | BR-CONTENT-007 | Một Activity có thể được gắn với một hoặc nhiều Learning Outcome đã tạo.                                                               |
-| BR-CONTENT-008 | Các mã **Section Code, Subsection Code, Unit Code, Activity Code** được hệ thống tạo tự động theo rule của khóa học.                   |
+| BR-CONTENT-008 | Các mã **Section Code** và **Activity Code** được hệ thống tạo tự động theo rule của khóa học.                   |
 | BR-CONTENT-009 | Mỗi Activity bắt buộc nhập **Tên activity, Activity Code, Duration, Type of Activity, Grade Activity**.                                |
 | BR-CONTENT-010 | **Type of Activity** dùng để hiển thị icon trên giao diện học viên UpLMS.                                                              |
 | BR-CONTENT-011 | Type of Activity gồm: **Text, Video, Quiz, Pass Exam Analysis**.                                                                       |
@@ -98,9 +109,8 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 | BR-CONTENT-013 | Activity có thể đính kèm một hoặc nhiều Resource.                                                                                      |
 | BR-CONTENT-014 | File Resource đính kèm trong Activity có dung lượng tối đa **500MB/file**.                                                             |
 | BR-CONTENT-015 | Admin có thể tạo nội dung khóa học bằng 3 cách: tạo thủ công, copy cấu phần từ khóa học khác, hoặc link cấu phần học từ khóa học khác. |
-| BR-CONTENT-016 | Tính năng link cấu phần học chỉ áp dụng với khóa **Practice Course**.                                                                  |
 | BR-CONTENT-017 | Không được link chồng các cấu phần học để tránh vòng lặp dữ liệu giữa các khóa học.                                                    |
-| BR-CONTENT-018 | Admin có thể preview các cấp nội dung gồm **Section, Unit, Activity**.                                                                 |
+| BR-CONTENT-018 | Admin có thể preview các cấp nội dung gồm **Section, Activity**.                                                                 |
 | BR-CONTENT-019 | Admin có thể Lock/Unlock các nội dung đã tạo.                                                                                          |
 | BR-CONTENT-020 | Admin có thể Show Lock/Hide Lock để kiểm soát việc hiển thị trạng thái khóa trên giao diện học viên.                                   |
 | BR-CONTENT-021 | Admin có thể Change CTA to Preview/Change CTA to Begin cho các nội dung đã tạo.                                                        |
@@ -114,43 +124,14 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 
 | Mã rule        | Business Rule                                                                                                                                 |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| BR-SECTION-001 | Section là cấp nội dung lớn nhất trong cấu trúc khóa học 4 level.                                                                             |
+| BR-SECTION-001 | Section là cấp nội dung lớn nhất trong cấu trúc khóa học.                                                                             |
 | BR-SECTION-002 | Khi tạo Section, trường **Tên Section** là bắt buộc.                                                                                          |
 | BR-SECTION-003 | **Section Code** là bắt buộc và được hệ thống tự động tạo.                                                                                    |
 | BR-SECTION-004 | Section Code được tạo theo rule: **Code khóa học\_S\[Số thứ tự tạo mới section trong khóa]**.                                                 |
 | BR-SECTION-005 | **Foundation Content** của Section cho phép chọn nhiều giá trị.                                                                               |
 | BR-SECTION-006 | **Key content of** chỉ hiển thị khi chỉnh sửa Section.                                                                                        |
 | BR-SECTION-007 | Nếu Section A được đánh dấu là Foundation Content của Section B, thì tại màn Edit của Section A, trường Key content of sẽ hiển thị Section B. |
-| BR-SECTION-008 | Admin có thể tạo Subsection, Link Subsection, tạo Part/Topic Test, Edit, Preview hoặc Delete Section từ menu Action.                          |
-
-</details>
-
-<details>
-
-<summary>Quy tắc về Subsection</summary>
-
-| Mã rule           | Business Rule                                                                                                                        |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| BR-SUBSECTION-001 | Subsection phải thuộc một Section đã tồn tại.                                                                                        |
-| BR-SUBSECTION-002 | Khi tạo Subsection, trường **Tên Subsection** là bắt buộc.                                                                           |
-| BR-SUBSECTION-003 | **Subsection Code** là bắt buộc và được hệ thống tự động tạo.                                                                        |
-| BR-SUBSECTION-004 | Subsection có thể có Foundation Content và Key content of tương tự Section.                                                          |
-| BR-SUBSECTION-005 | Admin có thể tạo Learning Outcome, Chapter/Module Test, Case Study, Link Unit, Add Unit, Edit hoặc Delete Subsection từ menu Action. |
-| BR-SUBSECTION-006 | Nếu Subsection hiện tại đã có Learning Outcome, người dùng không thể sao chép thêm Learning Outcome khác từ chức năng Copy Unit.     |
-
-</details>
-
-<details>
-
-<summary>Quy tắc về Unit</summary>
-
-| Mã rule     | Business Rule                                                                                                             |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------- |
-| BR-UNIT-001 | Unit phải thuộc một Subsection đã tồn tại.                                                                                |
-| BR-UNIT-002 | Khi tạo Unit, trường **Tên Unit** là bắt buộc.                                                                            |
-| BR-UNIT-003 | **Unit Code** là bắt buộc và được hệ thống tự động tạo.                                                                   |
-| BR-UNIT-004 | Unit Code được tạo theo rule gồm mã khóa học, số thứ tự Section, số thứ tự Subsection và số thứ tự Unit trong Subsection. |
-| BR-UNIT-005 | Admin có thể tạo Activity, Link Activity, Edit, Preview hoặc Delete Unit từ menu Action.                                  |
+| BR-SECTION-008 | Admin có thể tạo Activity, tạo bài kiểm tra, Edit, Preview hoặc Delete Section từ menu Action.                          |
 
 </details>
 
@@ -160,7 +141,7 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 
 | Mã rule         | Business Rule                                                                          |
 | --------------- | -------------------------------------------------------------------------------------- |
-| BR-ACTIVITY-001 | Activity phải thuộc một Unit đã tồn tại.                                               |
+| BR-ACTIVITY-001 | Activity phải thuộc một Section đã tồn tại.                                               |
 | BR-ACTIVITY-002 | Một Activity có thể có một hoặc nhiều Tab.                                             |
 | BR-ACTIVITY-003 | Mỗi Tab có thể có một hoặc nhiều Document.                                             |
 | BR-ACTIVITY-004 | Document trong Activity gồm 3 loại: **Text, Video, Quiz**.                             |
@@ -185,10 +166,7 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 | Mã rule     | Business Rule                                                                                                              |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------- |
 | BR-TEST-001 | Test/Quiz chỉ áp dụng trong phạm vi Course.                                                                                |
-| BR-TEST-002 | Các loại bài test có thể tạo gồm: **Midterm Test, Final Test, Mocktest, Part/Topic Test, Chapter/Module Test, Quiz Test**. |
-| BR-TEST-003 | **Mocktest** chỉ áp dụng với khóa học có Type = Practice.                                                                  |
-| BR-TEST-004 | **Part/Topic Test** được tạo từ Action của Section.                                                                        |
-| BR-TEST-005 | **Chapter/Module Test** được tạo từ Action của Subsection.                                                                 |
+| BR-TEST-002 | Các loại bài test có thể tạo gồm: **Midterm Test, Final Test, Chapter/Module Test, Quiz Test**. |
 | BR-TEST-006 | **Quiz Test** được tạo khi Admin chọn Document = Quiz trong Tab.                                                           |
 | BR-TEST-007 | Type of Test gồm: **Multiple Choice, Constructed, Mixed**.                                                                 |
 | BR-TEST-008 | Nếu Type of Test = Multiple Choice, hệ thống chỉ hiển thị câu hỏi trắc nghiệm ở bước Add Question.                         |
@@ -200,7 +178,6 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 | BR-TEST-014 | Nếu Manual Grading = Yes, bài kiểm tra được chấm điểm thủ công bởi đội SX.                                                 |
 | BR-TEST-015 | Nếu Manual Grading = No, bài kiểm tra được hệ thống chấm điểm tự động.                                                     |
 | BR-TEST-016 | Với Quiz/Chapter Test/Topic Test/Midterm Test/Final Test, nếu Manual Grading = Yes thì Graded Assignment = Yes.            |
-| BR-TEST-017 | Với Mocktest, Graded Assignment = No trong mọi trường hợp.                                                                 |
 | BR-TEST-018 | Grading Preference gồm **After each question** và **After all questions**.                                                 |
 | BR-TEST-019 | Pass Point mặc định là **Auto 50%**.                                                                                       |
 | BR-TEST-020 | Nếu Pass Point = Manual, Admin cần nhập số điểm pass point.                                                                |
@@ -285,7 +262,7 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | BR-EDIT-001 | Nếu lớp chưa có học viên hoặc có học viên nhưng học viên chưa học, Admin được sửa tất cả thông tin khóa học.                                                                      |
 | BR-EDIT-002 | Nếu đã có học viên học nhưng chưa có học viên nào học xong, Course Info vẫn được sửa tất cả thông tin.                                                                            |
-| BR-EDIT-003 | Nếu đã có học viên học nhưng chưa học xong, Admin được sửa/xóa Section, Subsection, Unit, Activity, Tab dạng Text hoặc Video nếu không chứa Test/Quiz/Case Study đã có người làm. |
+| BR-EDIT-003 | Nếu đã có học viên học nhưng chưa học xong, Admin được sửa/xóa Section, Activity, Tab dạng Text hoặc Video nếu không chứa Test/Quiz/Case Study đã có người làm. |
 | BR-EDIT-004 | Nếu đã có học viên học nhưng chưa học xong, Admin được phép kéo thả cấu phần học.                                                                                                 |
 | BR-EDIT-005 | Nếu đã có học viên học nhưng chưa học xong, Admin được thêm cấu phần học và bài Test.                                                                                             |
 | BR-EDIT-006 | Với Test/Quiz/Case Study đã có người làm, Admin không được xóa bài test/quiz/case study và không được xóa cấu phần chứa các bài này.                                              |
@@ -320,30 +297,6 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 
 <details>
 
-<summary>Quy tắc về Learning Schedule</summary>
-
-| Mã rule         | Business Rule                                                                                         |
-| --------------- | ----------------------------------------------------------------------------------------------------- |
-| BR-SCHEDULE-001 | Learning Schedule dùng để xác định nội dung cho từng buổi học.                                        |
-| BR-SCHEDULE-002 | Learning Schedule là thông tin đầu vào để xếp lịch học tự động cho lớp Offline/Hybrid/Blended.        |
-| BR-SCHEDULE-003 | Người dùng xem Learning Schedule từ màn Course 4 Level thông qua **Action → Learning Schedule**.      |
-| BR-SCHEDULE-004 | Người dùng có thể xem danh sách buổi học và chi tiết từng buổi học.                                   |
-| BR-SCHEDULE-005 | Người dùng có thể xem lịch sử chỉnh sửa Learning Schedule tại **Versions**.                           |
-| BR-SCHEDULE-006 | Mỗi version hiển thị thông tin: Version, Last updated, Changed by.                                    |
-| BR-SCHEDULE-007 | Version hiện tại được đánh dấu là **Current**.                                                        |
-| BR-SCHEDULE-008 | Khi tạo hoặc chỉnh sửa buổi học, các trường bắt buộc gồm **Lesson Name, Study hour, Course content**. |
-| BR-SCHEDULE-009 | Checkbox **Online LMS** dùng để đánh dấu buổi học Online trên UpLMS.                                  |
-| BR-SCHEDULE-010 | Trường **View on UpLMS** chỉ áp dụng với buổi học Offline.                                            |
-| BR-SCHEDULE-011 | Nếu View on UpLMS được tick, học viên được phép xem lại nội dung buổi học trên UpLMS.                 |
-| BR-SCHEDULE-012 | Nếu View on UpLMS không được tick, học viên không được xem lại nội dung buổi học trên UpLMS.          |
-| BR-SCHEDULE-013 | Course content trong buổi học chỉ hiển thị các cấu phần học chưa được thêm vào buổi nào.              |
-| BR-SCHEDULE-014 | Người dùng có thể xóa buổi học sau khi xác nhận tại popup.                                            |
-| BR-SCHEDULE-015 | Người dùng có thể khôi phục Learning Schedule từ phiên bản cũ bằng chức năng Restore.                 |
-
-</details>
-
-<details>
-
 <summary>Quy tắc về Copy Course Content</summary>
 
 | Mã rule     | Business Rule                                                                                                                                                         |
@@ -351,9 +304,7 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 | BR-COPY-001 | Admin có thể sao chép cấu phần học từ khóa học đã tồn tại trên hệ thống.                                                                                              |
 | BR-COPY-002 | Khi copy cấu phần, Admin bắt buộc chọn khóa học nguồn tại trường **Select Course**.                                                                                   |
 | BR-COPY-003 | Admin có thể chọn một hoặc nhiều cấu phần muốn sao chép.                                                                                                              |
-| BR-COPY-004 | Khi copy Section, các cấu phần có thể copy gồm **Section, Midterm Test, Final Test, Mock Test** đối với khóa Practice.                                                |
-| BR-COPY-005 | Khi copy Subsection, các cấu phần có thể copy gồm **Subsection, Part/Topic Test**.                                                                                    |
-| BR-COPY-006 | Khi copy Unit, các cấu phần có thể copy gồm **Learning Outcome, Unit, Case Study, Chapter/Module Test**.                                                              |
+| BR-COPY-004 | Khi copy Section, các cấu phần có thể copy gồm **Section, Midterm Test, Final Test**.                                                |
 | BR-COPY-007 | Khi copy Activity, cấu phần có thể copy là **Activity**.                                                                                                              |
 | BR-COPY-008 | Khi copy một cấu phần, toàn bộ cấu phần con của cấu phần được chọn sẽ được sao chép sang khóa học hiện tại.                                                           |
 | BR-COPY-009 | Nếu Activity đã liên kết với Learning Outcome, liên kết này được giữ nguyên trong khóa học mới nếu Admin copy đồng thời cả Learning Outcome và Unit chứa Activity đó. |
@@ -368,11 +319,8 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 
 | Mã rule     | Business Rule                                                                                    |
 | ----------- | ------------------------------------------------------------------------------------------------ |
-| BR-LINK-001 | Tính năng Link học phần chỉ thực hiện được với khóa học Type = Practice.                         |
-| BR-LINK-002 | Các cấu phần có thể link gồm **Section, Subsection, Unit, Activity**.                            |
+| BR-LINK-002 | Các cấu phần có thể link gồm **Section, Activity**.                            |
 | BR-LINK-003 | Link Section được thực hiện từ button **Link Section** trên màn Course Content.                  |
-| BR-LINK-004 | Link Subsection được thực hiện từ Action của Section.                                            |
-| BR-LINK-005 | Link Unit được thực hiện từ Action của Subsection.                                               |
 | BR-LINK-006 | Link Activity được thực hiện từ Action của Unit.                                                 |
 | BR-LINK-007 | Admin cần tìm kiếm và chọn khóa học nguồn chứa cấu phần cần link.                                |
 | BR-LINK-008 | Admin có thể chọn một hoặc nhiều học phần để link.                                               |
@@ -392,8 +340,7 @@ Sau khi khóa học đã được tạo, người dùng có thể **chỉnh sử
 | BR-DELETE-001 | Admin chỉ được xóa Course Content nếu có quyền và cấu phần thỏa mãn điều kiện xóa.      |
 | BR-DELETE-002 | Không được xóa Test/Quiz/Case Study đã có học viên làm.                                 |
 | BR-DELETE-003 | Không được xóa cấu phần cha nếu bên trong chứa Test/Quiz/Case Study đã có học viên làm. |
-| BR-DELETE-004 | Không được xóa Subject đã được gán với khóa học.                                        |
-| BR-DELETE-005 | Không thể xóa Program Category/Course Category đã tạo khỏi danh sách.                   |
+| BR-DELETE-005 | Không thể xóa Course Category đã được gán với khóa học.                   |
 | BR-DELETE-006 | Admin có thể xóa tài liệu khỏi Resource của khóa học nếu có quyền.                      |
 | BR-DELETE-007 | Xóa buổi học trong Learning Schedule cần xác nhận tại popup trước khi thực hiện.        |
 

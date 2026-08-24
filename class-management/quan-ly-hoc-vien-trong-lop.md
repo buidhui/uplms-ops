@@ -1,4 +1,4 @@
-# Quản lý học viên trong lớp&#x20;
+# Quản lý học viên trong lớp
 
 ## I. Thông tin chung
 
@@ -55,11 +55,11 @@ Nên tải **file mẫu** trước khi nhập dữ liệu import; dữ liệu c�
 {% step %}
 **Xem kết quả Import**
 
-Hộp thoại kết quả import hiển thị sau khi xử lý file:&#x20;
+Hộp thoại kết quả import hiển thị sau khi xử lý file:
 
 * Tên file
 * Tổng số bản ghi
-* Số lớp tạo thành công và số lớp tạo thất bại
+* Số học viên thêm thành công và số học viên thêm thất bại
 {% endstep %}
 
 {% step %}
@@ -164,4 +164,4 @@ Sau khi Allow Pass Foundation, học viên không bắt buộc phải hoàn thà
 | ------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------- |
 | Không cập nhật được thời hạn học           | Lớp Duration = Flexible và học viên chưa kích hoạt khóa học | Chờ học viên kích hoạt khóa học rồi cập nhật thời hạn       |
 | Không xóa được cấu phần học của học viên   | Học viên đã học cấu phần đó                                 | Chỉ được xóa cấu phần học viên chưa học                     |
-| Không thực hiện được thao tác với học viên | Tài khoản chưa có quyền quản lý học viên trong lớp          | Liên hệ Admin hệ thống để kiểm tra phân quyền |
+| Không thực hiện được thao tác với học viên | Tài khoản chưa có quyền quản lý học viên trong lớp          | Liên hệ Admin hệ thống để kiểm tra phân quyền |

@@ -68,7 +68,7 @@ Chọn Add Course → Chọn khóa muốn gán → Add
 {% step %}
 **Thêm học viên vào lớp (Optional)**
 
-Sau khi lưu thông tin lớp, nhân sự vận hành có thể thêm học viên luôn ngay ở bước tạo lớp học có thể thêm sau theo hướng dẫn [quan-ly-hoc-vien-student.md](../user-management/quan-ly-hoc-vien-student.md "mention")
+Sau khi lưu thông tin lớp, nhân sự vận hành có thể thêm học viên ngay ở bước tạo lớp, hoặc thêm sau theo hướng dẫn [quan-ly-hoc-vien-student.md](../user-management/quan-ly-hoc-vien-student.md "mention")
 
 <figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -100,7 +100,7 @@ Nên tải **file mẫu** trước khi nhập dữ liệu import; dữ liệu c�
 {% step %}
 **Xem kết quả Import**
 
-Hộp thoại kết quả import hiển thị sau khi xử lý file:&#x20;
+Hộp thoại kết quả import hiển thị sau khi xử lý file:
 
 * Tên file
 * Tổng số bản ghi
@@ -140,7 +140,7 @@ Lớp Lesson:
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
@@ -158,7 +158,7 @@ Lớp Lesson:
 1. Sau khi import, nên mở **View Log** để xử lý các dòng bị bôi đỏ (lý do lỗi) rồi import lại.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                     | Nguyên nhân                                    | Cách xử lý                                                           |
 | ------------------------------------ | ---------------------------------------------- | -------------------------------------------------------------------- |

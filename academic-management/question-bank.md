@@ -189,7 +189,7 @@ Việc chỉnh sửa phụ thuộc vào trạng thái câu hỏi:
 <summary>Xóa câu hỏi</summary>
 
 {% hint style="warning" %}
-Không thể xóa những câu hỏi đã đã được thêm vào Test/ Quiz/ Case Study/ Storyline.
+Không thể xóa những câu hỏi đã được thêm vào Test/ Quiz/ Case Study/ Storyline.
 {% endhint %}
 
 </details>

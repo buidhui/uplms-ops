@@ -10,7 +10,7 @@
 {% endhint %}
 
 {% hint style="warning" %}
-#### Điều kiện tiên quyết:
+#### Điều kiện tiên quyết
 
 * Các tài khoản được thêm vào nhóm cần là tài khoản học viên được đánh dấu **Test Account = Yes**.
 {% endhint %}
@@ -43,7 +43,7 @@ Engagement & Support → Course Comment → Comment Repliers
 {% endstep %}
 
 {% step %}
-Điền thông tin
+**Điền thông tin**
 
 <figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 
@@ -66,18 +66,17 @@ Engagement & Support → Course Comment → Comment Repliers
 
 </details>
 
-## III. Lưu Ý & Quy Tắc Nghiệp Vụ
+## III. Lưu ý & Quy tắc nghiệp vụ
 
 {% hint style="warning" %}
 ### Lưu ý quan trọng
 
 1. Thành viên được thêm vào nhóm sẽ được tự động thêm vào các lớp có Danh mục gắn với nhóm (mỗi khóa học chỉ thêm vào 1 lớp duy nhất); thời hạn học được gia hạn liên tục mỗi năm một lần.
-2. Tài khoản được thêm vào nhóm phải là tài khoản học viên có **Test Account = Yes**.Cần kiểm tra trước khi thêm vào nhóm.
+2. Tài khoản được thêm vào nhóm phải là tài khoản học viên có **Test Account = Yes**. Cần kiểm tra trước khi thêm vào nhóm.
 3. Khi xóa thành viên khỏi nhóm hoặc xóa nhóm: thành viên sẽ bị xóa khỏi các lớp có khóa thuộc Category đã thêm trước đó.
-4.
 {% endhint %}
 
-## IV. Các Lỗi Thường Gặp & Cách Xử Lý
+## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
 | Lỗi / Tình huống                       | Nguyên nhân                                          | Cách xử lý                                           |
 | -------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- |

@@ -70,7 +70,7 @@ Tùy chọn Upload Media hay Upload File:
 * Kích cỡ tối đa của Media (video, file âm thanh) là **20GB**; mỗi lần upload chỉ được chọn 1 media.
 * Kích cỡ tối đa của các tài liệu khác là **500MB**; được chọn tối đa 10 tài liệu/lần.
 
-Có thể Tải lên từ thiết bị hoặc chọn trừ Tài nguyên hệ thống
+Có thể tải lên từ thiết bị hoặc chọn từ Tài nguyên hệ thống.
 {% endstep %}
 
 {% step %}
@@ -98,7 +98,7 @@ Tại mục **Share Resource**, chọn đối tượng chia sẻ và quyền:
 
 <figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
-2. **Thay đổi vị trí**&#x20;
+2. **Thay đổi vị trí**
 
 <figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 

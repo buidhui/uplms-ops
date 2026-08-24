@@ -41,7 +41,7 @@ Người dùng mở tab **Mentors** trong màn hình **Class Detail**.
 {% endstep %}
 
 {% step %}
-**Chọn Main Responsible**&#x20;
+**Chọn Main Responsible**
 
 Người dùng xác định trợ giảng cần đặt làm trợ giảng chính tại danh sách **Mentors**.
 

@@ -30,42 +30,51 @@ layout:
 
 #### UpLMS Ops là gì?
 
-UpLMS Ops là hệ thống quản lý vận hành toàn bộ hoạt động đào tạo — từ lúc học viên đăng ký học cho đến khi hoàn thành khóa học và nhận chứng chỉ. Hệ thống này là công cụ làm việc hàng ngày của các bộ phận Admin, CX, SX và lễ tân, để các bộ phận cùng làm việc trên một nguồn dữ liệu duy nhất.
+UpLMS Ops là hệ thống vận hành đào tạo nội bộ của UpBase. Học viên học trên **UpLMS**; còn toàn bộ phần cấu hình và vận hành phía sau — xây dựng khóa học, mở lớp, quản lý tài khoản, chấm điểm, gửi thông báo — diễn ra tại **UpLMS Ops**.
+
+Các bộ phận làm việc trên cùng một nguồn dữ liệu: khóa học tạo ở Academic Management được gắn vào lớp ở Class Management, học viên tạo ở User Management được thêm vào lớp đó, và kết quả học tập chảy về Grading và Dashboard.
 
 ***
 
 #### Tài liệu này dành cho ai?
 
-| Đối tượng                  | Vai trò trong UpLMS Ops                                                                                         |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Business / Management**  | Theo dõi tổng quan vận hành qua Dashboard, nắm luồng xử lý giữa các bộ phận                                   |
-| **CX – Vận hành lớp học**  | Tạo và vận hành lớp học, xếp lịch, quản lý giảng viên,...                                                     |
-| **SX – Sản xuất nội dung** | Xây dựng khóa học, ngân hàng câu hỏi, bài kiểm tra, chứng chỉ, chấm điểm, hỗ trợ học viên trả lời comment,... |
+| Vai trò                       | Phần tài liệu liên quan                                                                 |
+| ----------------------------- | --------------------------------------------------------------------------------------- |
+| **UpLMS Operator**            | Xuất hiện ở hầu hết các mục: User Management, Academic Management, Class, Dashboard, Engagement & Support |
+| **Admin**                     | Bài kiểm tra trong lớp, Dashboard, Email và Thông báo hệ thống                          |
+| **L\&D**                      | Danh sách khóa học, Tạo khóa học                                                        |
+| **SX**                        | Storyline                                                                               |
+| **Mentor / Mentor chính**     | Toàn bộ mục Chấm điểm                                                                   |
+| **CX**                        | Bài kiểm tra trong lớp                                                                  |
+| **Giảng viên, Quản lý chương trình** | SIS Operational Dashboard                                                        |
+
+Mỗi trang đều có trường **Dành cho** ở đầu — nếu vai trò của bạn không nằm trong đó, khả năng cao bạn không có quyền thao tác trên màn hình được mô tả.
 
 ***
 
-#### Luồng vận hành tổng quan
+#### Tài liệu gồm những gì?
 
-UpLMS Ops được thiết kế xuyên suốt theo **hành trình học tập của học viên**, chia làm 3 giai đoạn chính:
-
-**1. Trước khi học viên bắt đầu học**
-
-Toàn bộ công tác chuẩn bị: xây dựng nội dung khóa học, thiết lập tài khoản người dùng, tạo lớp học, phân công giảng viên, xếp lịch và phòng học, đồng thời xử lý đăng ký học — từ đồng bộ dữ liệu HubSpot, thu học phí, đến kiểm tra đầu vào và mở lớp chính thức.
-
-**2. Trong quá trình học viên học**
-
-Vận hành lớp học hàng ngày: theo dõi tiến độ học trên UpLMS, quản lý lịch nghỉ lễ, hỗ trợ học viên qua support ticket, giám sát tiến độ giảng viên và thực hiện chấm điểm.
-
-**3. Sau khi học viên học xong**
-
-Thông báo kết quả học tập, cấp chứng chỉ hoàn thành và tổng hợp số liệu lên Dashboard để theo dõi hiệu quả vận hành. Kết quả giai đoạn này cũng là đầu vào cho việc tái đăng ký hoặc mở lớp tiếp theo.
+| Mục                                                                | Nội dung                                                                                        |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| [User Management](user-management/quan-ly-ho-so-ca-nhan-profile.md) | Hồ sơ cá nhân, tài khoản học viên và tài khoản nhân viên vận hành                               |
+| [Academic Management](academic-management/quan-ly-khoa-hoc-courses/README.md) | Khóa học, nội dung học, ngân hàng câu hỏi, Case Study, Storyline, danh mục và chứng chỉ |
+| [Class Management](class-management/tong-quan-lop-hoc-classes.md)  | Tạo và vận hành lớp: học viên, trợ giảng, tài liệu, bài kiểm tra trong lớp                      |
+| [Chấm điểm](cham-diem-grading/cham-diem-thu-cong/README.md)        | Chấm bài tự luận thủ công, phân công người chấm, chấm lại và lịch sử chấm                       |
+| [Dashboard](dashboard/sis-operational-dashboard.md)                | Biểu đồ theo dõi chuyên cần, điểm đầu vào, phân phối điểm và tiến độ học                        |
+| [Engagement & Support](engagement-and-support/nhan-su-ho-tro-tra-loi-binh-luan.md) | Email và thông báo hệ thống, nhóm người nhận, nhân sự trả lời bình luận          |
 
 <figure><img src=".gitbook/assets/image (1)" alt=""><figcaption><p>Luồng tổng quan quản lý hành trình học tập của học viên trên UpLMS Ops</p></figcaption></figure>
 
-#### Một số điểm cần lưu ý khi sử dụng tài liệu này
+***
 
-**Tài liệu được tổ chức theo module**, mỗi module tương ứng với một nhóm chức năng trong hệ thống UpLMS Ops. Người dùng có thể đọc toàn bộ hoặc tra cứu module liên quan đến công việc của mình.
+#### Cách dùng tài liệu này
 
-**Màu sắc trong sơ đồ luồng** phân biệt bộ phận phụ trách từng khối tác vụ — vàng là TVTS, xanh lá là CX, xanh dương là SX, tím là hệ thống tự động. Khi phối hợp liên bộ phận, cần chú ý điểm giao tiếp giữa các màu trong luồng.
+**Tra cứu theo công việc, không cần đọc tuần tự.** Tài liệu được tổ chức theo module, mỗi module tương ứng một nhóm chức năng trên hệ thống. Dùng thanh điều hướng bên trái để đi thẳng đến màn hình bạn đang làm việc.
 
-**Dữ liệu giữa các module có liên kết chặt chẽ** — ví dụ thông tin học viên từ bước Enrollment sẽ tự động ảnh hưởng đến lớp học, lịch học và bảng điểm. Vì vậy việc nhập liệu đúng ở đầu luồng rất quan trọng để tránh sai lệch ở các bước sau.
+**Mỗi trang có cùng một cấu trúc.** Phần I cho biết trang dành cho ai và đường dẫn tới màn hình; phần II là các bước thao tác; phần III là quy tắc nghiệp vụ cần nhớ; phần IV là các lỗi thường gặp kèm cách xử lý. Khi gặp sự cố, đọc phần IV trước.
+
+**Thứ tự nhập liệu có ràng buộc.** Nhiều thao tác phụ thuộc bước trước: khóa học phải có nội dung và chứng chỉ mới publish được, lớp phải gắn khóa học mới thêm được học viên, câu hỏi phải thuộc một cấu phần học mới gắn được vào bài kiểm tra. Nếu một nút hoặc một trường không hiện, thường là do bước trước chưa hoàn tất — không phải lỗi hệ thống.
+
+{% hint style="info" %}
+Nếu tài liệu chưa khớp với giao diện bạn đang thấy, hoặc thiếu hướng dẫn cho một màn hình, hãy phản hồi lại để đội vận hành cập nhật.
+{% endhint %}
