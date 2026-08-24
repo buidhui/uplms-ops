@@ -30,7 +30,6 @@
 * [Danh sách và Chi tiết lớp học](class-management/xem-danh-sach-va-thong-tin-chi-tiet-lop-hoc/README.md)
   * [Quản lý bài kiểm tra trong lớp (Test/Quiz)](class-management/xem-danh-sach-va-thong-tin-chi-tiet-lop-hoc/quan-ly-bai-kiem-tra-trong-lop-test-quiz.md)
 * [Tạo lớp học](class-management/tao-lop-hoc/README.md)
-  * [Import lớp học (Import Class)](class-management/tao-lop-hoc/import-lop-hoc-import-class.md)
   * [Chỉnh sửa thông tin lớp học](class-management/tao-lop-hoc/chinh-sua-thong-tin-lop-hoc.md)
 * [Quản lý học viên trong lớp ](class-management/quan-ly-hoc-vien-trong-lop.md)
 * [Quản lý trợ giảng trong lớp](class-management/quan-ly-tro-giang-trong-lop.md)
