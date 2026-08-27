@@ -21,7 +21,7 @@ layout:
 
 # Welcome to UpLMS Ops
 
-<figure><img src=".gitbook/assets/UpLMS Ops_Cover.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/UpLMS Ops_Cover_v2.png" alt=""><figcaption></figcaption></figure>
 
 **UpLMS Ops** là hệ thống vận hành đào tạo nội bộ của UpBase. Học viên học trên **UpLMS,** còn toàn bộ phần cấu hình và vận hành phía sau từ xây dựng khóa học, mở lớp, quản lý tài khoản, chấm điểm, gửi thông báo diễn ra tại **UpLMS Ops**.
 
