@@ -8,7 +8,7 @@ Lớp học không tự chứa nội dung. Mỗi lớp gắn với một khóa h
 
 #### Vòng đời một lớp học
 
-<figure><img src="../.gitbook/assets/Class Workflow.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Create Class Flow.png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. **Tạo lớp:** đặt tên và mã lớp, chọn hình thức và loại lớp, đặt số học viên tối đa và thời hạn, rồi gắn khóa học.
 2. **Thêm học viên:** thêm học viên (thủ công hoặc import) và thêm trợ giảng phụ trách.
