@@ -1,6 +1,13 @@
 ---
+cover: >-
+  https://images.unsplash.com/photo-1785228861910-afa6c4197203?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyODc0NDZ8&ixlib=rb-4.1.0&q=85
+coverY: 0
 layout:
   width: default
+  cover:
+    visible: true
+    size: hero
+    mask: none
   title:
     visible: true
   description:
@@ -16,6 +23,8 @@ layout:
   tags:
     visible: true
   actions:
+    visible: true
+  anchors:
     visible: true
 ---
 
