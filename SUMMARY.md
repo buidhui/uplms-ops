@@ -52,3 +52,10 @@
 * [Nhóm người dùng nhận Email](engagement-and-support/nhom-doi-tuong-gui-email-recipients-list.md)
 * [Lịch sử gửi Email của hệ thống](engagement-and-support/lich-su-gui-email-mail-logs-and-danh-sach-email-bi-chan-blocked-email.md)
 * [Nhân sự hỗ trợ trả lời bình luận](engagement-and-support/nhan-su-ho-tro-tra-loi-binh-luan.md)
+
+## Gamification
+
+* [Bật tắt Gamification](gamification/bat-tat-gamification.md)
+* [Cấu hình Gamification](gamification/cau-hinh-gamification.md)
+* [Campaign](gamification/campaign.md)
+* [Tra cứu học viên và nhật ký](gamification/tra-cuu-hoc-vien-va-nhat-ky.md)
