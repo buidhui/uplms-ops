@@ -52,7 +52,7 @@ layout:
 | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [User Management](user-management/quan-ly-ho-so-ca-nhan-profile.md)                | Hồ sơ cá nhân, tài khoản học viên và tài khoản nhân viên vận hành           |
 | [Academic Management](academic-management/quan-ly-khoa-hoc-courses/)               | Khóa học, Danh mục khóa học, Ngân hàng câu hỏi, Case Study, Chứng chỉ       |
-| [Class Management](class-management/tong-quan-lop-hoc-classes.md)                  | Tạo và vận hành lớp: học viên, trợ giảng, tài liệu, bài kiểm tra trong lớp. |
+| [Class Management](class-management/tong-quan-lop-hoc-classes/)                    | Tạo và vận hành lớp: học viên, trợ giảng, tài liệu, bài kiểm tra trong lớp. |
 | [Engagement & Support](engagement-and-support/nhan-su-ho-tro-tra-loi-binh-luan.md) | Email và thông báo hệ thống, nhân sự trả lời bình luận                      |
 
 ***

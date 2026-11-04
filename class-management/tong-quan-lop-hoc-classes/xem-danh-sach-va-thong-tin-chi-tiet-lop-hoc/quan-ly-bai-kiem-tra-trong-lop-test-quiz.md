@@ -55,7 +55,7 @@ Người dùng nhấp vào **tên lớp học** tại màn hình **Class List**.
 
 Người dùng chọn tab **Test/Quiz** tại màn hình **Class Detail**. Hệ thống hiển thị danh sách bài kiểm tra thuộc khóa học đang gắn với lớp.
 
-<figure><img src="../../.gitbook/assets/image (247)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (247)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -79,7 +79,7 @@ Người dùng xem thông tin tại bảng danh sách **Test/Quiz**:
 
 Người dùng nhập hoặc chọn điều kiện tại vùng bộ lọc của tab **Test/Quiz** (tên bài kiểm tra, loại bài kiểm tra, hình thức chấm bài).
 
-<figure><img src="../../.gitbook/assets/image (249)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (249)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -107,9 +107,9 @@ Người dùng chọn **Reset** nếu muốn xóa toàn bộ điều kiện. H�
 
 Người dùng chọn **tên bài kiểm tra** tại tab **Test/Quiz**. Hệ thống mở màn hình chi tiết bài kiểm tra theo học viên.
 
-<figure><img src="../../.gitbook/assets/image (251)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (251)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (253)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (253)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -117,9 +117,9 @@ Người dùng chọn **tên bài kiểm tra** tại tab **Test/Quiz**. Hệ th�
 
 Người dùng chọn **Action → Detail** tại bài kiểm tra cần xem nếu không mở bằng tên bài kiểm tra. Hệ thống mở màn hình chi tiết bài kiểm tra theo học viên.
 
-<figure><img src="../../.gitbook/assets/image (256)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (256)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (253)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (253)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -141,7 +141,7 @@ Hệ thống hiển thị thông tin: Student Name, Email, Access Period, Submis
 
 Người dùng nhập hoặc chọn điều kiện tại màn hình chi tiết bài kiểm tra (tên học viên, trạng thái bài làm, người chấm).
 
-<figure><img src="../../.gitbook/assets/image (258)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (258)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -169,11 +169,11 @@ Người dùng chọn **Reset** nếu muốn xóa điều kiện. Hệ thống h
 
 Người dùng chọn **Action → Edit Access Time** tại bài kiểm tra cần cài đặt trong tab **Test/Quiz**. Hệ thống hiển thị popup cài đặt thời gian truy cập.
 
-<figure><img src="../../.gitbook/assets/image (259)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (259)" alt=""><figcaption></figcaption></figure>
 
 Hệ thống hiển thị popup cài đặt thời gian truy cập.
 
-<figure><img src="../../.gitbook/assets/image (261)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (261)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -207,9 +207,9 @@ Người dùng mở màn hình chi tiết của bài kiểm tra cần cài đặ
 
 Người dùng chọn **Action → Edit Access Time** tại dòng học viên cần cài đặt. Hệ thống hiển thị popup cài đặt thời gian truy cập cho học viên.
 
-<figure><img src="../../.gitbook/assets/image (262)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (262)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (261)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (261)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -237,9 +237,9 @@ Người dùng chọn **Save**. Hệ thống lưu thời gian truy cập và ch�
 
 Người dùng chọn **Action → Delete Access Time** tại bài kiểm tra cần xóa thời gian truy cập trong tab **Test/Quiz**. Hệ thống hiển thị popup xác nhận xóa.
 
-<figure><img src="../../.gitbook/assets/image (263)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (263)" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (264)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (264)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -261,7 +261,7 @@ Người dùng chọn **Yes** tại popup xác nhận. Hệ thống xóa thời 
 
 Người dùng chọn **Action → Export Result** tại bài kiểm tra cần xuất kết quả trong tab **Test/Quiz**. Hệ thống tạo file Excel chứa điểm của toàn bộ học viên theo bài kiểm tra được chọn.
 
-<figure><img src="../../.gitbook/assets/image (265)" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (265)" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -297,12 +297,12 @@ Hệ thống tải file kết quả về thiết bị. File được đặt tên
 
 ### Quy tắc cài đặt Access Time
 
-| Quy tắc                                 | Mô tả                                                                                                            |
-| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **Start date của Access Time**          | Phải lớn hơn hoặc bằng Start Date của Class.                                                                   |
-| **End date của Access Time**            | Phải nhỏ hơn hoặc bằng End Date của Class.                                                                       |
-| **Khi Start Date của Class thay đổi**   | Nếu Start Date mới lớn hơn Start date của Access Time, Access Time sẽ được cập nhật theo Start Date của lớp.     |
-| **Khi End Date của Class thay đổi**     | Nếu End Date mới nhỏ hơn End Date của Access Time, Access Time sẽ được cập nhật theo End Date của lớp.           |
+| Quy tắc                               | Mô tả                                                                                                        |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Start date của Access Time**        | Phải lớn hơn hoặc bằng Start Date của Class.                                                                 |
+| **End date của Access Time**          | Phải nhỏ hơn hoặc bằng End Date của Class.                                                                   |
+| **Khi Start Date của Class thay đổi** | Nếu Start Date mới lớn hơn Start date của Access Time, Access Time sẽ được cập nhật theo Start Date của lớp. |
+| **Khi End Date của Class thay đổi**   | Nếu End Date mới nhỏ hơn End Date của Access Time, Access Time sẽ được cập nhật theo End Date của lớp.       |
 
 ### Quy tắc Export Result
 
@@ -315,11 +315,11 @@ Hệ thống tải file kết quả về thiết bị. File được đặt tên
 
 ## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
-| Lỗi / Tình huống                             | Nguyên nhân                                                   | Cách xử lý                                                        |
-| -------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- |
-| Không thấy danh sách bài kiểm tra            | Khóa học chưa được gắn vào lớp                                | Gắn khóa học vào lớp; bài Test/Quiz lấy từ Course Content         |
-| Không tìm thấy bài kiểm tra                  | Sai điều kiện tìm kiếm/lọc                                    | Kiểm tra lại bộ lọc, bấm Reset để về danh sách mặc định           |
+| Lỗi / Tình huống                             | Nguyên nhân                                                 | Cách xử lý                                                        |
+| -------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------- |
+| Không thấy danh sách bài kiểm tra            | Khóa học chưa được gắn vào lớp                              | Gắn khóa học vào lớp; bài Test/Quiz lấy từ Course Content         |
+| Không tìm thấy bài kiểm tra                  | Sai điều kiện tìm kiếm/lọc                                  | Kiểm tra lại bộ lọc, bấm Reset để về danh sách mặc định           |
 | Không lưu được Access Time                   | Start/End date ngoài khoảng Start Date – End Date của Class | Đặt Access Time trong khoảng cho phép của lớp                     |
-| Access Time tự thay đổi sau khi sửa lịch lớp | Start Date/End Date của Class thay đổi                        | Đây là quy tắc đồng bộ; kiểm tra lại Access Time sau khi đổi lịch |
-| File Export Result thiếu điểm                | Học viên chưa nộp bài hoặc bài chấm thủ công chưa chấm xong   | Chờ học viên nộp/chấm xong rồi export lại                         |
-| Không truy cập được tab Test/Quiz            | Tài khoản chưa có quyền xem bài kiểm tra của lớp              | Liên hệ quản trị để được cấp quyền                                |
+| Access Time tự thay đổi sau khi sửa lịch lớp | Start Date/End Date của Class thay đổi                      | Đây là quy tắc đồng bộ; kiểm tra lại Access Time sau khi đổi lịch |
+| File Export Result thiếu điểm                | Học viên chưa nộp bài hoặc bài chấm thủ công chưa chấm xong | Chờ học viên nộp/chấm xong rồi export lại                         |
+| Không truy cập được tab Test/Quiz            | Tài khoản chưa có quyền xem bài kiểm tra của lớp            | Liên hệ quản trị để được cấp quyền                                |

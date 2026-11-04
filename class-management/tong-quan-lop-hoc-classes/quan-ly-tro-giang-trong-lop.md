@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Quản lý trợ giảng trong lớp
 
 ## I. Thông tin chung
@@ -18,8 +22,6 @@
 {% stepper %}
 {% step %}
 **Chọn Tab Mentors** → **Add Mentors**
-
-
 {% endstep %}
 
 {% step %}
@@ -59,11 +61,7 @@ Trường **Main Responsible** liên quan đến tính năng chấm điểm.
 
 **Xóa một trợ giảng**
 
-
-
 **Xóa nhiều trợ giảng**
-
-
 
 </details>
 

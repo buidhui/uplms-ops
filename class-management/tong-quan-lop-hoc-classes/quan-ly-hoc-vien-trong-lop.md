@@ -19,13 +19,13 @@
 {% step %}
 **Chọn Tab Students** → **Add Students**
 
-<figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn học viên cần thêm vào lớp → Add**
 
-<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -39,13 +39,13 @@
 {% step %}
 **Chọn Tab Students** → **Import Student**
 
-<figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn file danh sách học viên cần Import vào lớp → Import**
 
-<figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Nên tải **file mẫu** trước khi nhập dữ liệu import; dữ liệu cần tuân thủ đúng cấu trúc và định dạng của template.
@@ -77,11 +77,11 @@ Chọn **View Log** tại hộp thoại kết quả import để xem chi tiết 
 
 **Xóa một học viên**
 
-<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
 **Xóa nhiều học viên**
 
-<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -93,13 +93,13 @@ Chọn **View Log** tại hộp thoại kết quả import để xem chi tiết 
 {% step %}
 **Class Detail → Student → Action → Update Duration**
 
-<figure><img src="../.gitbook/assets/2026-08-24_11-17-18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-08-24_11-17-18.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Cập nhật thời hạn mới → Save**
 
-<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -113,17 +113,15 @@ Chọn **View Log** tại hộp thoại kết quả import để xem chi tiết 
 {% step %}
 **Class Detail → Student → Action → Edit Course Content**
 
-<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điều chỉnh cấu phần → Save**
 
-<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
 **Quy tắc chọn/ bỏ chọn cấu phần học của học viên**
-
-
 
 <table data-search="false"><thead><tr><th>Thao tác</th><th>Quy tắc</th></tr></thead><tbody><tr><td><strong>Chọn/ Bỏ chọn All</strong></td><td>Tất cả checkbox cấu phần học được tick hoặc bỏ tick.</td></tr><tr><td><strong>Chọn Section</strong></td><td>Tất cả Activity, Test, Quiz thuộc Section được chọn.</td></tr><tr><td><strong>Chọn Activity</strong></td><td>Section chứa Activity đó được chọn.</td></tr><tr><td><strong>Bỏ chọn cấu phần học</strong></td><td>Cấu phần bị bỏ chọn sẽ không xuất hiện trong chương trình học của học viên và học viên không cần học cấu phần đó.</td></tr><tr><td><strong>Xóa cấu phần đã học</strong></td><td>Không được phép xóa khỏi chương trình học của học viên.</td></tr><tr><td><strong>Xóa cấu phần chưa học</strong></td><td>Được phép xóa khỏi chương trình học của học viên.</td></tr></tbody></table>
 {% endstep %}
@@ -137,7 +135,7 @@ Chọn **View Log** tại hộp thoại kết quả import để xem chi tiết 
 
 **Tại lớp Lesson có gắn Foundation → Student → Action → Allow Pass Foundation**
 
-<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Sau khi Allow Pass Foundation, học viên không bắt buộc phải hoàn thành khóa học nền tảng và có thể bắt đầu học luôn khóa học chính.
@@ -160,8 +158,8 @@ Sau khi Allow Pass Foundation, học viên không bắt buộc phải hoàn thà
 
 ## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
-| Lỗi / Tình huống                           | Nguyên nhân                                                 | Cách xử lý                                                  |
-| ------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| Không cập nhật được thời hạn học           | Lớp Duration = Flexible và học viên chưa kích hoạt khóa học | Chờ học viên kích hoạt khóa học rồi cập nhật thời hạn       |
-| Không xóa được cấu phần học của học viên   | Học viên đã học cấu phần đó                                 | Chỉ được xóa cấu phần học viên chưa học                     |
-| Không thực hiện được thao tác với học viên | Tài khoản chưa có quyền quản lý học viên trong lớp          | Liên hệ Admin hệ thống để kiểm tra phân quyền |
+| Lỗi / Tình huống                           | Nguyên nhân                                                 | Cách xử lý                                            |
+| ------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------- |
+| Không cập nhật được thời hạn học           | Lớp Duration = Flexible và học viên chưa kích hoạt khóa học | Chờ học viên kích hoạt khóa học rồi cập nhật thời hạn |
+| Không xóa được cấu phần học của học viên   | Học viên đã học cấu phần đó                                 | Chỉ được xóa cấu phần học viên chưa học               |
+| Không thực hiện được thao tác với học viên | Tài khoản chưa có quyền quản lý học viên trong lớp          | Liên hệ Admin hệ thống để kiểm tra phân quyền         |
