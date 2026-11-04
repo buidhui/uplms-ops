@@ -19,13 +19,13 @@
 {% step %}
 **Chọn Tab Students** → **Add Students**
 
-<figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn học viên cần thêm vào lớp → Add**
 
-<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -39,13 +39,13 @@
 {% step %}
 **Chọn Tab Students** → **Import Student**
 
-<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn file danh sách học viên cần Import vào lớp → Import**
 
-<figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Nên tải **file mẫu** trước khi nhập dữ liệu import; dữ liệu cần tuân thủ đúng cấu trúc và định dạng của template.
@@ -77,11 +77,11 @@ Chọn **View Log** tại hộp thoại kết quả import để xem chi tiết 
 
 **Xóa một học viên**
 
-<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
 **Xóa nhiều học viên**
 
-<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -93,13 +93,13 @@ Chọn **View Log** tại hộp thoại kết quả import để xem chi tiết 
 {% step %}
 **Class Detail → Student → Action → Update Duration**
 
-<figure><img src="../../.gitbook/assets/2026-08-24_11-17-18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-08-24_11-17-18.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Cập nhật thời hạn mới → Save**
 
-<figure><img src="../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -113,13 +113,13 @@ Chọn **View Log** tại hộp thoại kết quả import để xem chi tiết 
 {% step %}
 **Class Detail → Student → Action → Edit Course Content**
 
-<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điều chỉnh cấu phần → Save**
 
-<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
 **Quy tắc chọn/ bỏ chọn cấu phần học của học viên**
 
@@ -135,7 +135,7 @@ Chọn **View Log** tại hộp thoại kết quả import để xem chi tiết 
 
 **Tại lớp Lesson có gắn Foundation → Student → Action → Allow Pass Foundation**
 
-<figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Sau khi Allow Pass Foundation, học viên không bắt buộc phải hoàn thành khóa học nền tảng và có thể bắt đầu học luôn khóa học chính.

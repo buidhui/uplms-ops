@@ -25,13 +25,13 @@
 {% step %}
 **Chọn Create Class tại Danh sách lớp học**
 
-<figure><img src="../../.gitbook/assets/image (103) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (103) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Điền thông tin**
 
-<figure><img src="../../.gitbook/assets/image (104) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (104) (1).png" alt=""><figcaption></figcaption></figure>
 
 Các trường thông tin:
 
@@ -58,7 +58,7 @@ Người dùng chỉ có thể tạo các lớp có Type là **Lesson.** Lớp *
 
 Chọn Add Course → Chọn khóa muốn gán → Add
 
-<figure><img src="../../.gitbook/assets/image (105) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (105) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -68,9 +68,9 @@ Chọn Add Course → Chọn khóa muốn gán → Add
 {% step %}
 **Thêm học viên vào lớp (Optional)**
 
-Sau khi lưu thông tin lớp, nhân sự vận hành có thể thêm học viên ngay ở bước tạo lớp, hoặc thêm sau theo hướng dẫn [quan-ly-hoc-vien-student.md](../../user-management/quan-ly-hoc-vien-student.md "mention")
+Sau khi lưu thông tin lớp, nhân sự vận hành có thể thêm học viên ngay ở bước tạo lớp, hoặc thêm sau theo hướng dẫn [quan-ly-hoc-vien-student.md](../user-management/quan-ly-hoc-vien-student.md "mention")
 
-<figure><img src="../../.gitbook/assets/image (106) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (106) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -83,11 +83,11 @@ Sau khi lưu thông tin lớp, nhân sự vận hành có thể thêm học viê
 *
 * Cách 1:
 
-<figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
 * Cách 2:
 
-<figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
 Các trường được phép chỉnh sửa phụ thuộc vào loại lớp, hình thức học và trạng thái học tập của học viên trong lớp.
 
@@ -128,13 +128,13 @@ Các trường được phép chỉnh sửa phụ thuộc vào loại lớp, hì
 {% step %}
 **Chọn Import Class tại Danh sách lớp học**
 
-<figure><img src="../../.gitbook/assets/image (113) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (113) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn file danh sách lớp cần Import**
 
-<figure><img src="../../.gitbook/assets/image (114) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (114) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Nên tải **file mẫu** trước khi nhập dữ liệu import; dữ liệu cần tuân thủ đúng cấu trúc và định dạng của template.

@@ -1,7 +1,7 @@
 ---
 cover: >-
-  https://images.unsplash.com/photo-1785228861910-afa6c4197203?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyODc0NDZ8&ixlib=rb-4.1.0&q=85
-coverY: 0
+  https://images.unsplash.com/photo-1784231882494-5450ad619de9?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyODczMjN8&ixlib=rb-4.1.0&q=85
+coverY: -1178.694902367609
 layout:
   width: default
   cover:
@@ -28,7 +28,7 @@ layout:
     visible: true
 ---
 
-# Welcome to UpLMS Ops
+# Welcome to LMS Ops - UpBase
 
 <figure><img src=".gitbook/assets/UpLMS Ops_Cover_v2.png" alt=""><figcaption></figcaption></figure>
 
@@ -52,7 +52,7 @@ layout:
 | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [User Management](user-management/quan-ly-ho-so-ca-nhan-profile.md)                | Hồ sơ cá nhân, tài khoản học viên và tài khoản nhân viên vận hành           |
 | [Academic Management](academic-management/quan-ly-khoa-hoc-courses/)               | Khóa học, Danh mục khóa học, Ngân hàng câu hỏi, Case Study, Chứng chỉ       |
-| [Class Management](class-management/tong-quan-lop-hoc-classes/)                    | Tạo và vận hành lớp: học viên, trợ giảng, tài liệu, bài kiểm tra trong lớp. |
+| [Class Management](class-management/tong-quan-lop-hoc-classes.md)                  | Tạo và vận hành lớp: học viên, trợ giảng, tài liệu, bài kiểm tra trong lớp. |
 | [Engagement & Support](engagement-and-support/nhan-su-ho-tro-tra-loi-binh-luan.md) | Email và thông báo hệ thống, nhân sự trả lời bình luận                      |
 
 ***

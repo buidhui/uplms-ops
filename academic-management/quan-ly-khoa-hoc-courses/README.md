@@ -1,6 +1,6 @@
 # Quản lý khóa học
 
-Khóa học là đơn vị nội dung gốc của hệ thống: chứa bài học, bài kiểm tra, quiz, tài liệu và chứng chỉ. Lớp học ở [Class Management](../../class-management/tong-quan-lop-hoc-classes/) không tự chứa nội dung, lớp phải gắn vào một khóa học đã publish và học viên trong lớp học theo nội dung của khóa đó. Vì vậy khóa học phải hoàn chỉnh trước khi mở lớp.
+Khóa học là đơn vị nội dung gốc của hệ thống: chứa bài học, bài kiểm tra, quiz, tài liệu và chứng chỉ. Lớp học ở [Class Management](../../class-management/tong-quan-lop-hoc-classes.md) không tự chứa nội dung, lớp phải gắn vào một khóa học đã publish và học viên trong lớp học theo nội dung của khóa đó. Vì vậy khóa học phải hoàn chỉnh trước khi mở lớp.
 
 #### Luồng tạo khóa học
 

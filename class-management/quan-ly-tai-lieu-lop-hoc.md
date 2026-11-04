@@ -19,7 +19,7 @@
 {% step %}
 **Class Detail → Resources**
 
-<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
 <table data-search="false"><thead><tr><th>Cột</th><th>Mô tả</th></tr></thead><tbody><tr><td>File name</td><td>Tên tài liệu hoặc thư mục.</td></tr><tr><td>Size</td><td>Kích thước tài liệu.</td></tr><tr><td>Date</td><td>Thời gian tạo mới hoặc chỉnh sửa tài liệu.</td></tr><tr><td>Owner</td><td>Người upload tài liệu.</td></tr><tr><td>Location</td><td>Vị trí lưu trữ của tài liệu trong thư mục Class Resources. Mặc định là Root.</td></tr><tr><td>Access</td><td>Đối tượng được chia sẻ tài liệu (Student, Teacher)</td></tr></tbody></table>
 {% endstep %}
@@ -43,7 +43,7 @@
 
 Chọn **New Folder** → Nhập tên thư mục → **Save**
 
-<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -55,13 +55,13 @@ Tài liệu sẽ được tải lên vị trí thư mục hiện tại
 
 Tại vị trí thư mục muốn tải lên tài liệu, chọn **Upload → Upload File/ Media**
 
-<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Chọn tài liệu để tải lên**
 
-<figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
 Tùy chọn Upload Media hay Upload File:
 
@@ -94,15 +94,15 @@ Tại mục **Share Resource**, chọn đối tượng chia sẻ và quyền:
 
 1. **Đổi tên tài liệu/ thư mục**
 
-<figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
 2. **Thay đổi vị trí**
 
-<figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
 3. **Cập nhật quyền**
 
-<figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -114,13 +114,13 @@ Tại mục **Share Resource**, chọn đối tượng chia sẻ và quyền:
 {% step %}
 **Xóa 1 thư mục/ tài liệu**
 
-<figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Xóa nhiều thư mục/tài liệu**
 
-<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -134,13 +134,13 @@ Tại mục **Share Resource**, chọn đối tượng chia sẻ và quyền:
 {% step %}
 **Tải một tài liệu**
 
-<figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 **Tải nhiều tài liệu**
 
-<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

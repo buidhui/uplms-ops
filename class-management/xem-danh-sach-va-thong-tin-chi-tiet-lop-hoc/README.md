@@ -24,7 +24,7 @@
 
 Chọn Academic Management → Class → Class List
 
-<figure><img src="../../../.gitbook/assets/image (101) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (101) (1).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -49,7 +49,7 @@ Chọn Academic Management → Class → Class List
 {% step %}
 **Overview: thông tin lớp học**
 
-<figure><img src="../../../.gitbook/assets/image (102) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (102) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-search="false"><thead><tr><th>Thông tin</th><th>Mô tả</th></tr></thead><tbody><tr><td><strong>Name</strong></td><td>Tên lớp học</td></tr><tr><td><strong>Code</strong></td><td>Mã lớp học</td></tr><tr><td><strong>Status</strong></td><td>Trạng thái lớp học</td></tr><tr><td><strong>Construction Mode</strong></td><td>Hình thức học của lớp.</td></tr><tr><td><strong>Type</strong></td><td>Loại lớp học.</td></tr><tr><td><strong>No. of Students</strong></td><td>Số lượng học viên hiện tại / số lượng học viên tối đa.</td></tr><tr><td><strong>Duration</strong></td><td>Thời gian lớp học diễn ra.</td></tr><tr><td><strong>Course</strong></td><td>Khóa học được gắn với lớp.</td></tr></tbody></table>
 {% endstep %}

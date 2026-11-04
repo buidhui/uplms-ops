@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to UpLMS Ops](README.md)
+* [Welcome to LMS Ops - UpBase](README.md)
 
 ## User Management
 
@@ -26,15 +26,15 @@
 
 ## Class Management
 
-* [Quản lý lớp học](class-management/tong-quan-lop-hoc-classes/README.md)
-  * [Danh sách lớp học](class-management/tong-quan-lop-hoc-classes/xem-danh-sach-va-thong-tin-chi-tiet-lop-hoc/README.md)
-    * [Quản lý bài kiểm tra trong lớp (Test/Quiz)](class-management/tong-quan-lop-hoc-classes/xem-danh-sach-va-thong-tin-chi-tiet-lop-hoc/quan-ly-bai-kiem-tra-trong-lop-test-quiz.md)
-  * [Tạo lớp học](class-management/tong-quan-lop-hoc-classes/tao-lop-hoc.md)
-  * [Import lớp học (Import Class)](class-management/tong-quan-lop-hoc-classes/import-lop-hoc-import-class.md)
-  * [Chỉnh sửa thông tin lớp học](class-management/tong-quan-lop-hoc-classes/chinh-sua-thong-tin-lop-hoc.md)
-  * [Quản lý học viên trong lớp](class-management/tong-quan-lop-hoc-classes/quan-ly-hoc-vien-trong-lop.md)
-  * [Quản lý trợ giảng trong lớp](class-management/tong-quan-lop-hoc-classes/quan-ly-tro-giang-trong-lop.md)
-  * [Quản lý tài liệu lớp học](class-management/tong-quan-lop-hoc-classes/quan-ly-tai-lieu-lop-hoc.md)
+* [Quản lý lớp học](class-management/tong-quan-lop-hoc-classes.md)
+  * [Danh sách lớp học](class-management/xem-danh-sach-va-thong-tin-chi-tiet-lop-hoc/README.md)
+    * [Quản lý bài kiểm tra trong lớp (Test/Quiz)](class-management/xem-danh-sach-va-thong-tin-chi-tiet-lop-hoc/quan-ly-bai-kiem-tra-trong-lop-test-quiz.md)
+  * [Tạo lớp học](class-management/tao-lop-hoc.md)
+  * [Import lớp học (Import Class)](class-management/import-lop-hoc-import-class.md)
+  * [Chỉnh sửa thông tin lớp học](class-management/chinh-sua-thong-tin-lop-hoc.md)
+  * [Quản lý học viên trong lớp](class-management/quan-ly-hoc-vien-trong-lop.md)
+  * [Quản lý trợ giảng trong lớp](class-management/quan-ly-tro-giang-trong-lop.md)
+  * [Quản lý tài liệu lớp học](class-management/quan-ly-tai-lieu-lop-hoc.md)
 
 ## Chấm điểm (Grading)
 
