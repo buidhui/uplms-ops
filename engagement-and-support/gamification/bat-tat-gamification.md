@@ -36,7 +36,7 @@ Gamification ghi nhận việc học của học viên thành điểm, huy hiệ
 
 Chọn **Gamification** tại menu sidebar của Ops.
 
-<figure><img src="../.gitbook/assets/gamification-tat.png" alt=""><figcaption><p>Khi Gamification đang tắt, trang chỉ còn một công tắc</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-tat.png" alt=""><figcaption><p>Khi Gamification đang tắt, trang chỉ còn một công tắc</p></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -44,7 +44,7 @@ Chọn **Gamification** tại menu sidebar của Ops.
 
 Bật công tắc **Gamification**. Hệ thống bắt đầu ghi nhận: cộng điểm, trao huy hiệu, xét hạng và tính bảng xếp hạng. Công tắc **Visibility in UpLMS** và bốn khối chức năng hiện ra bên dưới.
 
-<figure><img src="../.gitbook/assets/gamification-cau-hinh.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-cau-hinh.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

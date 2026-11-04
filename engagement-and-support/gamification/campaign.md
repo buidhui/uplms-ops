@@ -51,7 +51,7 @@ Khối **Campaign** liệt kê mọi campaign của tổ chức với các cột
 
 Bấm **+ Campaign**. Panel **Campaign Settings** mở ra từ cạnh phải.
 
-<figure><img src="../.gitbook/assets/gamification-campaign-settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-campaign-settings.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -121,7 +121,7 @@ Trạng thái được xét lúc bấm **Save**. Ví dụ mở form lúc 23:50 k
 
 Tại cột **Action**, bấm biểu tượng xem của campaign đang chạy hoặc đã kết thúc. Panel kết quả mở ra từ cạnh phải, tiêu đề là tên campaign kèm khoảng thời gian.
 
-<figure><img src="../.gitbook/assets/gamification-campaign-ket-qua.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-campaign-ket-qua.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

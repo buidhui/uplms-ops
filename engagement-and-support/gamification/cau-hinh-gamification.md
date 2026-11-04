@@ -24,7 +24,7 @@
 
 Mỗi khối có công tắc riêng ở góc phải tiêu đề. Khối đang tắt thì phần tương ứng biến khỏi giao diện học viên, dữ liệu vẫn giữ nguyên và hiện lại khi bật lại.
 
-<figure><img src="../.gitbook/assets/gamification-cau-hinh.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-cau-hinh.png" alt=""><figcaption></figcaption></figure>
 
 ## II. Hướng dẫn chi tiết
 
