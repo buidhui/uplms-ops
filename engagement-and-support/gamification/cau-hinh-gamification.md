@@ -129,17 +129,34 @@ Ba ô cùng quyết định số điểm học viên cần tích trong một h�
 | **Extra points per level** | Mỗi hạng sau cần nhiều hơn hạng ngay trước bao nhiêu điểm. Nhập `0` để mọi hạng cần như nhau | Số nguyên từ `0` trở lên, bắt buộc |
 | **Level-up points cap** | Số điểm cần cho một lần lên hạng tăng tới mức này thì dừng. Để trống thì tăng mãi | Không nhỏ hơn **Standard level-up points**, được để trống |
 
+{% endstep %}
+
+{% step %}
+**Kiểm tra bảng xem trước**
+
+Ngay dưới ba ô là bảng xem trước, cập nhật ngay khi bạn gõ để thấy hệ quả trước khi rời ô:
+
+* **Level:** lần lên hạng, ví dụ `Level 1 → 2`.
+* **Points needed:** số điểm cần cho lần lên hạng đó.
+* **vs previous:** lần lên hạng này cần nhiều hơn lần ngay trước bao nhiêu phần trăm. Phần trăm giảm dần nghĩa là thang hạng thoải dần. Dòng **Same as previous** nghĩa là từ đó mỗi hạng cần cùng số điểm.
+
 Ví dụ với `250` · `250` · `2500`:
 
-| Lên hạng | Điểm cần |
-| --- | --- |
-| 1 → 2 | 250 |
-| 2 → 3 | 500 |
-| 3 → 4 | 750 |
-| 10 → 11 | 2500 |
-| Từ 11 trở đi | 2500 mỗi hạng |
+| Level | Points needed | vs previous |
+| --- | --- | --- |
+| Level 1 → 2 | 250 pts | — |
+| Level 2 → 3 | 500 pts | +100% |
+| Level 3 → 4 | 750 pts | +50% |
+| Level 4 → 5 | 1,000 pts | +33% |
+| Level 5 → 6 | 1,250 pts | +25% |
+| Level 6 → 7 | 1,500 pts | +20% |
+| Level 7 → 8 | 1,750 pts | +17% |
+| Level 8 → 9 | 2,000 pts | +14% |
+| Level 9 → 10 | 2,250 pts | +13% |
+| Level 10 → 11 | 2,500 pts | +11% |
+| Level 11 onwards | 2,500 pts | Same as previous |
 
-Dòng xem trước dưới ba ô tự cập nhật theo số vừa nhập, ví dụ `Level 2: 250 pts · Level 3: 500 pts · Level 4: 750 pts · Level 11 onwards: 2,500 pts`.
+Bảng hiện tối đa khoảng 10 lần lên hạng. Thang dài hơn thì được rút gọn bằng dòng `…`. Để trống **Level-up points cap** thì dòng cuối cho biết mỗi hạng sau cần thêm bao nhiêu điểm. **Extra points per level** bằng `0` thì bảng chỉ còn một dòng **Every level**.
 {% endstep %}
 
 {% step %}
