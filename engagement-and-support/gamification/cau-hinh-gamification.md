@@ -138,23 +138,23 @@ Ngay dưới ba ô là bảng xem trước, cập nhật ngay khi bạn gõ đ�
 
 * **Level:** lần lên hạng, ví dụ `1 → 2` là từ hạng 1 lên hạng 2.
 * **Points needed:** số điểm cần cho lần lên hạng đó.
-* **Difficulty vs previous:** lần lên hạng này cần nhiều hơn lần ngay trước bao nhiêu phần trăm. Phần trăm giảm dần nghĩa là thang hạng thoải dần. Dòng **Same as previous** nghĩa là từ đó mỗi hạng cần cùng số điểm.
+* **Difficulty vs level 1:** lần lên hạng này cần nhiều hơn lần đầu (`1 → 2`) bao nhiêu phần trăm. Phần trăm càng lớn thì hạng càng khó lên. Khi phần trăm thôi tăng, từ đó mỗi hạng cần cùng số điểm.
 
 Ví dụ với `250` · `250` · `2500`:
 
-| Level | Points needed | Difficulty vs previous |
+| Level | Points needed | Difficulty vs level 1 |
 | --- | --- | --- |
 | 1 → 2 | 250 pts | — |
 | 2 → 3 | 500 pts | +100% |
-| 3 → 4 | 750 pts | +50% |
-| 4 → 5 | 1,000 pts | +33% |
-| 5 → 6 | 1,250 pts | +25% |
-| 6 → 7 | 1,500 pts | +20% |
-| 7 → 8 | 1,750 pts | +17% |
-| 8 → 9 | 2,000 pts | +14% |
-| 9 → 10 | 2,250 pts | +13% |
-| 10 → 11 | 2,500 pts | +11% |
-| 11 onwards | 2,500 pts | Same as previous |
+| 3 → 4 | 750 pts | +200% |
+| 4 → 5 | 1,000 pts | +300% |
+| 5 → 6 | 1,250 pts | +400% |
+| 6 → 7 | 1,500 pts | +500% |
+| 7 → 8 | 1,750 pts | +600% |
+| 8 → 9 | 2,000 pts | +700% |
+| 9 → 10 | 2,250 pts | +800% |
+| 10 → 11 | 2,500 pts | +900% |
+| 11 onwards | 2,500 pts | +900% |
 
 Bảng hiện tối đa khoảng 10 lần lên hạng. Thang dài hơn thì được rút gọn bằng dòng `…`. Để trống **Level-up points cap** thì dòng cuối cho biết mỗi hạng sau cần thêm bao nhiêu điểm. **Extra points per level** bằng `0` thì bảng chỉ còn một dòng **Every level**.
 {% endstep %}
