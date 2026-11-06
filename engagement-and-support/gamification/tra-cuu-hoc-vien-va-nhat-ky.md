@@ -92,7 +92,7 @@ Trong khu vực **Gamification**, chọn **Achievement history**.
 | Cột | Ý nghĩa |
 | --- | --- |
 | **Time** | Thời điểm ghi nhận, dạng `HH:mm dd/mm/yyyy` |
-| **Learner** | Ảnh đại diện và tên học viên |
+| **Student** | Ảnh đại diện và tên học viên |
 | **Event** | **Points**, **Badge** hoặc **Level up** |
 | **Details** | Chi tiết sự kiện và hoạt động liên quan, ví dụ `Completed activity {tên hoạt động} in {tên khoá}`, `Daily check-in · day 3 of streak`, `Reached Level 4` |
 | **Points** | Số điểm của sự kiện **Points**. Để trống với **Badge** và **Level up** |
