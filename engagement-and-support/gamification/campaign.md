@@ -30,7 +30,7 @@ Campaign là đợt thi đua có thời hạn trên toàn tổ chức, ví dụ 
 <details>
 
 <summary>Danh sách campaign</summary>
-<figure><img src="../../.gitbook/assets/gamification-campaign-list.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-danh-sach-campaign.png" alt=""><figcaption></figcaption></figure>
 
 Khối **Campaign** liệt kê mọi campaign của tổ chức với các cột:
 
@@ -52,7 +52,7 @@ Khối **Campaign** liệt kê mọi campaign của tổ chức với các cột
 
 Chọn **+ Campaign** để mở bảng thiết lập **Campaign Settings** bên phải màn hình.
 
-<figure><img src="../../.gitbook/assets/gamification-campaign-settings-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-campaign-settings.png" alt=""><figcaption></figcaption></figure>
 
 {% endstep %}
 
@@ -123,7 +123,7 @@ Trạng thái được xét lúc bấm **Save**. Ví dụ mở form lúc 23:50 k
 
 Tại cột **Action**, chọn biểu tượng xem để mở kết quả của campaign đang diễn ra hoặc đã kết thúc. Panel kết quả mở ra từ cạnh phải, tiêu đề là tên campaign kèm khoảng thời gian.
 
-<figure><img src="../../.gitbook/assets/gamification-campaign-ket-qua-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-campaign-ket-qua.png" alt=""><figcaption></figcaption></figure>
 
 {% endstep %}
 

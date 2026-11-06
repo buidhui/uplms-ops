@@ -43,9 +43,9 @@ Chọn **Gamification** trên thanh điều hướng bên trái của UpLMS Ops.
 {% step %}
 **Bật Gamification**
 
-Bật công tắc **Gamification**. Hệ thống bắt đầu ghi nhận theo cấu hình của từng khối chức năng: cộng điểm, trao huy hiệu, xét hạng và tính bảng xếp hạng. Công tắc **Visibility in UpLMS** và bốn khối chức năng hiện ra bên dưới.
+Bật công tắc **Gamification**. Hệ thống bắt đầu ghi nhận theo cấu hình của từng khối chức năng: cộng điểm, trao huy hiệu, xét hạng và tính bảng xếp hạng. Công tắc **Visibility in UpLMS** và năm khối chức năng hiện ra bên dưới, bao gồm **Points**, **Badges**, **Levels**, **Leaderboard** và **Campaign**.
 
-<figure><img src="../../.gitbook/assets/gamification-settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-cau-hinh.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -91,7 +91,7 @@ Nên chạy ngầm 2 đến 4 tuần trước khi mở cho học viên:
 
 Tắt công tắc **Gamification**, hệ thống hiện hộp xác nhận cạnh công tắc. Chọn xác nhận để tắt, chọn huỷ thì công tắc giữ nguyên.
 
-<figure><img src="../../.gitbook/assets/gamification-turn-off-popover.png" alt=""><figcaption><p>Khi Gamification đang tắt, trang chỉ còn một công tắc</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-tat-popover.png" alt=""></figure>
 
 Khi tắt:
 
@@ -110,7 +110,7 @@ Khi bật lại, hệ thống tiếp tục ghi nhận từ thời điểm bật.
 
 Quản trị gán quyền tại màn phân quyền hiện có của Ops, trong nhóm quyền **Gamification**.
 
-<figure><img src="../../.gitbook/assets/gamification-roles.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-roles-1.png" alt=""><figcaption></figcaption></figure>
 
 | Màn hoặc thao tác | Xem cấu hình gamification | Sửa cấu hình gamification | Xem danh sách học viên và hạng |
 | --- | --- | --- | --- |

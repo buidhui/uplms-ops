@@ -24,13 +24,13 @@
 
 Mỗi khối có công tắc bật, tắt riêng ở bên phải tiêu đề. Khi tắt một khối, nội dung tương ứng được ẩn trên giao diện học viên. Dữ liệu đã ghi nhận được giữ nguyên và hiển thị lại khi bật.
 
-<figure><img src="../../.gitbook/assets/gamification-settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-cau-hinh.png" alt=""><figcaption></figcaption></figure>
 
 ## II. Hướng dẫn chi tiết
 
 <details>
 
-<summary>Points: điểm cho từng hành động</summary>
+<summary>Points: Điểm cho từng hành động</summary>
 
 {% stepper %}
 {% step %}
@@ -41,7 +41,7 @@ Bật công tắc **Points**. Năm hành động hiện bên dưới, mỗi hàn
 
 {% step %}
 **Thiết lập điểm thưởng cho từng hành động**
-<figure><img src="../../.gitbook/assets/gamification-points-settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-points.png" alt=""><figcaption></figcaption></figure>
 
 | Hành động | Ý nghĩa |
 | --- | --- |
@@ -69,12 +69,12 @@ Mức điểm mới có hiệu lực ngay sau khi lưu. Ví dụ, nếu nhập n
 
 <details>
 
-<summary>Badges: huy hiệu</summary>
+<summary>Badges: Huy hiệu</summary>
 
 {% stepper %}
 {% step %}
 **Bật khối Badges và từng loại huy hiệu**
-<figure><img src="../../.gitbook/assets/gamification-badge.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-badges.png" alt=""><figcaption></figcaption></figure>
 
 Bật công tắc **Badges**, rồi bật từng loại cần dùng. Bốn loại bật tắt độc lập:
 
@@ -109,7 +109,7 @@ Tên và mô tả lưu khi rời ô, hình lưu khi tải lên xong.
 
 <details>
 
-<summary>Levels: hạng</summary>
+<summary>Levels: Hạng</summary>
 
 Học viên lên hạng theo điểm tích luỹ. Mọi điểm học viên nhận được đều cộng vào **điểm trong hạng**. Đủ số điểm yêu cầu thì lên hạng, phần dư chuyển sang hạng mới.
 
@@ -122,7 +122,7 @@ Bật công tắc **Levels**. Khối này cần khối **Points** đang bật. K
 
 {% step %}
 **Đặt số điểm cần để lên hạng**
-<figure><img src="../../.gitbook/assets/gamification-level-settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-level-1.png" alt=""><figcaption></figcaption></figure>
 
 Ba ô cùng quyết định số điểm học viên cần tích trong một hạng để lên hạng kế tiếp:
 
@@ -138,6 +138,8 @@ Ba ô cùng quyết định số điểm học viên cần tích trong một h�
 **Kiểm tra bảng xem trước**
 
 Bảng xem trước cập nhật theo giá trị đang nhập, giúp bạn kiểm tra mức điểm yêu cầu trước khi lưu.
+
+<figure><img src="../../.gitbook/assets/gamification-level-2.png" alt=""><figcaption></figcaption></figure>
 
 * **Level:** lần lên hạng, ví dụ `1 → 2` là từ hạng 1 lên hạng 2.
 * **Standard level-up points:** số điểm cần cho lần lên hạng đó.
@@ -188,7 +190,7 @@ Bật **Maximum level** và nhập hạng cao nhất học viên có thể đạ
 
 <details>
 
-<summary>Leaderboard: bảng xếp hạng</summary>
+<summary>Leaderboard: Bảng xếp hạng</summary>
 
 {% stepper %}
 {% step %}

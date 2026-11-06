@@ -28,12 +28,12 @@ Hai màn hình chỉ hỗ trợ tra cứu. Operator không thể trực tiếp c
 
 <details>
 
-<summary>Danh sách học viên</summary>
+<summary>Danh sách học viên (Leaderboard) </summary>
 
 {% stepper %}
 {% step %}
 **Mở danh sách**
-<figure><img src="../../.gitbook/assets/gamification-danh-sach-hoc-vien.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-danh-sach-hoc-vien-1.png" alt=""></figure>
 
 Trong khu vực **Gamification**, mở danh sách học viên. Danh sách bao gồm các học viên thuộc phạm vi hiển thị của tổ chức, kể cả học viên chưa tích lũy điểm.
 
@@ -67,7 +67,7 @@ File Excel phản ánh dữ liệu tại thời điểm xuất. Cùng một kho�
 
 {% step %}
 **Xem nhật ký của một học viên**
-<figure><img src="../../.gitbook/assets/gamification-nhat-ky-hoc-vien.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-nhat-ky-hoc-vien-1.png" alt=""><figcaption></figcaption></figure>
 
 Chọn tên học viên để mở nhật ký ghi nhận với bộ lọc học viên đã được áp dụng sẵn.
 {% endstep %}
@@ -87,7 +87,7 @@ Nhật ký ghi nhận các sự kiện nhận điểm, đạt huy hiệu và lê
 
 Trong khu vực **Gamification**, chọn **Achievement history**.
 
-<figure><img src="../../.gitbook/assets/gamification-achievement-history.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-achievement-history-1.png" alt=""><figcaption></figcaption></figure>
 
 | Cột | Ý nghĩa |
 | --- | --- |
