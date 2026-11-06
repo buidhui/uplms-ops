@@ -22,9 +22,9 @@
 * Công tắc **Gamification** đang bật, xem [Bật tắt Gamification](bat-tat-gamification.md).
 {% endhint %}
 
-Mỗi khối có công tắc riêng ở góc phải tiêu đề. Khối đang tắt thì phần tương ứng biến khỏi giao diện học viên, dữ liệu vẫn giữ nguyên và hiện lại khi bật lại.
+Mỗi khối có công tắc bật, tắt riêng ở bên phải tiêu đề. Khi tắt một khối, nội dung tương ứng được ẩn trên giao diện học viên. Dữ liệu đã ghi nhận được giữ nguyên và hiển thị lại khi bật.
 
-<figure><img src="../../.gitbook/assets/gamification-cau-hinh.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-settings.png" alt=""><figcaption></figcaption></figure>
 
 ## II. Hướng dẫn chi tiết
 
@@ -40,14 +40,15 @@ Bật công tắc **Points**. Năm hành động hiện bên dưới, mỗi hàn
 {% endstep %}
 
 {% step %}
-**Khai số điểm cho từng hành động**
+**Thiết lập điểm thưởng cho từng hành động**
+<figure><img src="../../.gitbook/assets/gamification-points-settings.png" alt=""><figcaption></figcaption></figure>
 
 | Hành động | Ý nghĩa |
 | --- | --- |
 | **On each daily check-in** | Điểm cho lần đầu học viên vào UpLMS mỗi ngày. Ô nhập là **điểm nền**, tức điểm của ngày đầu tiên trong chuỗi. Mỗi ngày liên tiếp sau đó được thêm `5` điểm, tối đa `40` điểm một ngày. Điểm nền từ `40` trở lên thì ngày nào cũng nhận đúng điểm nền |
 | **On each activity completion** | Điểm cho mỗi hoạt động học hoàn thành |
 | **On each course completion** | Điểm cho mỗi khoá hoàn thành |
-| **On each successful test completion** | Điểm cho mỗi bài Test đạt **Pass Point**. Bài trượt không có điểm |
+| **On each successful test completion** | Điểm thưởng khi học viên đạt mức điểm yêu cầu (**Pass Point**) của bài Test. Bài chưa đạt yêu cầu không được cộng điểm. |
 | **On each badge earned** | Điểm cho mỗi lần học viên đạt một huy hiệu. Hành động này khoá khi khối **Badges** tắt |
 
 Số điểm là số nguyên từ `1` trở lên, không có giới hạn trên. Muốn một hành động không sinh điểm thì tắt công tắc của hành động đó, không nhập `0`.
@@ -56,12 +57,12 @@ Số điểm là số nguyên từ `1` trở lên, không có giới hạn trên
 {% step %}
 **Kiểm tra đã lưu**
 
-Rời ô hoặc bấm Enter để lưu. Báo nhỏ **Saved** hiện lên là xong. Ô để trống hoặc nhập sai định dạng thì không lưu và báo lỗi ngay tại ô.
+Rời ô hoặc bấm Enter để lưu. Thông báo **Saved** xác nhận thay đổi đã được lưu. Ô để trống hoặc nhập sai định dạng thì không lưu và báo lỗi ngay tại ô.
 {% endstep %}
 {% endstepper %}
 
 {% hint style="warning" %}
-Số điểm có hiệu lực ngay khi rời ô. Gõ nhầm `1500` thay vì `150` thì học viên hoàn thành khoá ngay lúc đó nhận `1500` điểm, và điểm đã cộng không tính lại. Kiểm tra kỹ số trước khi rời ô.
+Mức điểm mới có hiệu lực ngay sau khi lưu. Ví dụ, nếu nhập nhầm `1500` thay vì `150`, các lượt hoàn thành khóa học sau thời điểm lưu sẽ nhận mức điểm mới. Điểm đã cộng không được tính lại.
 {% endhint %}
 
 </details>
@@ -73,10 +74,11 @@ Số điểm có hiệu lực ngay khi rời ô. Gõ nhầm `1500` thay vì `150
 {% stepper %}
 {% step %}
 **Bật khối Badges và từng loại huy hiệu**
+<figure><img src="../../.gitbook/assets/gamification-badge.png" alt=""><figcaption></figcaption></figure>
 
 Bật công tắc **Badges**, rồi bật từng loại cần dùng. Bốn loại bật tắt độc lập:
 
-| Loại | Đếm gì | Các mốc |
+| Loại | Điều kiện ghi nhận | Các mốc |
 | --- | --- | --- |
 | **Check-in badges** | Tổng số ngày học viên có vào hệ thống | 4 · 8 · 16 · 32 · 64 · 128 · 256 · 512 |
 | **Activity badges** | Số hoạt động học hoàn thành | 10 · 25 · 50 · 100 · 200 · 400 · 800 · 1600 |
@@ -100,7 +102,7 @@ Tên và mô tả lưu khi rời ô, hình lưu khi tải lên xong.
 {% hint style="info" %}
 * Giá trị mốc do hệ thống định sẵn, không sửa được. Không có thao tác tạo, xoá hay thêm bớt mốc.
 * Đổi tên, hình hoặc mô tả áp dụng ngay cho cả huy hiệu học viên đã đạt.
-* Bật **Badges** hoặc bật lại một loại thì học viên được trao ngay mọi mốc đã vượt qua của loại đó. Huy hiệu trao kiểu này không gửi thông báo và không cộng điểm **On each badge earned**.
+* Khi bật khối **Badges** hoặc bật lại một nhóm huy hiệu, hệ thống trao các huy hiệu mà học viên đã đáp ứng điều kiện. Những huy hiệu này không phát sinh thông báo hoặc điểm thưởng **On each badge earned**.
 {% endhint %}
 
 </details>
@@ -120,24 +122,25 @@ Bật công tắc **Levels**. Khối này cần khối **Points** đang bật. K
 
 {% step %}
 **Đặt số điểm cần để lên hạng**
+<figure><img src="../../.gitbook/assets/gamification-level-settings.png" alt=""><figcaption></figcaption></figure>
 
 Ba ô cùng quyết định số điểm học viên cần tích trong một hạng để lên hạng kế tiếp:
 
 | Ô | Ý nghĩa | Ràng buộc |
 | --- | --- | --- |
-| **Standard level-up points** | Số điểm cho một lần lên hạng khi chưa cộng thêm gì. Lần lên hạng đầu tiên, từ hạng 1 lên hạng 2, cần đúng số này | Số nguyên từ `1` trở lên, bắt buộc |
+| **Standard level-up points** | Số điểm yêu cầu cơ bản để lên hạng. Đây là mức điểm cần để chuyển từ hạng 1 lên hạng 2. | Số nguyên từ `1` trở lên, bắt buộc |
 | **Extra points per level** | Mỗi hạng sau cần nhiều hơn hạng ngay trước bao nhiêu điểm. Nhập `0` để mọi hạng cần như nhau | Số nguyên từ `0` trở lên, bắt buộc |
-| **Level-up points cap** | Số điểm cần cho một lần lên hạng tăng tới mức này thì dừng. Để trống thì tăng mãi | Không nhỏ hơn **Standard level-up points**, được để trống |
+| **Level-up points cap** | Giới hạn trên của số điểm yêu cầu cho mỗi lần lên hạng. Để trống nếu không muốn giới hạn mức điểm yêu cầu. | Không nhỏ hơn **Standard level-up points**, được để trống |
 
 {% endstep %}
 
 {% step %}
 **Kiểm tra bảng xem trước**
 
-Ngay dưới ba ô là bảng xem trước, cập nhật ngay khi bạn gõ để thấy hệ quả trước khi rời ô:
+Bảng xem trước cập nhật theo giá trị đang nhập, giúp bạn kiểm tra mức điểm yêu cầu trước khi lưu.
 
 * **Level:** lần lên hạng, ví dụ `1 → 2` là từ hạng 1 lên hạng 2.
-* **Points needed:** số điểm cần cho lần lên hạng đó.
+* **Standard level-up points:** số điểm cần cho lần lên hạng đó.
 * **Difficulty vs level 1:** lần lên hạng này cần nhiều hơn lần đầu (`1 → 2`) bao nhiêu phần trăm. Phần trăm càng lớn thì hạng càng khó lên. Khi phần trăm thôi tăng, từ đó mỗi hạng cần cùng số điểm.
 
 Ví dụ với `250` · `250` · `2500`:
@@ -191,11 +194,12 @@ Bật **Maximum level** và nhập hạng cao nhất học viên có thể đạ
 {% step %}
 **Bật khối Leaderboard**
 
-Bật công tắc **Leaderboard**. Tắt khối này thì toàn bộ bảng xếp hạng và campaign biến khỏi UpLMS, dữ liệu vẫn được ghi bình thường.
+Bật công tắc **Leaderboard**. Tắt khối này thì toàn bộ bảng xếp hạng và campaign được ẩn trên giao diện học viên, dữ liệu vẫn được ghi bình thường.
 {% endstep %}
 
 {% step %}
 **Chọn bảng hiện cho học viên**
+<figure><img src="../../.gitbook/assets/gamification-leaderboard.png" alt=""><figcaption></figcaption></figure>
 
 Mỗi chỉ số là một bảng riêng, bật tắt bằng năm công tắc:
 
@@ -207,7 +211,7 @@ Mỗi chỉ số là một bảng riêng, bật tắt bằng năm công tắc:
 | **Show badges** | Theo số huy hiệu | Chỉ có ở **All time**. Khoá khi **Badges** tắt |
 | **Show levels** | Theo hạng | Chỉ có ở **All time**. Khoá khi **Levels** tắt |
 
-Phải còn ít nhất một bảng đang chạy. Bảng cuối cùng không tắt được.
+Phải bật ít nhất một tiêu chí xếp hạng. Bạn không thể bỏ chọn tiêu chí duy nhất đang bật.
 {% endstep %}
 
 {% step %}
@@ -215,7 +219,9 @@ Phải còn ít nhất một bảng đang chạy. Bảng cuối cùng không t�
 
 Cuối khối **Leaderboard** có phần xem trước gồm các tab của bảng đang bật, top 3, 5 dòng đầu và đường **Show All**.
 
-Phần xem trước cho chọn khoảng ngày tự do (**Start time → End time**) hoặc nút nhanh **All time** · **This week** · **This month** · **This quarter** · **This year**. Học viên thì chỉ có năm khung cố định, nên khi chọn khoảng tự do, bạn đang xem một bảng học viên không thấy.
+<figure><img src="../../.gitbook/assets/gamification-leaderboard-preview.png" alt=""><figcaption></figcaption></figure> 
+
+Phần xem trước cho chọn khoảng ngày tự do (**Start time → End time**) hoặc nút nhanh **All time** · **This week** · **This month** · **This quarter** · **This year**. Vận hành có thể chọn khoảng ngày tùy chỉnh hoặc các khung thời gian có sẵn. Còn học viên chỉ sử dụng năm khung thời gian cố định.
 {% endstep %}
 {% endstepper %}
 
@@ -232,7 +238,7 @@ Phần xem trước cho chọn khoảng ngày tự do (**Start time → End time
 {% hint style="warning" %}
 ### Lưu ý quan trọng
 
-1. Trang tự lưu. Mọi thay đổi có hiệu lực ngay và chỉ áp dụng từ thời điểm lưu trở đi. Không có gì bị tính lại hay lấy lại khỏi học viên.
+1. Trang tự lưu. Mọi thay đổi có hiệu lực ngay và chỉ áp dụng từ thời điểm lưu trở đi. Thành tích đã ghi nhận được giữ nguyên.
 2. Đổi cấu hình **Points** là đổi luật của mọi campaign đang chạy. Tắt một hành động thì hành động đó ngừng đóng góp cho campaign. Đổi số điểm thì campaign mang hai mức điểm trước và sau lúc đổi.
 3. Tắt **Points** hoặc một hành động: số hoạt động, số khoá, số bài Test và tiến độ huy hiệu vẫn được đếm, chỉ không có điểm. Học viên không thấy những lần ghi nhận 0 điểm, vận hành vẫn thấy trong nhật ký ghi nhận.
 4. Tắt **Points** thì **Levels** khoá theo: ngừng xét lên hạng, học viên giữ hạng đang có. Bật lại **Points** thì **Levels** chạy lại như trước.

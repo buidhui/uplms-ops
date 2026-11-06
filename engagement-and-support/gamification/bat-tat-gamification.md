@@ -1,4 +1,4 @@
-# Bật tắt Gamification
+# Bật, tắt Gamification
 
 ## I. Thông tin chung
 
@@ -19,7 +19,7 @@
 #### Điều kiện tiên quyết
 
 * Đã có tài khoản và được cấp quyền truy cập hệ thống UpLMS Ops.
-* Tài khoản có quyền **Sửa cấu hình gamification** để bật tắt. Chỉ có quyền **Xem cấu hình gamification** thì xem được trang nhưng không thao tác được.
+* Tài khoản có quyền **Sửa cấu hình gamification** để bật hoặc tắt tính năng. Tài khoản chỉ có quyền **Xem cấu hình gamification** có thể xem trang nhưng không thể thay đổi cấu hình.
 {% endhint %}
 
 Gamification ghi nhận việc học của học viên thành điểm, huy hiệu, hạng và bảng xếp hạng. Toàn bộ cấu hình nằm trên một trang, gồm hai công tắc chung ở đầu trang, bốn khối chức năng **Points**, **Badges**, **Levels**, **Leaderboard** và khối **Campaign** ở cuối trang.
@@ -34,17 +34,18 @@ Gamification ghi nhận việc học của học viên thành điểm, huy hiệ
 {% step %}
 **Mở trang cấu hình**
 
-Chọn **Gamification** tại menu sidebar của Ops.
+Chọn **Gamification** trên thanh điều hướng bên trái của UpLMS Ops.
 
 <figure><img src="../../.gitbook/assets/gamification-tat.png" alt=""><figcaption><p>Khi Gamification đang tắt, trang chỉ còn một công tắc</p></figcaption></figure>
+
 {% endstep %}
 
 {% step %}
 **Bật Gamification**
 
-Bật công tắc **Gamification**. Hệ thống bắt đầu ghi nhận: cộng điểm, trao huy hiệu, xét hạng và tính bảng xếp hạng. Công tắc **Visibility in UpLMS** và bốn khối chức năng hiện ra bên dưới.
+Bật công tắc **Gamification**. Hệ thống bắt đầu ghi nhận theo cấu hình của từng khối chức năng: cộng điểm, trao huy hiệu, xét hạng và tính bảng xếp hạng. Công tắc **Visibility in UpLMS** và bốn khối chức năng hiện ra bên dưới.
 
-<figure><img src="../../.gitbook/assets/gamification-cau-hinh.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gamification-settings.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -52,7 +53,7 @@ Bật công tắc **Gamification**. Hệ thống bắt đầu ghi nhận: cộng
 
 Bật công tắc **Visibility in UpLMS** để học viên nhìn thấy điểm, huy hiệu, hạng và bảng xếp hạng trên UpLMS.
 
-Lần đầu bật công tắc này, hệ thống hiện popover xác nhận. Đây là thời điểm ra mắt: toàn bộ học viên thấy ngay mọi thứ đã tích luỹ trước đó, và hệ thống **không gửi thông báo** cho những thành tích đã có.
+Khi bật công tắc này lần đầu, hệ thống hiển thị hộp xác nhận cạnh công tắc. Sau khi xác nhận, học viên có thể xem các thành tích đã tích lũy trước đó. Hệ thống **không gửi thông báo** cho những thành tích đã có.
 {% endstep %}
 {% endstepper %}
 
@@ -60,8 +61,8 @@ Hai công tắc tạo ra ba trạng thái:
 
 | Trạng thái | **Gamification** | **Visibility in UpLMS** | Hệ thống làm gì |
 | --- | --- | --- | --- |
-| Tắt hẳn | Tắt | (không hiện) | Không ghi nhận, học viên không thấy gì |
-| Chạy ngầm | Bật | Tắt | Ghi nhận đầy đủ, học viên chưa thấy gì và không nhận thông báo |
+| Tắt hẳn | Tắt | (không hiện) | Không ghi nhận, học viên không thấy Gamification |
+| Chạy ngầm | Bật | Tắt | Ghi nhận thành tích theo cấu hình, học viên chưa thấy Gamification và không nhận thông báo |
 | Bật đầy đủ | Bật | Bật | Ghi nhận và hiển thị cho học viên |
 
 </details>
@@ -88,16 +89,18 @@ Nên chạy ngầm 2 đến 4 tuần trước khi mở cho học viên:
 
 <summary>Tắt Gamification</summary>
 
-Tắt công tắc **Gamification**, hệ thống hiện popover xác nhận cạnh công tắc. Chọn xác nhận để tắt, chọn huỷ thì công tắc giữ nguyên.
+Tắt công tắc **Gamification**, hệ thống hiện hộp xác nhận cạnh công tắc. Chọn xác nhận để tắt, chọn huỷ thì công tắc giữ nguyên.
+
+<figure><img src="../../.gitbook/assets/gamification-turn-off-popover.png" alt=""><figcaption><p>Khi Gamification đang tắt, trang chỉ còn một công tắc</p></figcaption></figure>
 
 Khi tắt:
 
-* Hệ thống ngừng ghi nhận mọi thứ. Học viên không thấy Gamification trên UpLMS.
+* Hệ thống ngừng ghi nhận thành tích. Học viên không thấy Gamification trên UpLMS.
 * Bốn khối chức năng khoá lại, giữ nguyên giá trị đã cấu hình.
 * Dữ liệu đã có giữ nguyên. Danh sách học viên, nhật ký ghi nhận và kết quả campaign vẫn xem được.
-* Campaign đang chạy không nhận thêm gì trong thời gian tắt.
+* Campaign đang chạy không ghi nhận thành tích trong thời gian tắt.
 
-Bật lại thì hệ thống chỉ tính từ lúc bật. Khoảng thời gian tắt **không được tính bù**, chuỗi ngày vào học của học viên bắt đầu lại từ đầu.
+Khi bật lại, hệ thống tiếp tục ghi nhận từ thời điểm bật. Khoảng thời gian tắt **không được ghi nhận bù**; chuỗi ngày truy cập của học viên bắt đầu lại từ đầu.
 
 </details>
 
@@ -106,6 +109,8 @@ Bật lại thì hệ thống chỉ tính từ lúc bật. Khoảng thời gian 
 <summary>Phân quyền</summary>
 
 Quản trị gán quyền tại màn phân quyền hiện có của Ops, trong nhóm quyền **Gamification**.
+
+<figure><img src="../../.gitbook/assets/gamification-roles.png" alt=""><figcaption></figcaption></figure>
 
 | Màn hoặc thao tác | Xem cấu hình gamification | Sửa cấu hình gamification | Xem danh sách học viên và hạng |
 | --- | --- | --- | --- |

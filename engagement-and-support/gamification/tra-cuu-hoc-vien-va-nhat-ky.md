@@ -5,7 +5,7 @@
 {% hint style="info" %}
 **Dành cho:** UpLMS Operator
 
-**Đường dẫn:** Gamification → danh sách học viên, Gamification → **Achievement history**
+**Đường dẫn:** Gamification → **Leaderboard**, Gamification → **Achievement history**
 {% endhint %}
 
 {% hint style="info" %}
@@ -19,10 +19,10 @@
 #### Điều kiện tiên quyết
 
 * Tài khoản có quyền **Xem danh sách học viên và hạng**.
-* Xem được cả khi **Gamification** đang tắt, với dữ liệu đã ghi trước đó.
+* Bạn vẫn có thể tra cứu dữ liệu đã ghi nhận khi **Gamification** đang tắt.
 {% endhint %}
 
-Hai màn này chỉ để tra cứu, không có thao tác sửa. Vận hành không cộng trừ điểm, không sửa hạng và không trao hay gỡ huy hiệu bằng tay.
+Hai màn hình chỉ hỗ trợ tra cứu. Operator không thể trực tiếp cộng hoặc trừ điểm, sửa hạng, trao hoặc thu hồi huy hiệu.
 
 ## II. Hướng dẫn chi tiết
 
@@ -33,42 +33,43 @@ Hai màn này chỉ để tra cứu, không có thao tác sửa. Vận hành kh�
 {% stepper %}
 {% step %}
 **Mở danh sách**
+<figure><img src="../../.gitbook/assets/gamification-danh-sach-hoc-vien.png" alt=""><figcaption></figcaption></figure>
 
-Trong khu vực **Gamification**, mở danh sách học viên. Danh sách gồm mọi học viên của tổ chức, kể cả người chưa có điểm nào.
+Trong khu vực **Gamification**, mở danh sách học viên. Danh sách bao gồm các học viên thuộc phạm vi hiển thị của tổ chức, kể cả học viên chưa tích lũy điểm.
 
 | Cột | Ý nghĩa |
 | --- | --- |
-| **Learner** | Ảnh đại diện và tên học viên |
+| **Student** | Ảnh đại diện và tên học viên |
 | **Level** | Hạng hiện tại. Ẩn khi khối **Levels** tắt |
-| **Points** | Điểm tích luỹ. Ẩn khi khối **Points** tắt |
+| **Points** | Số điểm tích lũy trong khoảng thời gian đang chọn. Cột được ẩn khi khối **Points** tắt.|
 | **Badges** | Số huy hiệu đã đạt của các loại đang bật. Ẩn khi khối **Badges** tắt |
 | **Activities** | Số hoạt động học đã hoàn thành |
 | **Courses** | Số khoá đã hoàn thành |
-| **Last activity** | Ngày gần nhất học viên vào hệ thống |
 {% endstep %}
 
 {% step %}
 **Lọc, tìm kiếm và sắp xếp**
 
 * **Search:** tìm theo tên học viên.
-* **Khoảng ngày:** chọn tự do **Start time → End time**, hoặc nút nhanh **All time** · **This week** · **This month** · **This quarter** · **This year**. Mặc định **All time**. Chọn một khoảng thì **Points**, **Activities**, **Courses** tính trong khoảng đó, còn cột **Level** và **Badges** ẩn đi.
-* **Sắp xếp:** bấm tiêu đề cột. Mặc định sắp theo hạng giảm dần.
+* **Khoảng ngày:** chọn tự do **Start time → End time**, hoặc nút nhanh **All time** · **This week** · **This month** · **This quarter** · **This year**. Mặc định **All time**. Chọn một khoảng thì **Points**, **Activities**, **Courses** tính trong khoảng đó, còn cột **Level** và **Badges** thì chỉ hiển thị tổng số đã đạt từ trước đến nay (All Time).
+* **Sắp xếp:** chọn tiêu đề cột để thay đổi thứ tự sắp xếp. Mặc định, danh sách được sắp xếp theo hạng giảm dần.
 {% endstep %}
 
 {% step %}
 **Xuất Excel**
 
-Bấm **Export** để tải file Excel. File gồm mọi dòng theo bộ lọc và thứ tự sắp xếp hiện tại, không chỉ trang đang xem.
+Chọn **Export** để tải file Excel chứa toàn bộ học viên khớp với bộ lọc, theo thứ tự sắp xếp hiện tại, bao gồm cả các trang chưa hiển thị.
 
 {% hint style="info" %}
-Số liệu trong file là ảnh chụp tại thời điểm xuất. Xuất lại cùng khoảng ngày vào lúc khác có thể ra số khác. Giữ lại file đã dùng để công bố làm căn cứ.
+File Excel phản ánh dữ liệu tại thời điểm xuất. Cùng một khoảng thời gian có thể cho kết quả khác ở những lần xuất sau do dữ liệu tiếp tục được cập nhật. Lưu lại file đã sử dụng để công bố hoặc đối chiếu.
 {% endhint %}
 {% endstep %}
 
 {% step %}
 **Xem nhật ký của một học viên**
+<figure><img src="../../.gitbook/assets/gamification-nhat-ky-hoc-vien.png" alt=""><figcaption></figcaption></figure>
 
-Bấm tên học viên để mở nhật ký ghi nhận đã lọc sẵn theo người đó.
+Chọn tên học viên để mở nhật ký ghi nhận với bộ lọc học viên đã được áp dụng sẵn.
 {% endstep %}
 {% endstepper %}
 
@@ -78,7 +79,7 @@ Bấm tên học viên để mở nhật ký ghi nhận đã lọc sẵn theo ng
 
 <summary>Nhật ký ghi nhận (Achievement history)</summary>
 
-Nhật ký liệt kê mọi lần hệ thống ghi nhận điểm, huy hiệu và lên hạng của cả tổ chức. Đây là công cụ chính trong giai đoạn chạy ngầm, khi học viên chưa thấy gì và vận hành cần kiểm tra điểm có được ghi đúng không.
+Nhật ký ghi nhận các sự kiện nhận điểm, đạt huy hiệu và lên hạng trong toàn tổ chức. Operator có thể sử dụng nhật ký để kiểm tra việc ghi nhận thành tích, kể cả trong giai đoạn chạy ngầm.
 
 {% stepper %}
 {% step %}
@@ -86,12 +87,14 @@ Nhật ký liệt kê mọi lần hệ thống ghi nhận điểm, huy hiệu v�
 
 Trong khu vực **Gamification**, chọn **Achievement history**.
 
+<figure><img src="../../.gitbook/assets/gamification-achievement-history.png" alt=""><figcaption></figcaption></figure>
+
 | Cột | Ý nghĩa |
 | --- | --- |
 | **Time** | Thời điểm ghi nhận, dạng `HH:mm dd/mm/yyyy` |
 | **Learner** | Ảnh đại diện và tên học viên |
 | **Event** | **Points**, **Badge** hoặc **Level up** |
-| **Details** | Nguồn cụ thể, ví dụ `Completed activity {tên hoạt động} in {tên khoá}`, `Daily check-in · day 3 of streak`, `Reached Level 4` |
+| **Details** | Chi tiết sự kiện và hoạt động liên quan, ví dụ `Completed activity {tên hoạt động} in {tên khoá}`, `Daily check-in · day 3 of streak`, `Reached Level 4` |
 | **Points** | Số điểm của sự kiện **Points**. Để trống với **Badge** và **Level up** |
 
 Dòng mới nhất ở trên cùng.
@@ -108,9 +111,9 @@ Dòng mới nhất ở trên cùng.
 {% step %}
 **Trả lời thắc mắc của học viên**
 
-Ví dụ học viên hỏi "sao tuần này tôi chỉ có 40 điểm": lọc theo tên học viên và **This week**, rồi đối chiếu từng dòng với việc học viên đã làm.
+Ví dụ, để kiểm tra số điểm học viên nhận trong tuần, lọc theo tên và **This week**, sau đó đối chiếu các bản ghi với hoạt động học tập tương ứng.
 
-Dòng có đuôi `· points off` và cột **Points** bằng `0` là lần ghi nhận khi khối **Points** hoặc hành động đó đang tắt. Học viên không thấy những dòng này trong lịch sử của họ.
+Bản ghi có hậu tố **· points off** và giá trị Points = `0` cho biết khối **Points** hoặc hành động tương ứng đang tắt tại thời điểm ghi nhận. Những bản ghi này chỉ hiển thị cho Operator.
 {% endstep %}
 {% endstepper %}
 
@@ -121,9 +124,9 @@ Dòng có đuôi `· points off` và cột **Points** bằng `0` là lần ghi n
 {% hint style="warning" %}
 ### Lưu ý quan trọng
 
-1. Danh sách học viên và nhật ký cập nhật **ngay**. Bảng xếp hạng phía học viên tính lại khoảng 8 tiếng một lần, nên hai nơi có thể lệch nhau trong vòng 8 tiếng.
+1. Danh sách học viên và nhật ký được cập nhật **ngay**. Bảng xếp hạng phía học viên cập nhật theo chu kỳ khoảng 8 giờ, nên số liệu có thể khác nhau trước lần cập nhật tiếp theo.
 2. Nhật ký hiện đầy đủ kể cả khi **Visibility in UpLMS** đang tắt.
-3. Nhật ký giữ toàn bộ, không sửa, không xoá và không xuất file được. Số liệu để công bố lấy từ danh sách học viên hoặc kết quả campaign.
+3. Nhật ký lưu toàn bộ bản ghi và không hỗ trợ chỉnh sửa, xóa hoặc xuất file. Để xuất dữ liệu, sử dụng danh sách học viên hoặc kết quả campaign; khi công bố kết quả campaign, dùng kết quả đã chốt của campaign đó.
 4. Học viên bị **Block** hoặc đã rời tổ chức không có trong danh sách học viên, nhưng các dòng đã ghi của họ vẫn còn trong nhật ký.
 5. Tài khoản kiểm thử (**Test Account**) không có trong cả hai màn.
 {% endhint %}
