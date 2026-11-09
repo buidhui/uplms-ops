@@ -3,8 +3,6 @@
 ## I. Thông tin chung
 
 {% hint style="info" %}
-**Dành cho:** UpLMS Operator
-
 **Đường dẫn:** [https://uplms-ops.upbase.asia](https://uplms-ops.upbase.asia/)
 {% endhint %}
 

@@ -1,12 +1,6 @@
-# Bật, tắt Gamification
+# Gamification
 
 ## I. Thông tin chung
-
-{% hint style="info" %}
-**Dành cho:** UpLMS Operator
-
-**Đường dẫn:** Gamification
-{% endhint %}
 
 {% hint style="info" %}
 #### Phạm vi & Module liên quan
@@ -37,7 +31,6 @@ Gamification ghi nhận việc học của học viên thành điểm, huy hiệ
 Chọn **Gamification** trên thanh điều hướng bên trái của UpLMS Ops.
 
 <figure><img src="../../.gitbook/assets/gamification-tat.png" alt=""><figcaption><p>Khi Gamification đang tắt, trang chỉ còn một công tắc</p></figcaption></figure>
-
 {% endstep %}
 
 {% step %}
@@ -59,11 +52,11 @@ Khi bật công tắc này lần đầu, hệ thống hiển thị hộp xác nh
 
 Hai công tắc tạo ra ba trạng thái:
 
-| Trạng thái | **Gamification** | **Visibility in UpLMS** | Hệ thống làm gì |
-| --- | --- | --- | --- |
-| Tắt hẳn | Tắt | (không hiện) | Không ghi nhận, học viên không thấy Gamification |
-| Chạy ngầm | Bật | Tắt | Ghi nhận thành tích theo cấu hình, học viên chưa thấy Gamification và không nhận thông báo |
-| Bật đầy đủ | Bật | Bật | Ghi nhận và hiển thị cho học viên |
+| Trạng thái | **Gamification** | **Visibility in UpLMS** | Hệ thống làm gì                                                                            |
+| ---------- | ---------------- | ----------------------- | ------------------------------------------------------------------------------------------ |
+| Tắt hẳn    | Tắt              | (không hiện)            | Không ghi nhận, học viên không thấy Gamification                                           |
+| Chạy ngầm  | Bật              | Tắt                     | Ghi nhận thành tích theo cấu hình, học viên chưa thấy Gamification và không nhận thông báo |
+| Bật đầy đủ | Bật              | Bật                     | Ghi nhận và hiển thị cho học viên                                                          |
 
 </details>
 
@@ -91,7 +84,7 @@ Nên chạy ngầm 2 đến 4 tuần trước khi mở cho học viên:
 
 Tắt công tắc **Gamification**, hệ thống hiện hộp xác nhận cạnh công tắc. Chọn xác nhận để tắt, chọn huỷ thì công tắc giữ nguyên.
 
-<figure><img src="../../.gitbook/assets/gamification-tat-popover.png" alt=""></figure>
+<figure><img src="../../.gitbook/assets/gamification-tat-popover.png" alt=""><figcaption></figcaption></figure>
 
 Khi tắt:
 
@@ -112,15 +105,15 @@ Quản trị gán quyền tại màn phân quyền hiện có của Ops, trong n
 
 <figure><img src="../../.gitbook/assets/gamification-roles-1.png" alt=""><figcaption></figcaption></figure>
 
-| Màn hoặc thao tác | Xem cấu hình gamification | Sửa cấu hình gamification | Xem danh sách học viên và hạng |
-| --- | --- | --- | --- |
-| Xem trang cấu hình | Có | Có | Không |
-| Sửa cấu hình, bật tắt | Không | Có | Không |
-| Xem danh sách campaign | Có | Có | Có |
-| Tạo, sửa, xoá campaign | Không | Có | Không |
-| Xem và xuất kết quả campaign | Không | Không | Có |
-| Xem và xuất danh sách học viên | Không | Không | Có |
-| Xem nhật ký ghi nhận | Không | Không | Có |
+| Màn hoặc thao tác              | Xem cấu hình gamification | Sửa cấu hình gamification | Xem danh sách học viên và hạng |
+| ------------------------------ | ------------------------- | ------------------------- | ------------------------------ |
+| Xem trang cấu hình             | Có                        | Có                        | Không                          |
+| Sửa cấu hình, bật tắt          | Không                     | Có                        | Không                          |
+| Xem danh sách campaign         | Có                        | Có                        | Có                             |
+| Tạo, sửa, xoá campaign         | Không                     | Có                        | Không                          |
+| Xem và xuất kết quả campaign   | Không                     | Không                     | Có                             |
+| Xem và xuất danh sách học viên | Không                     | Không                     | Có                             |
+| Xem nhật ký ghi nhận           | Không                     | Không                     | Có                             |
 
 Một vai trò có thể được gán nhiều quyền. Không có quyền nào trong ba quyền trên thì vai trò đó không thấy mục **Gamification** trên menu Ops.
 
@@ -140,10 +133,10 @@ Một vai trò có thể được gán nhiều quyền. Không có quyền nào 
 
 ## IV. Các lỗi thường gặp & Hướng dẫn xử lý
 
-| Lỗi / Tình huống | Nguyên nhân | Cách xử lý |
-| --- | --- | --- |
-| Không thấy mục **Gamification** trên menu | Tài khoản chưa được gán quyền nào trong nhóm Gamification | Liên hệ quản trị để được gán quyền |
-| Thấy trang cấu hình nhưng không bấm được công tắc | Tài khoản chỉ có quyền **Xem cấu hình gamification** | Liên hệ quản trị nếu cần quyền sửa |
-| Không thấy công tắc **Visibility in UpLMS** | **Gamification** đang tắt | Bật **Gamification** trước |
-| Học viên báo không thấy Gamification | **Visibility in UpLMS** đang tắt, hoặc tài khoản là tài khoản kiểm thử | Kiểm tra công tắc và trường **Test Account** của học viên |
-| Học viên hỏi vì sao không có điểm trong những ngày Gamification tắt | Thời gian tắt không được ghi nhận và không tính bù | Đây là quy tắc của hệ thống. Tránh tắt **Gamification** khi không cần thiết |
+| Lỗi / Tình huống                                                    | Nguyên nhân                                                            | Cách xử lý                                                                  |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Không thấy mục **Gamification** trên menu                           | Tài khoản chưa được gán quyền nào trong nhóm Gamification              | Liên hệ quản trị để được gán quyền                                          |
+| Thấy trang cấu hình nhưng không bấm được công tắc                   | Tài khoản chỉ có quyền **Xem cấu hình gamification**                   | Liên hệ quản trị nếu cần quyền sửa                                          |
+| Không thấy công tắc **Visibility in UpLMS**                         | **Gamification** đang tắt                                              | Bật **Gamification** trước                                                  |
+| Học viên báo không thấy Gamification                                | **Visibility in UpLMS** đang tắt, hoặc tài khoản là tài khoản kiểm thử | Kiểm tra công tắc và trường **Test Account** của học viên                   |
+| Học viên hỏi vì sao không có điểm trong những ngày Gamification tắt | Thời gian tắt không được ghi nhận và không tính bù                     | Đây là quy tắc của hệ thống. Tránh tắt **Gamification** khi không cần thiết |
